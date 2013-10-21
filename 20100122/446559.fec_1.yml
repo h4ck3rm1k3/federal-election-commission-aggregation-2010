@@ -1,0 +1,364 @@
+countrows: 6
+filename: 446559.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00465799\x1CCOULSON FOR CONGRESS\x1CPO BOX 2354\x1C\x1CGLENVIEW\x1CIL\x1C60025\x1CH0IL10294\x1CCOULSON\x1CELIZABETH\x1C\x1C\x1C\x1CH\x1CIL\x1C10\x1CJACOBSEN\x1CKAREN\x1C\x1C\x1C\x1C20100122\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00465799
+  - name: COMMITTEE NAME
+    number: '3'
+    value: COULSON FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 2354
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: GLENVIEW
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '60025'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0IL10294
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: COULSON
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: ELIZABETH
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '10'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: JACOBSEN
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: KAREN
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100122
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00465799
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: MACLEAN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DUNCAN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 460 GLEN AVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: LAKE BLUFF
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60044'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100121'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: MACLEAN VEHICLE SYSTEMS
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: PRESIDENT (ENGINEER)
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00465799\x1CF65.000001\x1CIND\x1C\x1CMACLEAN\x1CDUNCAN\x1C\x1C\x1C\x1C460
+    GLEN AVE\x1C\x1CLAKE BLUFF\x1CIL\x1C60044\x1C\x1C20100121\x1C1000.00\x1CMACLEAN
+    VEHICLE SYSTEMS\x1CPRESIDENT (ENGINEER)\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00465799
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: FORSYTHE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: GERALD
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1111 WILLIS AVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WHEELING
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60090'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100122'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: INDECK ENERGY SERVICES INC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CHAIRMAN CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00465799\x1CF65.000002\x1CIND\x1C\x1CFORSYTHE\x1CGERALD\x1C\x1C\x1C\x1C1111
+    WILLIS AVE\x1C\x1CWHEELING\x1CIL\x1C60090\x1C\x1C20100122\x1C2400.00\x1CINDECK
+    ENERGY SERVICES INC\x1CCHAIRMAN CEO\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00465799
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: GALLAGHER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: VALERY
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 14334 SPRING MEADOW CT
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: GREEN OAKS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60048'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100121'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: BAXTER HEALTHCARE
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: DIRECTOR GOVT AFFAIRS
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00465799\x1CF65.000003\x1CIND\x1C\x1CGALLAGHER\x1CVALERY\x1C\x1C\x1C\x1C14334
+    SPRING MEADOW CT\x1C\x1CGREEN OAKS\x1CIL\x1C60048\x1C\x1C20100121\x1C1000.00\x1CBAXTER
+    HEALTHCARE\x1CDIRECTOR GOVT AFFAIRS\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00465799
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: REUSCHE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: THOMAS
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 250 W ONWENTSIA RD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: LAKE FOREST
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60045'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100122'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RETIRED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: RETIRED
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00465799\x1CF65.000004\x1CIND\x1C\x1CREUSCHE\x1CTHOMAS\x1C\x1C\x1C\x1C250
+    W ONWENTSIA RD\x1C\x1CLAKE FOREST\x1CIL\x1C60045\x1C\x1C20100122\x1C1000.00\x1CRETIRED\x1CRETIRED\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100122
+type: chunk
