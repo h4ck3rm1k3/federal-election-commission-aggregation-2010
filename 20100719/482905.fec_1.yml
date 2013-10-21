@@ -1,0 +1,219 @@
+countrows: 4
+filename: 482905.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472365
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Yoder for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 26742
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Overland Park
+  - name: STATE
+    number: '7'
+    value: KS
+  - name: ZIP
+    number: '8'
+    value: '66225'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0KS03137
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Yoder
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Kevin
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: W
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: KS
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Kaiser
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Donald
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: W.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100719'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00472365\x1CYoder for Congress\x1CP.O. Box 26742\x1C\x1COverland
+    Park\x1CKS\x1C66225\x1CH0KS03137\x1CYoder\x1CKevin\x1CW\x1C\x1C\x1CH\x1CKS\x1C03\x1CKaiser\x1CDonald\x1CW.\x1C\x1C\x1C20100719\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00472365\x1CF6.7185\x1CIND\x1C\x1CLouk\x1CJohn\x1C\x1C\x1C\x1C26625
+    W 103rd St\x1C\x1COlathe\x1CKS\x1C66061\x1C\x1C20100716\x1C1500.00\x1CSelective
+    Site Consultants\x1Cconsultant\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472365
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7185
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Louk
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 26625 W 103rd St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Olathe
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '66061'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100716'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Selective Site Consultants
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'consultant
+
+'
+- input: "F65\x1CC00472365\x1CF6.7191\x1CPAC\x1CAMERICAN BANKERS ASSOCIATION PAC (BANKPAC)\x1C\x1C\x1C\x1C\x1C\x1C1120
+    Connecticut Avenue NW\x1CSuite 600\x1CWashington\x1CDC\x1C20036\x1CC00004275\x1C20100717\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472365
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7191
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN BANKERS ASSOCIATION PAC (BANKPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1120 Connecticut Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00004275
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100717'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20100719
+type: chunk
