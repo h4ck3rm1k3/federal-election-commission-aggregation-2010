@@ -1,0 +1,152 @@
+countrows: 3
+filename: 467774.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00465237
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Bernie Skoch For Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: 788 N 46 Avenue
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Fayetteville
+  - name: STATE
+    number: '7'
+    value: AR
+  - name: ZIP
+    number: '8'
+    value: '72704'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0AR03022
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Skoch
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Bernard 'Bernie'
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: Kurt
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AR
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Quinn
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Deborah
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100511'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00465237\x1CBernie Skoch For Congress Committee\x1C788 N 46 Avenue\x1C\x1CFayetteville\x1CAR\x1C72704\x1CH0AR03022\x1CSkoch\x1CBernard
+    'Bernie'\x1CKurt\x1C\x1C\x1CH\x1CAR\x1C03\x1CQuinn\x1CDeborah\x1C\x1C\x1C\x1C20100511\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00465237\x1CF6.5148\x1CIND\x1C\x1CHood\x1CSusan\x1C\x1C\x1C\x1C10
+    Hollow Way Drive\x1C\x1CBella Vista\x1CAR\x1C72715\x1C\x1C20100510\x1C1700.00\x1Cretired\x1Cretired\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00465237
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5148
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hood
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Susan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10 Hollow Way Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bella Vista
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '72715'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1700.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'retired
+
+'
+sourceurl: !!python/unicode 20100511
+type: chunk

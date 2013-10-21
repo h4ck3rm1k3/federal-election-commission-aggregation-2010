@@ -1,0 +1,152 @@
+countrows: 3
+filename: 471221.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00464149
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MoBrooksforCongress.com
+  - name: STREET 1
+    number: '4'
+    value: 7610 Foxfire Dr.
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Huntsville
+  - name: STATE
+    number: '7'
+    value: AL
+  - name: ZIP
+    number: '8'
+    value: '35802'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0AL05163
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Brooks
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Mo
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Brooks
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Martha
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100520'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00464149\x1CMoBrooksforCongress.com\x1C7610 Foxfire Dr.\x1C\x1CHuntsville\x1CAL\x1C35802\x1CH0AL05163\x1CBrooks\x1CMo\x1C\x1C\x1C\x1CH\x1CAL\x1C05\x1CBrooks\x1CMartha\x1C\x1C\x1C\x1C20100520\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00464149\x1CF6.5286\x1CIND\x1C\x1CRobinson\x1CJoe\x1C\x1C\x1C\x1C2503
+    Southhurst Drive\x1C\x1CHuntsville\x1CAL\x1C35803\x1C\x1C20100519\x1C2000.00\x1CSelf\x1CAerospace
+    Consultant\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00464149
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5286
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Robinson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joe
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2503 Southhurst Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Huntsville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '35803'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100519'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Aerospace Consultant
+
+'
+sourceurl: !!python/unicode 20100521
+type: chunk

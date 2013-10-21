@@ -1,0 +1,284 @@
+countrows: 5
+filename: 471556.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00478180
+  - name: COMMITTEE NAME
+    number: '3'
+    value: PARKER FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 118
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: MYRTLE BEACH
+  - name: STATE
+    number: '7'
+    value: SC
+  - name: ZIP
+    number: '8'
+    value: '29578'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0SC01295
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: PARKER
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: CLARK
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: BRADLEY
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: MR.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: SC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: HUNTER
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: DONALD
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: L.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: MR.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100523'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00478180\x1CPARKER FOR CONGRESS\x1CPO BOX 118\x1C\x1CMYRTLE BEACH\x1CSC\x1C29578\x1CH0SC01295\x1CPARKER\x1CCLARK\x1CBRADLEY\x1CMR.\x1C\x1CH\x1CSC\x1C01\x1CHUNTER\x1CDONALD\x1CL.\x1CMR.\x1C\x1C20100523\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00478180\x1CF6.4604\x1CIND\x1C\x1CBARFIELD\x1CNORMA\x1C\x1CMrs.\x1C\x1C4866
+    HWY 319\x1C\x1CAYNOR\x1CSC\x1C29511\x1C\x1C20100521\x1C1000.00\x1CNONE\x1CRETIRED\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00478180
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4604
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BARFIELD
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: NORMA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4866 HWY 319
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: AYNOR
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29511'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: NONE
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'RETIRED
+
+'
+- input: "F65\x1CC00478180\x1CF6.4618\x1CIND\x1C\x1CHOLMES\x1CHAL\x1C\x1CDr.\x1C\x1C2691
+    HIGHWAY 90\x1C\x1CCONWAY\x1CSC\x1C29528\x1C\x1C20100521\x1C1000.00\x1CSELF EMPLOYED\x1CDOCTOR\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00478180
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4618
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HOLMES
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: HAL
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2691 HIGHWAY 90
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CONWAY
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29528'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF EMPLOYED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'DOCTOR
+
+'
+- input: "F65\x1CC00478180\x1CF6.4615\x1CCAN\x1C\x1CPARKER\x1CCLARK\x1CBRADLEY\x1CMR.\x1C\x1C8970
+    SHADY BRANCH ROAD\x1C\x1CMYRTLE BEACH\x1CSC\x1C29588\x1C\x1C20100521\x1C43700.00\x1CPARKER
+    HUNTER SPIVEY\x1CACCOUNTANT / PARTNER\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00478180
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4615
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: PARKER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: CLARK
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: BRADLEY
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: MR.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8970 SHADY BRANCH ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: MYRTLE BEACH
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29588'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '43700.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: PARKER HUNTER SPIVEY
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'ACCOUNTANT / PARTNER
+
+'
+sourceurl: !!python/unicode 20100523
+type: chunk

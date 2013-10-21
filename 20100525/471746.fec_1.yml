@@ -1,0 +1,220 @@
+countrows: 4
+filename: 471746.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00460410
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Hilliard for Congress
+  - name: STREET 1
+    number: '4'
+    value: P. O. Box 12804
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Birmingham
+  - name: STATE
+    number: '7'
+    value: AL
+  - name: ZIP
+    number: '8'
+    value: '35202'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0AL07094
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: HILLIARD
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: EARL FREDERICK JR
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: Frederick
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: Jr.
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Hunt-Hilliard
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Janine
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100525'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00460410\x1CHilliard for Congress\x1CP. O. Box 12804\x1C\x1CBirmingham\x1CAL\x1C35202\x1CH0AL07094\x1CHILLIARD\x1CEARL
+    FREDERICK JR\x1CFrederick\x1C\x1CJr.\x1CH\x1CAL\x1C07\x1CHunt-Hilliard\x1CJanine\x1C\x1C\x1C\x1C20100525\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00460410\x1CF6.6351\x1CIND\x1C\x1CBarbee\x1CJonathan\x1C\x1C\x1C\x1CP
+    O Box 1132\x1C\x1CTrussville\x1CAL\x1C35173\x1C\x1C20100523\x1C1000.00\x1CMedia
+    Works Communications\x1CPresident/CEO\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00460410
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6351
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Barbee
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jonathan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P O Box 1132
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Trussville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '35173'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Media Works Communications
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'President/CEO
+
+'
+- input: "F65\x1CC00460410\x1CF6.6352\x1CIND\x1C\x1CWhite\x1CTim\x1C\x1C\x1C\x1C328
+    Brentwood Ave\x1C\x1CTrussville\x1CAL\x1C35173\x1C\x1C20100523\x1C1000.00\x1CMedia
+    Works Communications\x1CGraphic Designer\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00460410
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6352
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: White
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Tim
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 328 Brentwood Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Trussville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '35173'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Media Works Communications
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Graphic Designer
+
+'
+sourceurl: !!python/unicode 20100525
+type: chunk

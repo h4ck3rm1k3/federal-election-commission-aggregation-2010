@@ -1,0 +1,223 @@
+countrows: 4
+filename: 466655.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00333427\x1CWalden For Congress\x1CPO Box 1091\x1C\x1CHood River\x1COR\x1C970310037\x1CH6OR02116\x1CWalden\x1CGregory\x1CP\x1C\x1C\x1CH\x1COR\x1C02\x1CSimons\x1CMarta\x1CA\x1C\x1C\x1C20100504\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00333427
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Walden For Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 1091
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Hood River
+  - name: STATE
+    number: '7'
+    value: OR
+  - name: ZIP
+    number: '8'
+    value: '970310037'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6OR02116
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Walden
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Gregory
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: P
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: OR
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Simons
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Marta
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: A
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100504
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00333427
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '28758000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Stanton
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: W.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 53508
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bellevue
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '980153508'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100503'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Trilogy Partners
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Partner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00333427\x1C28758000\x1CIND\x1C\x1CStanton\x1CJohn\x1CW.\x1C\x1C\x1CPO
+    Box 53508\x1C\x1CBellevue\x1CWA\x1C980153508\x1C\x1C20100503\x1C1000\x1CTrilogy
+    Partners\x1CPartner\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00333427
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '28756000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McCarthy
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Justin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8812 Falls Chapel Way
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Potomac
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '208542359'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100504'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Peck, Madigan, Jones & Stewart
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Government Relations
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00333427\x1C28756000\x1CIND\x1C\x1CMcCarthy\x1CJustin\x1CJ\x1C\x1C\x1C8812
+    Falls Chapel Way\x1C\x1CPotomac\x1CMD\x1C208542359\x1C\x1C20100504\x1C1000\x1CPeck,
+    Madigan, Jones & Stewart\x1CGovernment Relations\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100504
+type: chunk

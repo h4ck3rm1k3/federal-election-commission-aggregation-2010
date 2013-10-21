@@ -1,0 +1,1422 @@
+countrows: 22
+filename: 474572.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: COMMITTEE NAME
+    number: '3'
+    value: TREY GOWDY FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 3324
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: SPARTANBURG
+  - name: STATE
+    number: '7'
+    value: SC
+  - name: ZIP
+    number: '8'
+    value: '29304'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0SC04257
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: GOWDY
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: TREY
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: SC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Quattlebaum
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Marvin
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100614'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00462523\x1CTREY GOWDY FOR CONGRESS\x1CPO BOX 3324\x1C\x1CSPARTANBURG\x1CSC\x1C29304\x1CH0SC04257\x1CGOWDY\x1CTREY\x1C\x1C\x1C\x1CH\x1CSC\x1C04\x1CQuattlebaum\x1CMarvin\x1C\x1C\x1C\x1C20100614\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00462523\x1CF6.7081\x1CIND\x1C\x1CBARNET\x1CWILLIAM\x1C\x1C\x1CIII\x1C507
+    E. ST. JOHN STREET\x1C\x1CSPARTANBURG\x1CSC\x1C29302\x1C\x1C20100614\x1C1000.00\x1CRETIRED\x1CRETIRED\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7081
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BARNET
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: WILLIAM
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: III
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 507 E. ST. JOHN STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SPARTANBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29302'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RETIRED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'RETIRED
+
+'
+- input: "F65\x1CC00462523\x1CF6.7080\x1CIND\x1C\x1CBOGGS\x1CCAMERON\x1CG.\x1CMr.\x1C\x1CPOST
+    OFFICE BOX 65\x1C\x1CGREENVILLE\x1CSC\x1C29602\x1C\x1C20100614\x1C1000.00\x1CBOGGS
+    LAW FIRM\x1CATTORNEY\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7080
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BOGGS
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: CAMERON
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: G.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: POST OFFICE BOX 65
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: GREENVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29602'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: BOGGS LAW FIRM
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'ATTORNEY
+
+'
+- input: "F65\x1CC00462523\x1CF6.7085\x1CIND\x1C\x1CBRADSHAW\x1CCHARLES\x1CJ.\x1C\x1C\x1C333
+    MEETING STREET\x1C\x1CGEORGETOWN\x1CSC\x1C29440\x1C\x1C20100614\x1C1000.00\x1CRETIRED\x1CRETIRED\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7085
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BRADSHAW
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: CHARLES
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 333 MEETING STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: GEORGETOWN
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29440'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RETIRED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'RETIRED
+
+'
+- input: "F65\x1CC00462523\x1CF6.7076\x1CIND\x1C\x1CCOLVIN\x1CRONALD\x1CH\x1CMr.\x1C\x1C102
+    ROSEWOOD LANE\x1C\x1CSPARTANBURG\x1CSC\x1C29302\x1C\x1C20100614\x1C1000.00\x1CRONALD
+    H. COLVIN, P.A.\x1CATTORNEY\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7076
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: COLVIN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: RONALD
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: H
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 102 ROSEWOOD LANE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SPARTANBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29302'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RONALD H. COLVIN, P.A.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'ATTORNEY
+
+'
+- input: "F65\x1CC00462523\x1CF6.7071\x1CIND\x1C\x1CCOX\x1CMAURICE\x1CG.\x1C\x1CJr.\x1C739
+    EAST LONG BAY DRIVE\x1C\x1CINMAN\x1CSC\x1C29349\x1C\x1C20100614\x1C2000.00\x1CINFO
+    REQUESTED\x1CINFO REQUESTED\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7071
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: COX
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: MAURICE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: G.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 739 EAST LONG BAY DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: INMAN
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29349'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: INFO REQUESTED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'INFO REQUESTED
+
+'
+- input: "F65\x1CC00462523\x1CF6.7086\x1CIND\x1C\x1CDRAWDY\x1CVANCE\x1CE.\x1CMr.\x1C\x1C201
+    LANCASTER DRIVE\x1C\x1CANDERSON\x1CSC\x1C29621\x1C\x1C20100614\x1C1000.00\x1COGLETREE,
+    DEAKINS, NASH SMOAK\x1CATTORNEY\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7086
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: DRAWDY
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: VANCE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: E.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 201 LANCASTER DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ANDERSON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29621'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: OGLETREE, DEAKINS, NASH SMOAK
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'ATTORNEY
+
+'
+- input: "F65\x1CC00462523\x1CF6.7070\x1CIND\x1C\x1CFOWLER\x1CMARION\x1CS.\x1CDr.\x1CIII\x1CPOST
+    OFFICE BOX 1719\x1C\x1CLAKE CITY\x1CSC\x1C29560\x1C\x1C20100614\x1C1000.00\x1CFOWLER
+    LAW FIRM\x1CMEDICAL DOCTOR AND ATTORNEY\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7070
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: FOWLER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: MARION
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: S.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: III
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: POST OFFICE BOX 1719
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: LAKE CITY
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29560'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: FOWLER LAW FIRM
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'MEDICAL DOCTOR AND ATTORNEY
+
+'
+- input: "F65\x1CC00462523\x1CF6.7075\x1CIND\x1C\x1CHALL\x1CKEVIN\x1C\x1C\x1C\x1C1329
+    BLANDING STREET\x1C\x1CCOLUMBIA\x1CSC\x1C29201\x1C\x1C20100614\x1C1000.00\x1CHALL
+    AND BOWERS, LLC\x1CATTORNEY\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7075
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HALL
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: KEVIN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1329 BLANDING STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COLUMBIA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29201'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: HALL AND BOWERS, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'ATTORNEY
+
+'
+- input: "F65\x1CC00462523\x1CF6.7073\x1CIND\x1C\x1CHODGE\x1CJOHN\x1CA.\x1C\x1C\x1C440
+    OLD IRON WORKS ROAD\x1C\x1CSPARTANBURG\x1CSC\x1C29302\x1C\x1C20100614\x1C2400.00\x1CFABRIC
+    AND YARN ASSOCIATES\x1CPRESIDENT\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7073
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HODGE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOHN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 440 OLD IRON WORKS ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SPARTANBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29302'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: FABRIC AND YARN ASSOCIATES
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'PRESIDENT
+
+'
+- input: "F65\x1CC00462523\x1CF6.7074\x1CIND\x1C\x1CHODGE\x1CLAURA\x1CF.\x1C\x1C\x1C440
+    OLD IRON WORKS ROAD\x1C\x1CSPARTANBURG\x1CSC\x1C29302\x1C\x1C20100614\x1C2400.00\x1CSELF-EMPLOYED\x1CSPEECH
+    PATHOLOGIST\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7074
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HODGE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: LAURA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: F.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 440 OLD IRON WORKS ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SPARTANBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29302'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF-EMPLOYED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'SPEECH PATHOLOGIST
+
+'
+- input: "F65\x1CC00462523\x1CF6.7072\x1CIND\x1C\x1CLONG\x1CSUZANNE\x1CS.\x1C\x1C\x1C526
+    BENT CREEK LANE\x1C\x1CSPARTANBURG\x1CSC\x1C29306\x1C\x1C20100614\x1C1000.00\x1CCHILDREN'S
+    SECURITY BLANKET\x1CCEO\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7072
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: LONG
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: SUZANNE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: S.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 526 BENT CREEK LANE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SPARTANBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29306'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: CHILDREN'S SECURITY BLANKET
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CEO
+
+'
+- input: "F65\x1CC00462523\x1CF6.7069\x1CIND\x1C\x1CMILLIKEN\x1CROGER\x1C\x1CMr.\x1C\x1CPOST
+    OFFICE BOX 3167\x1C\x1CSPARTANBURG\x1CSC\x1C29304\x1C\x1C20100614\x1C2400.00\x1CMILLIKEN
+    AND COMPANY\x1CCHAIRMAN\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7069
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: MILLIKEN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ROGER
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: POST OFFICE BOX 3167
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SPARTANBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29304'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: MILLIKEN AND COMPANY
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CHAIRMAN
+
+'
+- input: "F65\x1CC00462523\x1CF6.7083\x1CIND\x1C\x1CMONTGOMERY\x1CW.\x1CS.\x1C\x1CJr.\x1C314
+    SOUTH PINE STREET\x1CBUILDING 100\x1CSPARTANBURG\x1CSC\x1C29302\x1C\x1C20100614\x1C1000.00\x1CRETIRED\x1CRETIRED\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7083
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: MONTGOMERY
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: W.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: S.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 314 SOUTH PINE STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: BUILDING 100
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SPARTANBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29302'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RETIRED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'RETIRED
+
+'
+- input: "F65\x1CC00462523\x1CF6.7077\x1CIND\x1C\x1CNIXON\x1CW.\x1CHAROLD\x1C\x1C\x1C1016
+    GLENDALYN CIRCLE\x1C\x1CSPARTANBURG\x1CSC\x1C29302\x1C\x1C20100614\x1C1000.00\x1CSPARTANBURG
+    UROLOGY GROUP\x1CUROLOGIST\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7077
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: NIXON
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: W.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: HAROLD
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1016 GLENDALYN CIRCLE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SPARTANBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29302'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SPARTANBURG UROLOGY GROUP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'UROLOGIST
+
+'
+- input: "F65\x1CC00462523\x1CF6.7079\x1CIND\x1C\x1CNIXON\x1CWILLIAM\x1CH.\x1C\x1CJr.\x1C1
+    COOL BLOW STREET\x1C\x1CCHARLESTON\x1CSC\x1C29403\x1C\x1C20100614\x1C1000.00\x1CWILLIAM
+    H. NIXON LAW FIRM\x1CATTORNEY\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7079
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: NIXON
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: WILLIAM
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: H.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1 COOL BLOW STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHARLESTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29403'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: WILLIAM H. NIXON LAW FIRM
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'ATTORNEY
+
+'
+- input: "F65\x1CC00462523\x1CF6.7087\x1CIND\x1C\x1CSHERARD\x1CGORDON\x1CB.\x1CDr.\x1CIII\x1C1300
+    PINECREST ROAD\x1C\x1CSPARTANBURG\x1CSC\x1C29302\x1C\x1C20100614\x1C2400.00\x1CCAROLINA
+    OB/GYN\x1CDOCTOR\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7087
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SHERARD
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: GORDON
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: B.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: III
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1300 PINECREST ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SPARTANBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29302'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: CAROLINA OB/GYN
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'DOCTOR
+
+'
+- input: "F65\x1CC00462523\x1CF6.7084\x1CIND\x1C\x1CSIEGEL\x1CKEN\x1C\x1C\x1C\x1C1004
+    FOUR MILE BRANCH ROAD\x1C\x1CSPARTANBURG\x1CSC\x1C29302\x1C\x1C20100614\x1C1000.00\x1CCRG
+    RECYCLING COMPANY\x1CEXECUTIVE\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7084
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SIEGEL
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: KEN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1004 FOUR MILE BRANCH ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SPARTANBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29302'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: CRG RECYCLING COMPANY
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'EXECUTIVE
+
+'
+- input: "F65\x1CC00462523\x1CF6.7082\x1CIND\x1C\x1CSMITH\x1CDOUG\x1C\x1C\x1C\x1C220
+    NORTH CHURCH STREET\x1C\x1CSPARTANBURG\x1CSC\x1C29304\x1C\x1C20100614\x1C1000.00\x1CJOHNSON,
+    SMITH, HIBBARD & WILD\x1CATTORNEY\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7082
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SMITH
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DOUG
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 220 NORTH CHURCH STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SPARTANBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29304'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: JOHNSON, SMITH, HIBBARD & WILD
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'ATTORNEY
+
+'
+- input: "F65\x1CC00462523\x1CF6.7078\x1CIND\x1C\x1CWHITE\x1CJUNIE\x1C\x1C\x1C\x1C2166
+    SOUTH PINE STREET\x1C\x1CSPARTANBURG\x1CSC\x1C29302\x1C\x1C20100614\x1C1000.00\x1CWHITE'S
+    EXXON SERVICE STATION\x1COWNER/OPERATOR\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7078
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: WHITE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JUNIE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2166 SOUTH PINE STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SPARTANBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29302'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: WHITE'S EXXON SERVICE STATION
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'OWNER/OPERATOR
+
+'
+- input: "F65\x1CC00462523\x1CF6.7088\x1CIND\x1C\x1CWILLOUGHBY\x1CMITCHELL\x1C\x1C\x1C\x1C930
+    RICHLAND STREET\x1C\x1CCOLUMBIA\x1CSC\x1C29202\x1C\x1C20100614\x1C1000.00\x1CWILLOUGHBY
+    & HOEFER, PA\x1CATTORNEY\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7088
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: WILLOUGHBY
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: MITCHELL
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 930 RICHLAND STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COLUMBIA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29202'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: WILLOUGHBY & HOEFER, PA
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'ATTORNEY
+
+'
+sourceurl: !!python/unicode 20100614
+type: chunk

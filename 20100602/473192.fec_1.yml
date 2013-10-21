@@ -1,0 +1,434 @@
+countrows: 7
+filename: 473192.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00463687\x1CScott Rigell for Congress\x1C915 First Colonial Road\x1CSuite
+    100\x1CVirginia Beach\x1CVA\x1C234543186\x1C\x1CRigell\x1CE. Scott\x1C\x1CMr.\x1C\x1CH\x1CVA\x1C02\x1CRippy\x1CDavid\x1CL.\x1CMr.\x1CSr.\x1C20100602\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Scott Rigell for Congress
+  - name: STREET 1
+    number: '4'
+    value: 915 First Colonial Road
+  - name: STREET 2
+    number: '5'
+    value: Suite 100
+  - name: CITY
+    number: '6'
+    value: Virginia Beach
+  - name: STATE
+    number: '7'
+    value: VA
+  - name: ZIP
+    number: '8'
+    value: '234543186'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Rigell
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: E. Scott
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: VA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Rippy
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: David
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: L.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: Sr.
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100602
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1493000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Halpac
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 701    8th Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 500
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200013965'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00376038
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100601'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463687\x1C1493000\x1CCOM\x1CHalpac\x1C\x1C\x1C\x1C\x1C\x1C701
+    \   8th Street NW\x1CSuite 500\x1CWashington\x1CDC\x1C200013965\x1CC00376038\x1C20100601\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1513000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Fischer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: T
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3424 Pleasant Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Norfolk
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '235181432'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100601'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: NA
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: NA
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463687\x1C1513000\x1CIND\x1C\x1CFischer\x1CDavid\x1CT\x1C\x1C\x1C3424
+    Pleasant Avenue\x1C\x1CNorfolk\x1CVA\x1C235181432\x1C\x1C20100601\x1C2400\x1CNA\x1CNA\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1498000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hudson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ernest
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2428 Almeda Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 110
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Norfolk
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '235132448'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100601'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Hudson Enterprises
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463687\x1C1498000\x1CIND\x1C\x1CHudson\x1CErnest\x1C\x1CMr.\x1C\x1C2428
+    Almeda Avenue\x1CSuite 110\x1CNorfolk\x1CVA\x1C235132448\x1C\x1C20100601\x1C2400\x1CHudson
+    Enterprises\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1497000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hudson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Phyllis
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Hudson Enterprises
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 2428 Almeda Ave, Ste 110
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Norfolk
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '23513'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100601'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1900'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Hudson Enterprises
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463687\x1C1497000\x1CIND\x1C\x1CHudson\x1CPhyllis\x1CA\x1CMs.\x1C\x1CHudson
+    Enterprises\x1C2428 Almeda Ave, Ste 110\x1CNorfolk\x1CVA\x1C23513\x1C\x1C20100601\x1C1900\x1CHudson
+    Enterprises\x1COwner\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1512000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Taylor
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Marion
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: P.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3100 Shore Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt. 450
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Virginia Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '234511139'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100601'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: NA
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: NA
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463687\x1C1512000\x1CIND\x1C\x1CTaylor\x1CMarion\x1CP.\x1C\x1C\x1C3100
+    Shore Drive\x1CApt. 450\x1CVirginia Beach\x1CVA\x1C234511139\x1C\x1C20100601\x1C1500\x1CNA\x1CNA\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100602
+type: chunk
