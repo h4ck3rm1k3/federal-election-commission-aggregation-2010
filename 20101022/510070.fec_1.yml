@@ -1,0 +1,550 @@
+countrows: 9
+filename: 510070.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475004
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Pantano for NC Committee
+  - name: STREET 1
+    number: '4'
+    value: 5700 Oleander Drive
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Wilmington
+  - name: STATE
+    number: '7'
+    value: NC
+  - name: ZIP
+    number: '8'
+    value: '28403'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0NC07108
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Pantano
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Ilario
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Graves
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Rick
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101022'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00475004\x1CPantano for NC Committee\x1C5700 Oleander Drive\x1C\x1CWilmington\x1CNC\x1C28403\x1CH0NC07108\x1CPantano\x1CIlario\x1C\x1C\x1C\x1CH\x1CNC\x1C07\x1CGraves\x1CRick\x1C\x1C\x1C\x1C20101022\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00475004\x1CF6.26768\x1CIND\x1C\x1CBehenna\x1CScott\x1C\x1C\x1C\x1C2201
+    Berryhill Court\x1C\x1CEdmond\x1CKS\x1C73034\x1C\x1C20101020\x1C1000.00\x1CDepartment
+    of Justice\x1CIntelligence Analyst\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475004
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.26768
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Behenna
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Scott
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2201 Berryhill Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Edmond
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '73034'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Department of Justice
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Intelligence Analyst
+
+'
+- input: "F65\x1CC00475004\x1CF6.26772\x1CIND\x1C\x1CClinkscales\x1CTimothy\x1C\x1C\x1C\x1C3922
+    Edgewood Road\x1C\x1CWilmington\x1CNC\x1C28403\x1C\x1C20101021\x1C1070.00\x1CParmounte
+    Engineering\x1CCivil Engineer\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475004
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.26772
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Clinkscales
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Timothy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3922 Edgewood Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Wilmington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '28403'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1070.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Parmounte Engineering
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Civil Engineer
+
+'
+- input: "F65\x1CC00475004\x1CF6.26770\x1CIND\x1C\x1CElmore\x1CMary\x1C\x1C\x1C\x1C1508
+    Military Cutoff Road\x1C\x1CWilmington\x1CNC\x1C28403\x1C\x1C20101021\x1C1000.00\x1CRetired\x1CHousewife\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475004
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.26770
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Elmore
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mary
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1508 Military Cutoff Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Wilmington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '28403'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Housewife
+
+'
+- input: "F65\x1CC00475004\x1CF6.26773\x1CIND\x1C\x1CHuddleston\x1CAlbert\x1C\x1C\x1C\x1C3921
+    Normandy\x1C\x1CDallas\x1CTX\x1C75205\x1C\x1C20101020\x1C2400.00\x1CLegacy Investments\x1CExecutive\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475004
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.26773
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Huddleston
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Albert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3921 Normandy
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dallas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75205'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Legacy Investments
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Executive
+
+'
+- input: "F65\x1CC00475004\x1CF6.26766\x1CIND\x1C\x1CNord\x1CRichard\x1C\x1C\x1C\x1C6256
+    Shadyside Drive\x1C\x1CVermilion\x1COH\x1C44089\x1C\x1C20101020\x1C1000.00\x1CLand
+    Concepts Co.\x1CLandscape Consultant\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475004
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.26766
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Nord
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Richard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6256 Shadyside Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Vermilion
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '44089'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Land Concepts Co.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Landscape Consultant
+
+'
+- input: "F65\x1CC00475004\x1CF6.26777\x1CIND\x1C\x1CRussell\x1CJames\x1C\x1C\x1C\x1C1820
+    NE 104th Ave Apt 66\x1C\x1CPortland\x1COR\x1C97220\x1C\x1C20101022\x1C1000.00\x1CRequested\x1CRequested\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475004
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.26777
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Russell
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1820 NE 104th Ave Apt 66
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Portland
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '97220'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Requested
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Requested
+
+'
+- input: "F65\x1CC00475004\x1CF6.26775\x1CIND\x1C\x1CWeber\x1CScott\x1C\x1C\x1C\x1C2601
+    Sunset Blvd Apt G3\x1C\x1CMinneapolis\x1CMN\x1C55416\x1C\x1C20101022\x1C2400.00\x1CRequested\x1CRequested\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475004
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.26775
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Weber
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Scott
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2601 Sunset Blvd Apt G3
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Minneapolis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '55416'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Requested
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Requested
+
+'
+sourceurl: !!python/unicode 20101022
+type: chunk

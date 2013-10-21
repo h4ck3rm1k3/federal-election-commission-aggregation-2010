@@ -1,0 +1,350 @@
+countrows: 6
+filename: 514404.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00251918
+  - name: COMMITTEE NAME
+    number: '3'
+    value: PASTOR FOR ARIZONA
+  - name: STREET 1
+    number: '4'
+    value: PO Box 1978
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Phoenix
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85001'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2AZ02055
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: PASTOR
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: ED L
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AZ
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Losada
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Joseph
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101030'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00251918\x1CPASTOR FOR ARIZONA\x1CPO Box 1978\x1C\x1CPhoenix\x1CAZ\x1C85001\x1CH2AZ02055\x1CPASTOR\x1CED
+    L\x1C\x1C\x1C\x1CH\x1CAZ\x1C04\x1CLosada\x1CJoseph\x1C\x1C\x1C\x1C20101030\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00251918\x1CF6.8271\x1CPAC\x1CAMERICAN FEDERATION OF STATE, COUNTY
+    AND MUNICIPAL EMPLOYEES, AFL-CIO\x1C\x1C\x1C\x1C\x1C\x1C1625 L STREET NW\x1C\x1CWASHIINGTON\x1CDC\x1C20036\x1CC30000798\x1C20101029\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00251918
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8271
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN FEDERATION OF STATE, COUNTY AND MUNICIPAL EMPLOYEES, AFL-CIO
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1625 L STREET NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHIINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C30000798
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00251918\x1CF6.8265\x1CPAC\x1CDTE ENERGY CO. PAC - FEDERAL\x1C\x1C\x1C\x1C\x1C\x1COne
+    Energy Plaza\x1CRoom 1583 WCB\x1CDetroit\x1CMI\x1C48226\x1CC00081547\x1C20101029\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00251918
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8265
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: DTE ENERGY CO. PAC - FEDERAL
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: One Energy Plaza
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Room 1583 WCB
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Detroit
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '48226'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00081547
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00251918\x1CF6.8268\x1CPAC\x1CMILLERCOORS LLC PAC\x1C\x1C\x1C\x1C\x1C\x1C1501
+    M Street NW\x1CSuite 330\x1CWashington\x1CDC\x1C20005\x1CC00457697\x1C20101029\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00251918
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8268
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: MILLERCOORS LLC PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1501 M Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 330
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00457697
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00251918\x1CF6.8270\x1CPAC\x1CNATIONAL ASSOCIATION OF POSTMASTERS
+    OF THE UNITED STATES (NAPUS PAC)\x1C\x1C\x1C\x1C\x1C\x1C8 Herbert Street\x1C.\x1CAlexandria\x1CVA\x1C22305\x1CC00100404\x1C20101029\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00251918
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8270
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NATIONAL ASSOCIATION OF POSTMASTERS OF THE UNITED STATES (NAPUS PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8 Herbert Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: .
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Alexandria
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22305'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00100404
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20101030
+type: chunk

@@ -1,0 +1,362 @@
+countrows: 6
+filename: 511375.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00272211\x1CPete King For Congress Committee\x1CPO Box 1428\x1C\x1CSeaford\x1CNY\x1C117830257\x1CH2NY03089\x1CKing\x1CPeter\x1CT.\x1CHon.\x1C\x1CH\x1CNY\x1C03\x1CRosenfeld\x1CAnne\x1C\x1CMrs.\x1C\x1C20101025\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00272211
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Pete King For Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: PO Box 1428
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Seaford
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '117830257'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2NY03089
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: King
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Peter
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: T.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Hon.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Rosenfeld
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Anne
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mrs.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101025
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00272211
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22978000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Air Line Pilots Association International PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1625 Massachusetts Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200362212'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00251009
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00272211\x1C22978000\x1CCOM\x1CAir Line Pilots Association International
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C1625 Massachusetts Avenue NW\x1C\x1CWashington\x1CDC\x1C200362212\x1CC00251009\x1C20101025\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00272211
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22979000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CULPAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 19 British American Boulevard
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Latham
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '12110'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '4000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00272211\x1C22979000\x1CCOM\x1CCULPAC\x1C\x1C\x1C\x1C\x1C\x1C19
+    British American Boulevard\x1C\x1CLatham\x1CNY\x1C12110\x1C\x1C20101025\x1C4000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00272211
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22980000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Microsoft Corporation PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1611 NE 36th Way
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Redmond
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '98073'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00227546
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00272211\x1C22980000\x1CCOM\x1CMicrosoft Corporation PAC\x1C\x1C\x1C\x1C\x1C\x1C1611
+    NE 36th Way\x1C\x1CRedmond\x1CWA\x1C98073\x1CC00227546\x1C20101025\x1C5000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00272211
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22972000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gilgan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: J. Kevin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 185 Tanglewood Crossing
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lawrence
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '115592016'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: time moving and strorage
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: president
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00272211\x1C22972000\x1CIND\x1C\x1CGilgan\x1CJ. Kevin\x1C\x1CMr.\x1C\x1C185
+    Tanglewood Crossing\x1C\x1CLawrence\x1CNY\x1C115592016\x1C\x1C20101025\x1C1000\x1Ctime
+    moving and strorage\x1Cpresident\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101025
+type: chunk

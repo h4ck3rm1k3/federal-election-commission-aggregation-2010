@@ -1,0 +1,487 @@
+countrows: 5
+filename: 514713.fec
+header: {}
+rows:
+- 2
+- input: "F24\x1CC00486845\x1C24\x1CLeague of Conservation Voters Victory Fund\x1C1920
+    L St NW Ste 800\x1C\x1CWashington\x1CDC\x1C20003    \x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20101030\n"
+  record: fec.version.v6_4.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00486845
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: League of Conservation Voters Victory Fund
+  - name: STREET 1
+    number: '5'
+    value: 1920 L St NW Ste 800
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20003    '
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Collins
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Patrick
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20101030
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00486845
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E4D97ADC891264C27AE8
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Winning Connections
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 317 Pennsylvania Ave SE 2nd Flr
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '200031148'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '76000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '94023.21'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: GOTV Calls
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Sestak
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Joseph
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101030'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00486845\x1CE4D97ADC891264C27AE8\x1C\x1C\x1CORG\x1CWinning Connections\x1C\x1C\x1C\x1C\x1C\x1C317
+    Pennsylvania Ave SE 2nd Flr\x1C\x1CWashington\x1CDC\x1C200031148\x1CG2010\x1C\x1C20101029\x1C76000.00\x1C94023.21\x1C\x1CGOTV
+    Calls\x1C\x1C\x1CS\x1C\x1CSestak\x1CJoseph\x1C\x1C\x1C\x1CS\x1CPA\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20101030\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00486845
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E400B0C3F2D1F47ECB43
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Winning Connections
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 317 Pennsylvania Ave SE 2nd Flr
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '200031148'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '14412.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '92871.65'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: GOTV Calls
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H8NM01224
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Heinrich
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Martin
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NM
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101030'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00486845\x1CE400B0C3F2D1F47ECB43\x1C\x1C\x1CORG\x1CWinning Connections\x1C\x1C\x1C\x1C\x1C\x1C317
+    Pennsylvania Ave SE 2nd Flr\x1C\x1CWashington\x1CDC\x1C200031148\x1CG2010\x1C\x1C20101029\x1C14412.00\x1C92871.65\x1C\x1CGOTV
+    Calls\x1C\x1C\x1CS\x1CH8NM01224\x1CHeinrich\x1CMartin\x1C\x1C\x1C\x1CH\x1CNM\x1C01\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20101030\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00486845
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EDCD82465E2464AC19AE
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: GRSC Consulting LLC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2920 University Ave SE
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 100
+  - name: PAYEE CITY
+    number: '15'
+    value: Minneapolis
+  - name: PAYEE STATE
+    number: '16'
+    value: MN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '55414'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '8500.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '96417.57'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Field Consutling Services
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6NV00028
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Reid
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Harry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101030'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00486845\x1CEDCD82465E2464AC19AE\x1C\x1C\x1CORG\x1CGRSC Consulting
+    LLC\x1C\x1C\x1C\x1C\x1C\x1C2920 University Ave SE\x1CSuite 100\x1CMinneapolis\x1CMN\x1C55414\x1CG2010\x1C\x1C20101029\x1C8500.00\x1C96417.57\x1C\x1CField
+    Consutling Services\x1C\x1C\x1CS\x1CS6NV00028\x1CReid\x1CHarry\x1C\x1CSen.\x1C\x1CS\x1CNV\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20101030\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+sourceurl: !!python/unicode 20101031
+type: chunk

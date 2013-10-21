@@ -1,0 +1,285 @@
+countrows: 5
+filename: 515129.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462374
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Crawford for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 16956
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Jonesboro
+  - name: STATE
+    number: '7'
+    value: AR
+  - name: ZIP
+    number: '8'
+    value: '72403'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0AR01083
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: CRAWFORD
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: ERIC ALAN RICK
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AR
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Knight
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Matthew
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101101'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00462374\x1CCrawford for Congress\x1CPO Box 16956\x1C\x1CJonesboro\x1CAR\x1C72403\x1CH0AR01083\x1CCRAWFORD\x1CERIC
+    ALAN RICK\x1C\x1C\x1C\x1CH\x1CAR\x1C01\x1CKnight\x1CMatthew\x1C\x1C\x1C\x1C20101101\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00462374\x1CF6.9904\x1CIND\x1C\x1CSullivan\x1CHollis\x1C\x1C\x1C\x1CPO
+    Box 9289\x1C\x1CWichita Falls\x1CTX\x1C76307\x1C\x1C20101030\x1C1000.00\x1CHollis
+    R Sullivan, Inc\x1COwner\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462374
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9904
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Sullivan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Hollis
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 9289
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Wichita Falls
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '76307'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Hollis R Sullivan, Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Owner
+
+'
+- input: "F65\x1CC00462374\x1CF6.9906\x1CPAC\x1CKBR, INC. PAC\x1C\x1C\x1C\x1C\x1C\x1C2451
+    Crystal Drive\x1CSuite 372\x1CArlington\x1CVA\x1C22202\x1CC00431114\x1C20101030\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462374
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9906
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: KBR, INC. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2451 Crystal Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 372
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Arlington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22202'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00431114
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00462374\x1CF6.9905\x1CPAC\x1CSARAH PAC\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 7711\x1C\x1CArlington\x1CVA\x1C22207\x1CC00458588\x1C20101030\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462374
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9905
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: SARAH PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 7711
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Arlington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22207'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00458588
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20101101
+type: chunk

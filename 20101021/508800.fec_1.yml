@@ -1,0 +1,504 @@
+countrows: 8
+filename: 508800.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00437756\x1CSchock for Congress\x1CPO Box 10555\x1C\x1CPeoria\x1CIL\x1C61612\x1CH8IL18043\x1CSchock\x1CAaron\x1CJon\x1CMr.\x1C\x1CH\x1CIL\x1C18\x1CHonegger\x1CRachel\x1C\x1C\x1C\x1C20101021\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00437756
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Schock for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 10555
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Peoria
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '61612'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8IL18043
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Schock
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Aaron
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: Jon
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '18'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Honegger
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Rachel
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101021
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00437756
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6C89D017162DD45FFAE2
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Stratton
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jason
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2518 College St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Quincy
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '623013530'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Advanced Physical Therapy
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00437756\x1C6C89D017162DD45FFAE2\x1CIND\x1C\x1CStratton\x1CJason\x1CR.\x1CMr.\x1C\x1C2518
+    College St\x1C\x1CQuincy\x1CIL\x1C623013530\x1C\x1C20101020\x1C1000.00\x1CAdvanced
+    Physical Therapy\x1CCEO\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00437756
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6EB96E484179D4AA0BC3
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Sharkey
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jack
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 3156
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Quincy
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '623053156'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Sharkey Transportation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Principal
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00437756\x1C6EB96E484179D4AA0BC3\x1CIND\x1C\x1CSharkey\x1CJack\x1C\x1CMr.\x1C\x1CPO
+    Box 3156\x1C\x1CQuincy\x1CIL\x1C623053156\x1C\x1C20101020\x1C1000.00\x1CSharkey
+    Transportation\x1CPrincipal\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00437756
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6DF4627322D064D6D8A8
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Niemann
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Richard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: H
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2408 Old Orchard Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Quincy
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '623056509'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Niemann Foods, Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Grocery Executive
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00437756\x1C6DF4627322D064D6D8A8\x1CIND\x1C\x1CNiemann\x1CRichard\x1CH\x1C\x1C\x1C2408
+    Old Orchard Road\x1C\x1CQuincy\x1CIL\x1C623056509\x1C\x1C20101020\x1C1000.00\x1CNiemann
+    Foods, Inc\x1CGrocery Executive\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00437756
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 61AC9FB0E08C54DA2A3C
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lavery
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 337 E Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Quincy
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '623014332'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00437756\x1C61AC9FB0E08C54DA2A3C\x1CIND\x1C\x1CLavery\x1CJohn\x1C\x1C\x1C\x1C337
+    E Ave\x1C\x1CQuincy\x1CIL\x1C623014332\x1C\x1C20101020\x1C1000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00437756
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6A2F2E6C665F048DD812
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: International Union of Operating Engineers
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1125 Seventeenth Streett NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00437756\x1C6A2F2E6C665F048DD812\x1CPAC\x1CInternational Union of
+    Operating Engineers\x1C\x1C\x1C\x1C\x1C\x1C1125 Seventeenth Streett NW\x1C\x1CWashington\x1CDC\x1C20036\x1C\x1C20101020\x1C5000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00437756
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6A285B089B92A4284815
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: INSURPAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 412 First Street SE Suite 300
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20003'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00437756\x1C6A285B089B92A4284815\x1CPAC\x1CINSURPAC\x1C\x1C\x1C\x1C\x1C\x1C412
+    First Street SE Suite 300\x1C\x1CWashington\x1CDC\x1C20003\x1C\x1C20101020\x1C2000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101021
+type: chunk

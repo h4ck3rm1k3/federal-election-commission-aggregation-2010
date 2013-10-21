@@ -1,0 +1,284 @@
+countrows: 5
+filename: 510270.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475004
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Pantano for NC Committee
+  - name: STREET 1
+    number: '4'
+    value: 5700 Oleander Drive
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Wilmington
+  - name: STATE
+    number: '7'
+    value: NC
+  - name: ZIP
+    number: '8'
+    value: '28403'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0NC07108
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Pantano
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Ilario
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Graves
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Rick
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101022'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00475004\x1CPantano for NC Committee\x1C5700 Oleander Drive\x1C\x1CWilmington\x1CNC\x1C28403\x1CH0NC07108\x1CPantano\x1CIlario\x1C\x1C\x1C\x1CH\x1CNC\x1C07\x1CGraves\x1CRick\x1C\x1C\x1C\x1C20101022\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00475004\x1CF6.26780\x1CIND\x1C\x1CGrange\x1CHolly\x1C\x1C\x1C\x1C8316
+    Bald Eagle Lane\x1C\x1CWilmington\x1CNC\x1C28411\x1C\x1C20101022\x1C1000.00\x1CSelf\x1CAttorney\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475004
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.26780
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Grange
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Holly
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8316 Bald Eagle Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Wilmington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '28411'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Attorney
+
+'
+- input: "F65\x1CC00475004\x1CF6.26781\x1CIND\x1C\x1CHunt\x1CNancy\x1CB.\x1C\x1C\x1C3528
+    Dartmouth Avenue\x1C\x1CDallas\x1CTX\x1C75205\x1C\x1C20101022\x1C1000.00\x1CRetired\x1CRetired\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475004
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.26781
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hunt
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Nancy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: B.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3528 Dartmouth Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dallas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75205'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+- input: "F65\x1CC00475004\x1CF6.26783\x1CIND\x1C\x1CTownsend\x1CMarc\x1C\x1C\x1C\x1C7779
+    Dragonhead Road\x1C\x1CFayetteville\x1CNC\x1C28311\x1C\x1C20101022\x1C1000.00\x1CVP
+    of Manufacturing\x1CUnited Tool & Stamping Co.\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475004
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.26783
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Townsend
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Marc
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7779 Dragonhead Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Fayetteville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '28311'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: VP of Manufacturing
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'United Tool & Stamping Co.
+
+'
+sourceurl: !!python/unicode 20101022
+type: chunk

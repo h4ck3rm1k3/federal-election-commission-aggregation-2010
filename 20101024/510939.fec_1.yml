@@ -1,0 +1,483 @@
+countrows: 8
+filename: 510939.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00481341
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Art Robinson for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 1250
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Cave Junction
+  - name: STATE
+    number: '7'
+    value: OR
+  - name: ZIP
+    number: '8'
+    value: '97523'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0OR04081
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Robinson
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Art
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: OR
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Robinson
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Noah
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101023'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00481341\x1CArt Robinson for Congress\x1CP.O. Box 1250\x1C\x1CCave
+    Junction\x1COR\x1C97523\x1CH0OR04081\x1CRobinson\x1CArt\x1C\x1C\x1C\x1CH\x1COR\x1C04\x1CRobinson\x1CNoah\x1C\x1C\x1C\x1C20101023\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00481341\x1CF6.4197\x1CIND\x1C\x1CChoumarov\x1CGeorge\x1C\x1C\x1C\x1C414
+    East 8th Street\x1C\x1COdessa\x1CTX\x1C79761\x1C\x1C20101022\x1C2000.00\x1CSelf\x1CPhysician\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00481341
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4197
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Choumarov
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: George
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 414 East 8th Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Odessa
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '79761'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Physician
+
+'
+- input: "F65\x1CC00481341\x1CF6.4205\x1CIND\x1C\x1CGraves\x1CKenneth\x1C\x1C\x1C\x1C19370
+    S.W. 280th St.\x1C\x1CHomestead\x1CFL\x1C33031\x1C\x1C20101022\x1C1000.00\x1CSelf\x1CFarmer\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00481341
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4205
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Graves
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kenneth
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 19370 S.W. 280th St.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Homestead
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '33031'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Farmer
+
+'
+- input: "F65\x1CC00481341\x1CF6.4198\x1CIND\x1C\x1CHenderson\x1CRobert\x1C\x1C\x1C\x1C417
+    SW Henderson's Line-Up\x1C\x1CGrants Pass\x1COR\x1C97527\x1C\x1C20101023\x1C1000.00\x1CSelf\x1CAutomotive\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00481341
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4198
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Henderson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 417 SW Henderson's Line-Up
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Grants Pass
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '97527'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Automotive
+
+'
+- input: "F65\x1CC00481341\x1CF6.4199\x1CIND\x1C\x1CMagness\x1CDarren\x1C\x1C\x1C\x1C30559
+    Meadow Run Place\x1C\x1CMenifee\x1CCA\x1C92584\x1C\x1C20101023\x1C1000.00\x1CSelf\x1CHealthcare
+    Consultant\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00481341
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4199
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Magness
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Darren
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 30559 Meadow Run Place
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Menifee
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '92584'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Healthcare Consultant
+
+'
+- input: "F65\x1CC00481341\x1CF6.4200\x1CIND\x1C\x1COrient\x1CPhyllis\x1C\x1C\x1C\x1C5171
+    East Peach St.\x1C\x1CTucson\x1CAZ\x1C85712\x1C\x1C20101022\x1C2400.00\x1CNone\x1CRetired\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00481341
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4200
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Orient
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Phyllis
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5171 East Peach St.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tucson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85712'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: None
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+- input: "F65\x1CC00481341\x1CF6.4201\x1CIND\x1C\x1COrient\x1CWilliam\x1C\x1C\x1C\x1C5171
+    East Peach St.\x1C\x1CTucson\x1CAZ\x1C85712\x1C\x1C20101022\x1C2400.00\x1CNone\x1CRetired\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00481341
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4201
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Orient
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5171 East Peach St.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tucson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85712'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: None
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+sourceurl: !!python/unicode 20101024
+type: chunk

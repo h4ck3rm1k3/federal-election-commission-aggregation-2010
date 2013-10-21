@@ -1,0 +1,292 @@
+countrows: 5
+filename: 510928.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00330811\x1CLee Terry For Congress\x1CPO Box 540098\x1C\x1COmaha\x1CNE\x1C681540098\x1CH8NE02139\x1CTerry\x1CLee\x1C\x1C\x1C\x1CH\x1CNE\x1C02\x1CBywater\x1CDavid\x1C\x1C\x1C\x1C20101023\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Lee Terry For Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 540098
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Omaha
+  - name: STATE
+    number: '7'
+    value: NE
+  - name: ZIP
+    number: '8'
+    value: '681540098'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8NE02139
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Terry
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Lee
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NE
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Bywater
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: David
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101023
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '52746000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Compass Bancpac
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 10566
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Birmingham
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '352960001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00142596
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1150'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00330811\x1C52746000\x1CCOM\x1CCompass Bancpac\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 10566\x1C\x1CBirmingham\x1CAL\x1C352960001\x1CC00142596\x1C20101022\x1C1150\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '52747000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Venteicher
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: George
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 13507 Hamilton Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Omaha
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NE
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '681545152'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: KVI Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00330811\x1C52747000\x1CIND\x1C\x1CVenteicher\x1CGeorge\x1C\x1C\x1C\x1C13507
+    Hamilton Street\x1C\x1COmaha\x1CNE\x1C681545152\x1C\x1C20101022\x1C2400\x1CKVI
+    Associates\x1CExecutive\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '52748000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Venteicher
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Susan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 13507 Hamilton Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Omaha
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NE
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '681545152'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00330811\x1C52748000\x1CIND\x1C\x1CVenteicher\x1CSusan\x1C\x1C\x1C\x1C13507
+    Hamilton Street\x1C\x1COmaha\x1CNE\x1C681545152\x1C\x1C20101022\x1C1400\x1CHomemaker\x1CHomemaker\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101024
+type: chunk

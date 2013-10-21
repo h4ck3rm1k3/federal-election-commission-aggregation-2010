@@ -1,0 +1,221 @@
+countrows: 4
+filename: 514407.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00468256\x1CBUCSHON FOR CONGRESS\x1CPO BOX 250\x1C\x1CNEWBURGH\x1CIN\x1C47629\x1CH0IN08114\x1CBucshon\x1CLarry\x1CD\x1C\x1C\x1CH\x1CIN\x1C08\x1CWright\x1CJohn\x1CL\x1C\x1C\x1C20101030\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468256
+  - name: COMMITTEE NAME
+    number: '3'
+    value: BUCSHON FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 250
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: NEWBURGH
+  - name: STATE
+    number: '7'
+    value: IN
+  - name: ZIP
+    number: '8'
+    value: '47629'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0IN08114
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Bucshon
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Larry
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: D
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IN
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: 08
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Wright
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: John
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: L
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101030
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468256
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: R.O.S.K.A.M. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: c/o 610 S. Boulevard
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tampa
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '33606'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00468256\x1CF65.000001\x1CPAC\x1CR.O.S.K.A.M. PAC\x1C\x1C\x1C\x1C\x1C\x1Cc/o
+    610 S. Boulevard\x1C\x1CTampa\x1CFL\x1C33606\x1C\x1C20101029\x1C1000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468256
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Independent Community Bankers Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1615 L ST., N.W. STE. 900
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00468256\x1CF65.000002\x1CPAC\x1CIndependent Community Bankers Political
+    Action Committee\x1C\x1C\x1C\x1C\x1C\x1C\"1615 L ST., N.W. STE. 900\"\x1C\x1CWashington\x1CDC\x1C20036\x1C\x1C20101029\x1C2500.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101030
+type: chunk

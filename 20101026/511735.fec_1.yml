@@ -1,0 +1,3608 @@
+countrows: 27
+filename: 511735.fec
+header: {}
+rows:
+- 2
+- input: "F24\x1CC00489807\x1C24\x1CRESTORE AMERICA'S VOICE PAC\x1C71 MCMURRAY ROAD
+    SUITE 104\x1C\x1CPITTSBURGH\x1CPA\x1C15241\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  record: fec.version.v6_4.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: RESTORE AMERICA'S VOICE PAC
+  - name: STREET 1
+    number: '5'
+    value: 71 MCMURRAY ROAD SUITE 104
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PITTSBURGH
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15241'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Kilmer
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: James
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: V
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20101025
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: 949 Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 27702 Crown Valley Parkway
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite D4-184
+  - name: PAYEE CITY
+    number: '15'
+    value: Lader Ranch
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '92694'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '722.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '722.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Website Updates
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0CA00330
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: FIORINA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CARLY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000001\x1C\x1C\x1CORG\x1C949 Media Group\x1C\x1C\x1C\x1C\x1C\x1C27702
+    Crown Valley Parkway\x1CSuite D4-184\x1CLader Ranch\x1CCA\x1C92694\x1CG2010\x1C\x1C20101024\x1C722.22\x1C722.22\x1C\x1CWebsite
+    Updates\x1C\x1C\x1CS\x1CS0CA00330\x1CFIORINA\x1CCARLY\x1C\x1C\x1C\x1CS\x1CCA\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000002
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: 949 Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 27702 Crown Valley Parkway
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite D4-184
+  - name: PAYEE CITY
+    number: '15'
+    value: Lader Ranch
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '92694'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '722.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '722.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Website Updates
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6DE00131
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: O'DONNELL
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CHRISTINE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: DE
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000002\x1C\x1C\x1CORG\x1C949 Media Group\x1C\x1C\x1C\x1C\x1C\x1C27702
+    Crown Valley Parkway\x1CSuite D4-184\x1CLader Ranch\x1CCA\x1C92694\x1CG2010\x1C\x1C20101024\x1C722.22\x1C722.22\x1C\x1CWebsite
+    Updates\x1C\x1C\x1CS\x1CS6DE00131\x1CO'DONNELL\x1CCHRISTINE\x1C\x1C\x1C\x1CS\x1CDE\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000003
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: 949 Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 27702 Crown Valley Parkway
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite D4-184
+  - name: PAYEE CITY
+    number: '15'
+    value: Lader Ranch
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '92694'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '722.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '722.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Website Updates
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0IN00053
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: COATS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: DANIEL
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: R
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: IN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000003\x1C\x1C\x1CORG\x1C949 Media Group\x1C\x1C\x1C\x1C\x1C\x1C27702
+    Crown Valley Parkway\x1CSuite D4-184\x1CLader Ranch\x1CCA\x1C92694\x1CG2010\x1C\x1C20101024\x1C722.22\x1C722.22\x1C\x1CWebsite
+    Updates\x1C\x1C\x1CS\x1CS0IN00053\x1CCOATS\x1CDANIEL\x1CR\x1C\x1C\x1CS\x1CIN\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000004
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: 949 Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 27702 Crown Valley Parkway
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite D4-184
+  - name: PAYEE CITY
+    number: '15'
+    value: Lader Ranch
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '92694'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '722.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '722.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Website Updates
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4SC00083
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: DEMINT
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JAMES
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NC
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000004\x1C\x1C\x1CORG\x1C949 Media Group\x1C\x1C\x1C\x1C\x1C\x1C27702
+    Crown Valley Parkway\x1CSuite D4-184\x1CLader Ranch\x1CCA\x1C92694\x1CG2010\x1C\x1C20101024\x1C722.22\x1C722.22\x1C\x1CWebsite
+    Updates\x1C\x1C\x1CS\x1CS4SC00083\x1CDEMINT\x1CJAMES\x1CW\x1C\x1C\x1CS\x1CNC\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000005
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: 949 Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 27702 Crown Valley Parkway
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite D4-184
+  - name: PAYEE CITY
+    number: '15'
+    value: Lader Ranch
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '92694'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '722.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '722.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Website Updates
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0CA08069
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: DENNIS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOHN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 08
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000005\x1C\x1C\x1CORG\x1C949 Media Group\x1C\x1C\x1C\x1C\x1C\x1C27702
+    Crown Valley Parkway\x1CSuite D4-184\x1CLader Ranch\x1CCA\x1C92694\x1CG2010\x1C\x1C20101024\x1C722.22\x1C722.22\x1C\x1CWebsite
+    Updates\x1C\x1C\x1CS\x1CH0CA08069\x1CDENNIS\x1CJOHN\x1C\x1C\x1C\x1CH\x1CCA\x1C08\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000006
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: 949 Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 27702 Crown Valley Parkway
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite D4-184
+  - name: PAYEE CITY
+    number: '15'
+    value: Lader Ranch
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '92694'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '722.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '722.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Website Updates
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0NY00287
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: DIOGUARDI
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOSEPH
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NY
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000006\x1C\x1C\x1CORG\x1C949 Media Group\x1C\x1C\x1C\x1C\x1C\x1C27702
+    Crown Valley Parkway\x1CSuite D4-184\x1CLader Ranch\x1CCA\x1C92694\x1CG2010\x1C\x1C20101024\x1C722.22\x1C722.22\x1C\x1CWebsite
+    Updates\x1C\x1C\x1CS\x1CS0NY00287\x1CDIOGUARDI\x1CJOSEPH\x1CJ\x1C\x1C\x1CS\x1CNY\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000007
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: 949 Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 27702 Crown Valley Parkway
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite D4-184
+  - name: PAYEE CITY
+    number: '15'
+    value: Lader Ranch
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '92694'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '722.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '722.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Website Updates
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6MN06074
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: BACHMANN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: MICHELE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: M
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '06'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000007\x1C\x1C\x1CORG\x1C949 Media Group\x1C\x1C\x1C\x1C\x1C\x1C27702
+    Crown Valley Parkway\x1CSuite D4-184\x1CLader Ranch\x1CCA\x1C92694\x1CG2010\x1C\x1C20101024\x1C722.22\x1C722.22\x1C\x1CWebsite
+    Updates\x1C\x1C\x1CS\x1CH6MN06074\x1CBACHMANN\x1CMICHELE\x1CM\x1C\x1C\x1CH\x1CMN\x1C06\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000008
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: 949 Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 27702 Crown Valley Parkway
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite D4-184
+  - name: PAYEE CITY
+    number: '15'
+    value: Lader Ranch
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '92694'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '722.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '722.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Website Updates
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0NV00138
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: ANGLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: SHARRON
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: E
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000008\x1C\x1C\x1CORG\x1C949 Media Group\x1C\x1C\x1C\x1C\x1C\x1C27702
+    Crown Valley Parkway\x1CSuite D4-184\x1CLader Ranch\x1CCA\x1C92694\x1CG2010\x1C\x1C20101024\x1C722.22\x1C722.22\x1C\x1CWebsite
+    Updates\x1C\x1C\x1CS\x1CS0NV00138\x1CANGLE\x1CSHARRON\x1CE\x1C\x1C\x1CS\x1CNV\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000009
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Google Adwords
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1600 Amphitheatre Pkwy
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Mountain View
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94043'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '273.88'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '996.37'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0CA00330
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: FIORINA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CARLY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000009\x1C\x1C\x1CORG\x1CGoogle Adwords\x1C\x1C\x1C\x1C\x1C\x1C1600
+    Amphitheatre Pkwy\x1C\x1CMountain View\x1CCA\x1C94043\x1CG2010\x1C\x1C20101024\x1C273.88\x1C996.37\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CS0CA00330\x1CFIORINA\x1CCARLY\x1C\x1C\x1C\x1CS\x1CCA\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000010
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Google Adwords
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1600 Amphitheatre Pkwy
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Mountain View
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94043'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '655.80'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1378.02'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6DE00131
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: O'DONNELL
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CHRISTINE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: DE
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000010\x1C\x1C\x1CORG\x1CGoogle Adwords\x1C\x1C\x1C\x1C\x1C\x1C1600
+    Amphitheatre Pkwy\x1C\x1CMountain View\x1CCA\x1C94043\x1CG2010\x1C\x1C20101024\x1C655.80\x1C1378.02\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CS6DE00131\x1CO'DONNELL\x1CCHRISTINE\x1C\x1C\x1C\x1CS\x1CDE\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000011
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Google Adwords
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1600 Amphitheatre Pkwy
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Mountain View
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94043'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '49.10'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '771.32'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4SC00083
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: DEMINT
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JAMES
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NC
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000011\x1C\x1C\x1CORG\x1CGoogle Adwords\x1C\x1C\x1C\x1C\x1C\x1C1600
+    Amphitheatre Pkwy\x1C\x1CMountain View\x1CCA\x1C94043\x1CG2010\x1C\x1C20101024\x1C49.10\x1C771.32\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CS4SC00083\x1CDEMINT\x1CJAMES\x1CW\x1C\x1C\x1CS\x1CNC\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000012
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Google Adwords
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1600 Amphitheatre Pkwy
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Mountain View
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94043'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '858.56'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1580.78'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0NV00138
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: ANGLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: SHARRON
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: E
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000012\x1C\x1C\x1CORG\x1CGoogle Adwords\x1C\x1C\x1C\x1C\x1C\x1C1600
+    Amphitheatre Pkwy\x1C\x1CMountain View\x1CCA\x1C94043\x1CG2010\x1C\x1C20101024\x1C858.56\x1C1580.78\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CS0NV00138\x1CANGLE\x1CSHARRON\x1CE\x1C\x1C\x1CS\x1CNV\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000013
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Microsoft adCenter
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1 Microsoft Way
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Redmond
+  - name: PAYEE STATE
+    number: '16'
+    value: WA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '98052'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '.27'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '722.49'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0CA00330
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: FIORINA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CARLY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000013\x1C\x1C\x1CORG\x1CMicrosoft adCenter\x1C\x1C\x1C\x1C\x1C\x1C1
+    Microsoft Way\x1C\x1CRedmond\x1CWA\x1C98052\x1CG2010\x1C\x1C20101024\x1C.27\x1C722.49\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CS0CA00330\x1CFIORINA\x1CCARLY\x1C\x1C\x1C\x1CS\x1CCA\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000014
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Microsoft adCenter
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1 Microsoft Way
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Redmond
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '98052'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '.69'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1378.71'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6DE00131
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: O'DONNELL
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CHRISTINE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: DE
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000014\x1C\x1C\x1CORG\x1CMicrosoft adCenter\x1C\x1C\x1C\x1C\x1C\x1C1
+    Microsoft Way\x1C\x1CRedmond\x1CCA\x1C98052\x1CG2010\x1C\x1C20101024\x1C.69\x1C1378.71\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CS6DE00131\x1CO'DONNELL\x1CCHRISTINE\x1C\x1C\x1C\x1CS\x1CDE\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000015
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Microsoft adCenter
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1 Microsoft Way
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Redmond
+  - name: PAYEE STATE
+    number: '16'
+    value: WA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '98052'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '8.27'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '730.49'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0IN00053
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: COATS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: DANIEL
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: R
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: IN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000015\x1C\x1C\x1CORG\x1CMicrosoft adCenter\x1C\x1C\x1C\x1C\x1C\x1C1
+    Microsoft Way\x1C\x1CRedmond\x1CWA\x1C98052\x1CG2010\x1C\x1C20101024\x1C8.27\x1C730.49\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CS0IN00053\x1CCOATS\x1CDANIEL\x1CR\x1C\x1C\x1CS\x1CIN\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000016
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Microsoft adCenter
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1 Microsoft Way
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Redmond
+  - name: PAYEE STATE
+    number: '16'
+    value: WA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '98052'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2.96'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '725.18'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0NY00287
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: DIOGUARDI
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOSEPH
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NY
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000016\x1C\x1C\x1CORG\x1CMicrosoft adCenter\x1C\x1C\x1C\x1C\x1C\x1C1
+    Microsoft Way\x1C\x1CRedmond\x1CWA\x1C98052\x1CG2010\x1C\x1C20101024\x1C2.96\x1C725.18\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CS0NY00287\x1CDIOGUARDI\x1CJOSEPH\x1CJ\x1C\x1C\x1CS\x1CNY\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000017
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Microsoft adCenter
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1 Microsoft Way
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Redmond
+  - name: PAYEE STATE
+    number: '16'
+    value: WA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '98052'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '34.80'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '757.02'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6MN06074
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: BACHMANN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: MICHELE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: R
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '06'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000017\x1C\x1C\x1CORG\x1CMicrosoft adCenter\x1C\x1C\x1C\x1C\x1C\x1C1
+    Microsoft Way\x1C\x1CRedmond\x1CWA\x1C98052\x1CG2010\x1C\x1C20101024\x1C34.80\x1C757.02\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CH6MN06074\x1CBACHMANN\x1CMICHELE\x1CR\x1C\x1C\x1CH\x1CMN\x1C06\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000018
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Microsoft adCenter
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1 Microsoft Way
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Redmond
+  - name: PAYEE STATE
+    number: '16'
+    value: WA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '98052'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1.62'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1582.40'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0NV00138
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: ANGLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: SHARRON
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: E
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000018\x1C\x1C\x1CORG\x1CMicrosoft adCenter\x1C\x1C\x1C\x1C\x1C\x1C1
+    Microsoft Way\x1C\x1CRedmond\x1CWA\x1C98052\x1CG2010\x1C\x1C20101024\x1C1.62\x1C1582.40\x1C\x1CSearch
+    engine Advertising\x1C\x1C\x1CS\x1CS0NV00138\x1CANGLE\x1CSHARRON\x1CE\x1C\x1C\x1CS\x1CNV\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000019
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Yahoo Search Marketing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 701 First Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Sunnyvale
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94089'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '7.98'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1004.35'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0CA00330
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: FIORINA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CARLY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000019\x1C\x1C\x1CORG\x1CYahoo Search Marketing\x1C\x1C\x1C\x1C\x1C\x1C701
+    First Avenue\x1C\x1CSunnyvale\x1CCA\x1C94089\x1CG2010\x1C\x1C20101024\x1C7.98\x1C1004.35\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CS0CA00330\x1CFIORINA\x1CCARLY\x1C\x1C\x1C\x1CS\x1CCA\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000020
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Yahoo Search Marketing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 701 First Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Sunnyvale
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94089'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '46.42'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1425.13'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Yahoo Search Marketing
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6DE00131
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: O'DONNELL
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CHRISTINE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: DE
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000020\x1C\x1C\x1CORG\x1CYahoo Search Marketing\x1C\x1C\x1C\x1C\x1C\x1C701
+    First Avenue\x1C\x1CSunnyvale\x1CCA\x1C94089\x1CG2010\x1C\x1C20101024\x1C46.42\x1C1425.13\x1C\x1CYahoo
+    Search Marketing\x1C\x1C\x1CS\x1CS6DE00131\x1CO'DONNELL\x1CCHRISTINE\x1C\x1C\x1C\x1CS\x1CDE\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000021
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Yahoo Search Marketing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 701 First Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Sunnyvale
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94089'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '14.28'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '744.77'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0IN00053
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: COATS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: DANIEL
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: R
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: IN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000021\x1C\x1C\x1CORG\x1CYahoo Search Marketing\x1C\x1C\x1C\x1C\x1C\x1C701
+    First Avenue\x1C\x1CSunnyvale\x1CCA\x1C94089\x1CG2010\x1C\x1C20101024\x1C14.28\x1C744.77\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CS0IN00053\x1CCOATS\x1CDANIEL\x1CR\x1C\x1C\x1CS\x1CIN\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000022
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Yahoo Search Marketing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 701 First Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Sunnyvale
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94089'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '4.33'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '775.65'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4SC00083
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: DEMINT
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JAMES
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NC
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000022\x1C\x1C\x1CORG\x1CYahoo Search Marketing\x1C\x1C\x1C\x1C\x1C\x1C701
+    First Avenue\x1C\x1CSunnyvale\x1CCA\x1C94089\x1CG2010\x1C\x1C20101024\x1C4.33\x1C775.65\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CS4SC00083\x1CDEMINT\x1CJAMES\x1CW\x1C\x1C\x1CS\x1CNC\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000023
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Yahoo Search Marketing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 701 First Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Sunnyvale
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94089'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1.92'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '724.14'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0CA08069
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: DENNIS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOHN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 08
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000023\x1C\x1C\x1CORG\x1CYahoo Search Marketing\x1C\x1C\x1C\x1C\x1C\x1C701
+    First Avenue\x1C\x1CSunnyvale\x1CCA\x1C94089\x1CG2010\x1C\x1C20101024\x1C1.92\x1C724.14\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CH0CA08069\x1CDENNIS\x1CJOHN\x1C\x1C\x1C\x1CH\x1CCA\x1C08\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000024
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Yahoo Search Marketing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 701 First Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Sunnyvale
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94089'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '6.42'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '763.44'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6MN06074
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: BACHMANN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: MICHELE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: M
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '06'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000024\x1C\x1C\x1CORG\x1CYahoo Search Marketing\x1C\x1C\x1C\x1C\x1C\x1C701
+    First Avenue\x1C\x1CSunnyvale\x1CCA\x1C94089\x1CG2010\x1C\x1C20101024\x1C6.42\x1C763.44\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CH6MN06074\x1CBACHMANN\x1CMICHELE\x1CM\x1C\x1C\x1CH\x1CMN\x1C06\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489807
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000025
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Yahoo Search Marketing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 701 First Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Sunnyvale
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94089'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '42.75'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1625.15'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Search Engine Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0NV00138
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: ANGLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: SHARRON
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: E
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilmer
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: V
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00489807\x1CSE.000025\x1C\x1C\x1CORG\x1CYahoo Search Marketing\x1C\x1C\x1C\x1C\x1C\x1C701
+    First Avenue\x1C\x1CSunnyvale\x1CCA\x1C94089\x1CG2010\x1C\x1C20101024\x1C42.75\x1C1625.15\x1C\x1CSearch
+    Engine Advertising\x1C\x1C\x1CS\x1CS0NV00138\x1CANGLE\x1CSHARRON\x1CE\x1C\x1C\x1CS\x1CNV\x1C00\x1CKilmer\x1CJames\x1CV\x1C\x1C\x1C20101025\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+sourceurl: !!python/unicode 20101026
+type: chunk

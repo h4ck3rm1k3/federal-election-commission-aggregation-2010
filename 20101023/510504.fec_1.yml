@@ -1,0 +1,416 @@
+countrows: 7
+filename: 510504.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00398644
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MCNERNEY FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 6520 Village Parkway
+  - name: STREET 2
+    number: '5'
+    value: Second Floor
+  - name: CITY
+    number: '6'
+    value: Dublin
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '94568'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4CA11081
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: MCNERNEY
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: JERRY
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '11'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: ''
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: ''
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101022'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00398644\x1CMCNERNEY FOR CONGRESS\x1C6520 Village Parkway\x1CSecond
+    Floor\x1CDublin\x1CCA\x1C94568\x1CH4CA11081\x1CMCNERNEY\x1CJERRY\x1C\x1C\x1C\x1CH\x1CCA\x1C11\x1C\x1C\x1C\x1C\x1C\x1C20101022\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00398644\x1CF6.4308\x1CIND\x1C\x1CBrown\x1CJ. Michael\x1C\x1C\x1C\x1C539
+    Silver Oak Lane\x1C\x1CDanville\x1CCA\x1C94506\x1C\x1C20101020\x1C1000.00\x1CSelf-employed\x1CLawyer\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00398644
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4308
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Brown
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: J. Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 539 Silver Oak Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Danville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94506'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self-employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Lawyer
+
+'
+- input: "F65\x1CC00398644\x1CF6.4311\x1CIND\x1C\x1CStaley\x1CJohn\x1C\x1C\x1C\x1C11
+    Roman Eagle Court\x1C\x1CPleasanton\x1CCA\x1C94566\x1C\x1C20101020\x1C1000.00\x1CSelf-employed\x1CAttorney\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00398644
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4311
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Staley
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11 Roman Eagle Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Pleasanton
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94566'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self-employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Attorney
+
+'
+- input: "F65\x1CC00398644\x1CF6.4314\x1CPAC\x1CDEMOCRATS WIN SEATS (DWS PAC)\x1C\x1C\x1C\x1C\x1C\x1C1071
+    TWIN BRANCH LN\x1C\x1CWESTON\x1CFL\x1C33326\x1CC00425470\x1C20101020\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00398644
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4314
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: DEMOCRATS WIN SEATS (DWS PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1071 TWIN BRANCH LN
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WESTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '33326'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00425470
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00398644\x1CF6.4317\x1CPAC\x1CGRASSROOTS ORGANIZING ACTING & LEADING
+    PAC - GOALPAC\x1C\x1C\x1C\x1C\x1C\x1CPO Box 30344\x1C\x1CBethesda\x1CMD\x1C20824\x1CC00381996\x1C20101020\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00398644
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4317
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: GRASSROOTS ORGANIZING ACTING & LEADING PAC - GOALPAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 30344
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bethesda
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20824'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00381996
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00398644\x1CF6.4320\x1CPAC\x1CSUNRUN INC POLITICAL ACTION COMMITTEE
+    (SUNRUN PAC)\x1C\x1C\x1C\x1C\x1C\x1C717 MARKET STREET SUITE 600\x1C\x1CSAN FRANCISCO\x1CCA\x1C94103\x1CC00489302\x1C20101020\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00398644
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4320
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: SUNRUN INC POLITICAL ACTION COMMITTEE (SUNRUN PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 717 MARKET STREET SUITE 600
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SAN FRANCISCO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94103'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00489302
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20101023
+type: chunk

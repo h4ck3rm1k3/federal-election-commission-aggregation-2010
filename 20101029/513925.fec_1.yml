@@ -1,0 +1,218 @@
+countrows: 4
+filename: 513925.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00442657
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Lawson for Congress
+  - name: STREET 1
+    number: '4'
+    value: 8737 Castleberry Rd
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Apex
+  - name: STATE
+    number: '7'
+    value: NC
+  - name: ZIP
+    number: '8'
+    value: '27523'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8NC04074
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Lawson
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: William
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: T
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: Jr.
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Johnson
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Allen
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: D
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101029'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00442657\x1CLawson for Congress\x1C8737 Castleberry Rd\x1C\x1CApex\x1CNC\x1C27523\x1CH8NC04074\x1CLawson\x1CWilliam\x1CT\x1CMr.\x1CJr.\x1CH\x1CNC\x1C04\x1CJohnson\x1CAllen\x1CD\x1CMr.\x1C\x1C20101029\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00442657\x1CF6.25343\x1CIND\x1C\x1CStanley\x1CBobbi\x1C\x1CMr.\x1CDr\x1C604
+    Torcastle Circle\x1C\x1CCary\x1CNC\x1C27513\x1C\x1C20101028\x1C1000.00\x1CBobbi
+    A Stanley DDS PA\x1CDentist\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00442657
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25343
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Stanley
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Bobbi
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Dr
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 604 Torcastle Circle
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cary
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '27513'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Bobbi A Stanley DDS PA
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Dentist
+
+'
+- input: "F65\x1CC00442657\x1CF6.25344\x1CPAC\x1CTriangle Congressional Victory Committee\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 97275\x1C\x1CRaleigh\x1CNC\x1C27624\x1CC00490482\x1C20101029\x1C1293.91\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00442657
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25344
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Triangle Congressional Victory Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 97275
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Raleigh
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '27624'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00490482
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1293.91'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20101029
+type: chunk

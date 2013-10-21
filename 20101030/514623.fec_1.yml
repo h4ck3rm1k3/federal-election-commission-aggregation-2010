@@ -1,0 +1,712 @@
+countrows: 11
+filename: 514623.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00303305\x1CPete Sessions For Congress\x1CPO Box 823047\x1C\x1CDallas\x1CTX\x1C753823047\x1CH2TX03126\x1CSessions\x1CPete\x1C\x1CMr.\x1C\x1CH\x1CTX\x1C32\x1CHargrove\x1CSteve\x1C\x1CMr.\x1C\x1C20101030\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Pete Sessions For Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 823047
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Dallas
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '753823047'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2TX03126
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Sessions
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Pete
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '32'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Hargrove
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Steve
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101030
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '81876000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Credit Union Legislative Action Council
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4455 Lyndon B Johnson Freeway
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Farmers Branch
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '752445925'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00007880
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00303305\x1C81876000\x1CCOM\x1CCredit Union Legislative Action Council\x1C\x1C\x1C\x1C\x1C\x1C4455
+    Lyndon B Johnson Freeway\x1C\x1CFarmers Branch\x1CTX\x1C752445925\x1CC00007880\x1C20101030\x1C1500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '81882000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Ind. Bankers Assoc of TX (IBAT FEDPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1700 Rio Grande Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 100
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Austin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '787011683'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00332841
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00303305\x1C81882000\x1CCOM\x1CInd. Bankers Assoc of TX (IBAT FEDPAC)\x1C\x1C\x1C\x1C\x1C\x1C1700
+    Rio Grande Street\x1CSuite 100\x1CAustin\x1CTX\x1C787011683\x1CC00332841\x1C20101030\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '81877000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Investigative & Security Professionals PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 17128
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Arlington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '222167128'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00463786
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00303305\x1C81877000\x1CCOM\x1CInvestigative & Security Professionals
+    PAC\x1C\x1C\x1C\x1C\x1C\x1CPO Box 17128\x1C\x1CArlington\x1CVA\x1C222167128\x1CC00463786\x1C20101030\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '81881000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Natl Emergency Medicine PAC - NEMPAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2121 K Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 325
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200371886'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00140061
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00303305\x1C81881000\x1CCOM\x1CNatl Emergency Medicine PAC - NEMPAC\x1C\x1C\x1C\x1C\x1C\x1C2121
+    K Street NW\x1CSuite 325\x1CWashington\x1CDC\x1C200371886\x1CC00140061\x1C20101030\x1C3500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '81874000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Triumph Group Inc PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8306 Marble Dale Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Alexandria
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '223081566'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00361949
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00303305\x1C81874000\x1CCOM\x1CTriumph Group Inc PAC\x1C\x1C\x1C\x1C\x1C\x1C8306
+    Marble Dale Court\x1C\x1CAlexandria\x1CVA\x1C223081566\x1CC00361949\x1C20101030\x1C3000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '81878000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Capelo
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jaime
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8114 Talbot Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Austin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '787464913'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00303305\x1C81878000\x1CIND\x1C\x1CCapelo\x1CJaime\x1C\x1C\x1C\x1C8114
+    Talbot Lane\x1C\x1CAustin\x1CTX\x1C787464913\x1C\x1C20101030\x1C1000\x1CSelf\x1CAttorney\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '81883000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Edmiston
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Hank
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Fairfax Inc.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 2850 Lake Vista Drive, Suite 150
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lewisville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75067'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Fairfax Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00303305\x1C81883000\x1CIND\x1C\x1CEdmiston\x1CHank\x1C\x1C\x1C\x1CFairfax
+    Inc.\x1C2850 Lake Vista Drive, Suite 150\x1CLewisville\x1CTX\x1C75067\x1C\x1C20101030\x1C1000\x1CFairfax
+    Inc.\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '81875000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hernandez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Flora
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6042 Prestonshire Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dallas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '752251909'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: homemaker
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00303305\x1C81875000\x1CIND\x1C\x1CHernandez\x1CFlora\x1C\x1CMrs.\x1C\x1C6042
+    Prestonshire Lane\x1C\x1CDallas\x1CTX\x1C752251909\x1C\x1C20101030\x1C1500\x1Cn/a\x1Chomemaker\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '81880000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hong
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sunhee
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: DDS
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4315 Melissa Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dallas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '752294114'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Dentist
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00303305\x1C81880000\x1CIND\x1C\x1CHong\x1CSunhee\x1C\x1CDr.\x1CDDS\x1C4315
+    Melissa Lane\x1C\x1CDallas\x1CTX\x1C752294114\x1C\x1C20101030\x1C1000\x1CSelf\x1CDentist\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101030
+type: chunk

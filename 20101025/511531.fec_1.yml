@@ -1,0 +1,787 @@
+countrows: 12
+filename: 511531.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00300830\x1CBrian Bilbray for Congress\x1C991C Lomas Santa Fe Drive\x1C#
+    192\x1CSolana Beach\x1CCA\x1C920752125\x1CH4CA49032\x1CBilbray\x1CBrian\x1CP\x1C\x1C\x1CH\x1CCA\x1C50\x1CBilbray\x1CKaren\x1C\x1C\x1C\x1C20101025\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00300830
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Brian Bilbray for Congress
+  - name: STREET 1
+    number: '4'
+    value: 991C Lomas Santa Fe Drive
+  - name: STREET 2
+    number: '5'
+    value: '# 192'
+  - name: CITY
+    number: '6'
+    value: Solana Beach
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '920752125'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4CA49032
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Bilbray
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Brian
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: P
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '50'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Bilbray
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Karen
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101025
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00300830
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20460000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Calportland Company Political Action Committee (cpcc-Pac)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2025 E Financial Way
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 200
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Glendora
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '917414603'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00389429
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00300830\x1C20460000\x1CCOM\x1CCalportland Company Political Action
+    Committee (cpcc-Pac)\x1C\x1C\x1C\x1C\x1C\x1C2025 E Financial Way\x1CSuite 200\x1CGlendora\x1CCA\x1C917414603\x1CC00389429\x1C20101025\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00300830
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20454000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Fortune Brands, Inc. Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1301 K Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 250
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200053317'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00473553
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00300830\x1C20454000\x1CCOM\x1CFortune Brands, Inc. Political Action
+    Committee\x1C\x1C\x1C\x1C\x1C\x1C1301 K Street NW\x1CSuite 250\x1CWashington\x1CDC\x1C200053317\x1CC00473553\x1C20101025\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00300830
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20457000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: International Association of Fire Fighters Interested in Reg.
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1750 New York Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200065301'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00029447
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00300830\x1C20457000\x1CCOM\x1CInternational Association of Fire
+    Fighters Interested in Reg.\x1C\x1C\x1C\x1C\x1C\x1C1750 New York Avenue NW\x1C\x1CWashington\x1CDC\x1C200065301\x1CC00029447\x1C20101025\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00300830
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20459000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: The Chickasaw Nation
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 520 Arlington Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Ada
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OK
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '748202204'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C90007923
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00300830\x1C20459000\x1CCOM\x1CThe Chickasaw Nation\x1C\x1C\x1C\x1C\x1C\x1C520
+    Arlington Street\x1C\x1CAda\x1COK\x1C748202204\x1CC90007923\x1C20101025\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00300830
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20455000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Baldwin
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4888 Niagara Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Diego
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '921073170'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Baldwin Pacific Corporation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00300830\x1C20455000\x1CIND\x1C\x1CBaldwin\x1CJohn\x1CL.\x1CMr.\x1C\x1C4888
+    Niagara Avenue\x1C\x1CSan Diego\x1CCA\x1C921073170\x1C\x1C20101025\x1C2400\x1CBaldwin
+    Pacific Corporation\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00300830
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20453000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Barnhart
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Douglas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: E
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 667
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Poway
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '920740667'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Douglas E. Barnhart, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00300830\x1C20453000\x1CIND\x1C\x1CBarnhart\x1CDouglas\x1CE\x1CMr.\x1C\x1CPO
+    Box 667\x1C\x1CPoway\x1CCA\x1C920740667\x1C\x1C20101025\x1C2400\x1CDouglas E.
+    Barnhart, Inc.\x1CCEO\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00300830
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20461000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Goldby
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Steven
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 180 Stockbridge Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Atherton
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '940273943'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Venrock
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Partner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00300830\x1C20461000\x1CIND\x1C\x1CGoldby\x1CSteven\x1C\x1CMr.\x1C\x1C180
+    Stockbridge Avenue\x1C\x1CAtherton\x1CCA\x1C940273943\x1C\x1C20101025\x1C1000\x1CVenrock\x1CPartner\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00300830
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20462000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Leggett
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Scott
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6536 Corintia Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Carlsbad
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '920095345'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Surgery One, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive Director
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00300830\x1C20462000\x1CIND\x1C\x1CLeggett\x1CScott\x1C\x1CMr.\x1C\x1C6536
+    Corintia Street\x1C\x1CCarlsbad\x1CCA\x1C920095345\x1C\x1C20101025\x1C2400\x1CSurgery
+    One, LLC\x1CExecutive Director\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00300830
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20458000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Paul
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Terry
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 700   13th Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 400
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200056621'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Cassidy and Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive VP
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00300830\x1C20458000\x1CIND\x1C\x1CPaul\x1CTerry\x1CL\x1CMr.\x1C\x1C700
+    \  13th Street NW\x1CSuite 400\x1CWashington\x1CDC\x1C200056621\x1C\x1C20101025\x1C1000\x1CCassidy
+    and Associates\x1CExecutive VP\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00300830
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20456000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rhodes
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Keith
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: B.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4495 Point Loma Ave.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Diego
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '92107'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Rhodes Property
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00300830\x1C20456000\x1CIND\x1C\x1CRhodes\x1CKeith\x1CB.\x1CMr.\x1C\x1C4495
+    Point Loma Ave.\x1C\x1CSan Diego\x1CCA\x1C92107\x1C\x1C20101025\x1C2400\x1CRhodes
+    Property\x1COwner\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101025
+type: chunk

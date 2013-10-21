@@ -1,0 +1,294 @@
+countrows: 5
+filename: 515071.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00368522\x1CJoe Wilson For Congress Committee\x1CPO Box 2145\x1C\x1CWest
+    Columbia\x1CSC\x1C291712145\x1CH2SC02059\x1CWilson\x1CJoe\x1C\x1CThe Hon.\x1C\x1CH\x1CSC\x1C02\x1CBurkett\x1CDonald\x1CH\x1C\x1C\x1C20101101\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00368522
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Joe Wilson For Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: PO Box 2145
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: West Columbia
+  - name: STATE
+    number: '7'
+    value: SC
+  - name: ZIP
+    number: '8'
+    value: '291712145'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2SC02059
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Wilson
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Joe
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: The Hon.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: SC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Burkett
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Donald
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: H
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101101
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00368522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '378925000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Council Of Engineering Companies (ACEC/PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1015   15th Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 802
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200052605'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00010868
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101101'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00368522\x1C378925000\x1CCOM\x1CAmerican Council Of Engineering
+    Companies (ACEC/PAC)\x1C\x1C\x1C\x1C\x1C\x1C1015   15th Street NW\x1CSuite 802\x1CWashington\x1CDC\x1C200052605\x1CC00010868\x1C20101101\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00368522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '378931000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Scott
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Henry
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 535
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Allendale
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '298100535'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101101'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Collum's Lumber Products
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Management--CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00368522\x1C378931000\x1CIND\x1C\x1CScott\x1CHenry\x1CC.\x1CMr.\x1C\x1CPO
+    Box 535\x1C\x1CAllendale\x1CSC\x1C298100535\x1C\x1C20101101\x1C2000\x1CCollum's
+    Lumber Products\x1CManagement--CEO\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00368522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '378926000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Tomlin
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Donald
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4500 Fort Jackson Boulevard
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Columbia
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '292091119'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101101'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Tomlin & Co.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00368522\x1C378926000\x1CIND\x1C\x1CTomlin\x1CDonald\x1CR.\x1CMr.\x1CJr.\x1C4500
+    Fort Jackson Boulevard\x1C\x1CColumbia\x1CSC\x1C292091119\x1C\x1C20101101\x1C1000\x1CTomlin
+    & Co.\x1COwner\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101101
+type: chunk

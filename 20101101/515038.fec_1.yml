@@ -1,0 +1,575 @@
+countrows: 9
+filename: 515038.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00473363\x1CTodd Lally for Congress\x1C2017 Boulevard Napoleon\x1C\x1CLouisville\x1CKY\x1C402051831\x1CH0KY03184\x1CLally\x1CTodd\x1C\x1C\x1C\x1CH\x1CKY\x1C03\x1CCooper\x1CJ.
+    Ashley\x1C\x1C\x1C\x1C20101101\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473363
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Todd Lally for Congress
+  - name: STREET 1
+    number: '4'
+    value: 2017 Boulevard Napoleon
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Louisville
+  - name: STATE
+    number: '7'
+    value: KY
+  - name: ZIP
+    number: '8'
+    value: '402051831'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0KY03184
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Lally
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Todd
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: KY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Cooper
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: J. Ashley
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101101
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473363
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2825000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CEAPAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1919 S Eads Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Arlington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '222023028'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00473363\x1C2825000\x1CORG\x1CCEAPAC\x1C\x1C\x1C\x1C\x1C\x1C1919
+    S Eads Street\x1C\x1CArlington\x1CVA\x1C222023028\x1C\x1C20101030\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473363
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2823000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Friends Of John Boehner
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7908 Cincinnati Dayton Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite I2
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Chester
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '450696629'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00473363\x1C2823000\x1CORG\x1CFriends Of John Boehner\x1C\x1C\x1C\x1C\x1C\x1C7908
+    Cincinnati Dayton Road\x1CSuite I2\x1CWest Chester\x1COH\x1C450696629\x1C\x1C20101030\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473363
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2822000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Ky Credit Union League Federal PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3615 Newburg Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Louisville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '402183368'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00473363\x1C2822000\x1CORG\x1CKy Credit Union League Federal PAC\x1C\x1C\x1C\x1C\x1C\x1C3615
+    Newburg Road\x1C\x1CLouisville\x1CKY\x1C402183368\x1C\x1C20101030\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473363
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2819000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Frazier
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jean
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: W.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4810 Cherry Valley Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Prospect
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '400598642'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: HFH Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00473363\x1C2819000\x1CIND\x1C\x1CFrazier\x1CJean\x1CW.\x1C\x1C\x1C4810
+    Cherry Valley Road\x1C\x1CProspect\x1CKY\x1C400598642\x1C\x1C20101030\x1C1000\x1CHFH
+    Inc\x1CReal Estate\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473363
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2805000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gable
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: E
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1715 Stonehaven Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Frankfort
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '406018624'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00473363\x1C2805000\x1CIND\x1C\x1CGable\x1CRobert\x1CE\x1C\x1C\x1C1715
+    Stonehaven Drive\x1C\x1CFrankfort\x1CKY\x1C406018624\x1C\x1C20101030\x1C1000\x1CRetired\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473363
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2803000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lykins
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Richard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2201 River Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Louisville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '402061009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Information Requested
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Information Requested
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00473363\x1C2803000\x1CIND\x1C\x1CLykins\x1CRichard\x1C\x1C\x1C\x1C2201
+    River Road\x1C\x1CLouisville\x1CKY\x1C402061009\x1C\x1C20101030\x1C2400\x1CInformation
+    Requested\x1CInformation Requested\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473363
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2816000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Wirth
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Charles
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 601 Blankenbaker Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Louisville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '402071103'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Marine Electric Co.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00473363\x1C2816000\x1CIND\x1C\x1CWirth\x1CCharles\x1C\x1C\x1C\x1C601
+    Blankenbaker Lane\x1C\x1CLouisville\x1CKY\x1C402071103\x1C\x1C20101030\x1C1000\x1CMarine
+    Electric Co.\x1COwner\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101101
+type: chunk

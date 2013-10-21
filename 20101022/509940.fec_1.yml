@@ -1,0 +1,362 @@
+countrows: 6
+filename: 509940.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00476226\x1CTim Scott For Congress\x1C1405 Ashley River Road\x1C\x1CCharleston\x1CSC\x1C294075305\x1CH0SC01279\x1CScott\x1CTimothy\x1C\x1C\x1C\x1CH\x1CSC\x1C01\x1CWiggins\x1CStacy\x1C\x1C\x1C\x1C20101022\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Tim Scott For Congress
+  - name: STREET 1
+    number: '4'
+    value: 1405 Ashley River Road
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Charleston
+  - name: STATE
+    number: '7'
+    value: SC
+  - name: ZIP
+    number: '8'
+    value: '294075305'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0SC01279
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Scott
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Timothy
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: SC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Wiggins
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Stacy
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101022
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '4812000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Coburn for Senate 2010
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 977
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Muskogee
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OK
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '744020977'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00409888
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00476226\x1C4812000\x1CCOM\x1CCoburn for Senate 2010\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 977\x1C\x1CMuskogee\x1COK\x1C744020977\x1CC00409888\x1C20101022\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '4809000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Kline for Congress
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101 W Burnsville Parkway
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 104
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Burnsville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '553372571'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00326629
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00476226\x1C4809000\x1CCOM\x1CKline for Congress\x1C\x1C\x1C\x1C\x1C\x1C101
+    W Burnsville Parkway\x1CSuite 104\x1CBurnsville\x1CMN\x1C553372571\x1CC00326629\x1C20101022\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '4808000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Banks
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: G. Reid
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 427 Channel Creek Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mount Pleasant
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '294648120'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Banks Construction
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Contruction
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00476226\x1C4808000\x1CIND\x1C\x1CBanks\x1CG. Reid\x1C\x1C\x1C\x1C427
+    Channel Creek Court\x1C\x1CMount Pleasant\x1CSC\x1C294648120\x1C\x1C20101022\x1C1000\x1CBanks
+    Construction\x1CContruction\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '4813000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Cuddy
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Brian
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: M.D.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2145 Henry Tecklenburg Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 220
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Charleston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '294145894'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Physician
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00476226\x1C4813000\x1CIND\x1C\x1CCuddy\x1CBrian\x1C\x1C\x1CM.D.\x1C2145
+    Henry Tecklenburg Drive\x1CSuite 220\x1CCharleston\x1CSC\x1C294145894\x1C\x1C20101022\x1C1000\x1CSelf\x1CPhysician\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101022
+type: chunk

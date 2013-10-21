@@ -1,0 +1,645 @@
+countrows: 10
+filename: 508449.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00155796\x1CSPRATT FOR CONGRESS COMMITTEE\x1CPO BOX 830\x1C\x1CYORK\x1CSC\x1C29745\x1CH2SC05052\x1CSpratt\x1CJohn\x1CMcKee\x1CHon.\x1CJr.\x1CH\x1CSC\x1C05\x1CPresto\x1CJohn\x1CAlan\x1CMr.\x1C\x1C20101021\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00155796
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SPRATT FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 830
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: YORK
+  - name: STATE
+    number: '7'
+    value: SC
+  - name: ZIP
+    number: '8'
+    value: '29745'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2SC05052
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Spratt
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: John
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: McKee
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Hon.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: Jr.
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: SC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Presto
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: John
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: Alan
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101021
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00155796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Harris
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: W
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6 Longfellow park
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cambridge
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 021378
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Investor
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00155796\x1CF65.000001\x1CIND\x1C\x1CHarris\x1CWilliam\x1CW\x1CMr.\x1C\x1C6
+    Longfellow park\x1C\x1CCambridge\x1CMA\x1C021378\x1C\x1C20101020\x1C2000.00\x1CSelf\x1CInvestor\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00155796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Harris
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Roberta
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: H
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6 Longfellow Park
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cambridge
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 02138
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Author
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00155796\x1CF65.000002\x1CIND\x1C\x1CHarris\x1CRoberta\x1CH\x1CMrs.\x1C\x1C6
+    Longfellow Park\x1C\x1CCambridge\x1CMA\x1C02138\x1C\x1C20101020\x1C2000.00\x1CSelf\x1CAuthor\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00155796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Harris
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: B
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 25 West 81st Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt. 4-B
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10024'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Children's Research and Educational In
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00155796\x1CF65.000003\x1CIND\x1C\x1CHarris\x1CDavid\x1CB\x1CMr.\x1C\x1C25
+    West 81st Street\x1CApt. 4-B\x1CNew York\x1CNY\x1C10024\x1C\x1C20101020\x1C1000.00\x1CChildren's
+    Research and Educational In\x1CExecutive\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00155796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Siegel
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Seth
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 300 Central Park West
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt. 7-A
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10024'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Beanstalk Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive Sales Mgr.
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00155796\x1CF65.000004\x1CIND\x1C\x1CSiegel\x1CSeth\x1C\x1CMr.\x1C\x1C300
+    Central Park West\x1CApt. 7-A\x1CNew York\x1CNY\x1C10024\x1C\x1C20101021\x1C1000.00\x1CThe
+    Beanstalk Group\x1CExecutive Sales Mgr.\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00155796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000005
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Stacey
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Eve
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: Moredock
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2409 Monroe Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Columbia
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29205'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Rogers, Townsend and Thomas
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00155796\x1CF65.000005\x1CIND\x1C\x1CStacey\x1CEve\x1CMoredock\x1CMrs.\x1C\x1C2409
+    Monroe Street\x1C\x1CColumbia\x1CSC\x1C29205\x1C\x1C20101021\x1C1000.00\x1C\"Rogers,
+    Townsend and Thomas\"\x1CAttorney\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00155796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000006
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lienhart
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ross
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 100 N.W. Lovejoy
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: PH-1
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Portland
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '97209'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: PCC Structurals
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00155796\x1CF65.000006\x1CIND\x1C\x1CLienhart\x1CRoss\x1C\x1CMr.\x1C\x1C100
+    N.W. Lovejoy\x1CPH-1\x1CPortland\x1COR\x1C97209\x1C\x1C20101021\x1C2400.00\x1CPCC
+    Structurals\x1CExecutive\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00155796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000007
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: All Power to the People PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 499 South Capitol Street, SW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite422
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20003'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00155796\x1CF65.000007\x1CPAC\x1CAll Power to the People PAC\x1C\x1C\x1C\x1C\x1C\x1C\"499
+    South Capitol Street, SW\"\x1CSuite422\x1CWashington\x1CDC\x1C20003\x1C\x1C20101021\x1C1000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00155796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000008
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Joint Action Committee for Political Affairs
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 105
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Highland Park
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60035'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00155796\x1CF65.000008\x1CPAC\x1CJoint Action Committee for Political
+    Affairs\x1C\x1C\x1C\x1C\x1C\x1CPO Box 105\x1C\x1CHighland Park\x1CIL\x1C60035\x1C\x1C20101021\x1C1000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101021
+type: chunk

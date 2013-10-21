@@ -1,0 +1,716 @@
+countrows: 11
+filename: 509323.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00370650\x1CFriends of Jeb Hensarling\x1CPO Box 820504\x1C\x1CDallas\x1CTX\x1C753820504\x1CH2TX05121\x1CHensarling\x1CJeb\x1C\x1C\x1C\x1CH\x1CTX\x1C05\x1CChandler\x1CJames\x1CC.\x1C\x1C\x1C20101021\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Jeb Hensarling
+  - name: STREET 1
+    number: '4'
+    value: PO Box 820504
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Dallas
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '753820504'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2TX05121
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Hensarling
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Jeb
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Chandler
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: James
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: C.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101021
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '21350000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Independent Bankers Association of Texas (IBAT FEDPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1700 Rio Grande Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 100
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Austin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '787011683'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00332841
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C21350000\x1CCOM\x1CIndependent Bankers Association of
+    Texas (IBAT FEDPAC)\x1C\x1C\x1C\x1C\x1C\x1C1700 Rio Grande Street\x1CSuite 100\x1CAustin\x1CTX\x1C787011683\x1CC00332841\x1C20101020\x1C1500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '21351000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Carroll
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jason
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 547 Broadway
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Unit 6
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10012'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Hudson River Trading, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Finance Executive
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C21351000\x1CIND\x1C\x1CCarroll\x1CJason\x1C\x1C\x1C\x1C547
+    Broadway\x1CUnit 6\x1CNew York\x1CNY\x1C10012\x1C\x1C20101020\x1C2400\x1CHudson
+    River Trading, LLC\x1CFinance Executive\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '21349000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McNutt
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Bob
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 79
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Corsicana
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '751510079'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Collin Street Bakery
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C21349000\x1CIND\x1C\x1CMcNutt\x1CBob\x1C\x1C\x1C\x1CPO
+    Box 79\x1C\x1CCorsicana\x1CTX\x1C751510079\x1C\x1C20101020\x1C1000\x1CCollin Street
+    Bakery\x1CExecutive\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '21348000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Atmos Energy Corporation PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5430 LBJ Freeway
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1800
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dallas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75240'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00381954
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C21348000\x1CCOM\x1CAtmos Energy Corporation PAC\x1C\x1C\x1C\x1C\x1C\x1C5430
+    LBJ Freeway\x1CSuite 1800\x1CDallas\x1CTX\x1C75240\x1CC00381954\x1C20101021\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '21346000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Compass Bancshares, Inc. PAC (Compass BancPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 10566
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Birmingham
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '35205'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00142596
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C21346000\x1CCOM\x1CCompass Bancshares, Inc. PAC (Compass
+    BancPAC)\x1C\x1C\x1C\x1C\x1C\x1CPO Box 10566\x1C\x1CBirmingham\x1CAL\x1C35205\x1CC00142596\x1C20101021\x1C5000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '21345000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Devon Energy Corporation PAC (DEC PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 20 North Broadway
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1500
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Oklahoma City
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OK
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '731028260'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00354753
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C21345000\x1CCOM\x1CDevon Energy Corporation PAC (DEC
+    PAC)\x1C\x1C\x1C\x1C\x1C\x1C20 North Broadway\x1CSuite 1500\x1COklahoma City\x1COK\x1C731028260\x1CC00354753\x1C20101021\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '21347000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: eBay, Inc. Committee for Responsible Internet Commerce
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 228 South Washington Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 115
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Alexandria
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22314'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00342394
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C21347000\x1CCOM\x1CeBay, Inc. Committee for Responsible
+    Internet Commerce\x1C\x1C\x1C\x1C\x1C\x1C228 South Washington Street\x1CSuite
+    115\x1CAlexandria\x1CVA\x1C22314\x1CC00342394\x1C20101021\x1C1500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '21352000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Morcos
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Alexander
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 310 East 9th Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apartment 1
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10003'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Hudson River Trading, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Finance Executive
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C21352000\x1CIND\x1C\x1CMorcos\x1CAlexander\x1C\x1C\x1C\x1C310
+    East 9th Street\x1CApartment 1\x1CNew York\x1CNY\x1C10003\x1C\x1C20101021\x1C2400\x1CHudson
+    River Trading, LLC\x1CFinance Executive\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '21353000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Reynolds
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 153 Garfield Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Concord
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '01742'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Putnam Investments
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C21353000\x1CIND\x1C\x1CReynolds\x1CRobert\x1CL.\x1C\x1C\x1C153
+    Garfield Road\x1C\x1CConcord\x1CMA\x1C01742\x1C\x1C20101021\x1C2400\x1CPutnam
+    Investments\x1CExecutive\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101022
+type: chunk

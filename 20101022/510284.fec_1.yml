@@ -1,0 +1,352 @@
+countrows: 6
+filename: 510284.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433821
+  - name: COMMITTEE NAME
+    number: '3'
+    value: DEMMER FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 502 2ND ST NE
+  - name: STREET 2
+    number: '5'
+    value: PO BOX 6
+  - name: CITY
+    number: '6'
+    value: HAYFIELD
+  - name: STATE
+    number: '7'
+    value: MN
+  - name: ZIP
+    number: '8'
+    value: '55940'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8MN01220
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: DEMMER
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: RANDY LEE
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MN
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Towey
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Deborah
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: J.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101022'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00433821\x1CDEMMER FOR CONGRESS\x1C502 2ND ST NE\x1CPO BOX 6\x1CHAYFIELD\x1CMN\x1C55940\x1CH8MN01220\x1CDEMMER\x1CRANDY
+    LEE\x1C\x1C\x1C\x1CH\x1CMN\x1C01\x1CTowey\x1CDeborah\x1CJ.\x1C\x1C\x1C20101022\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00433821\x1CF6.13434\x1CIND\x1C\x1CDittmer\x1CHarold\x1C\x1C\x1C\x1C650
+    Bercut Drive Suite C\x1C\x1CSacramento\x1CCA\x1C95811\x1C\x1C20101021\x1C1000.00\x1CWellhead
+    Electric Company\x1CPresident\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433821
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.13434
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Dittmer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Harold
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 650 Bercut Drive Suite C
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Sacramento
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '95811'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Wellhead Electric Company
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'President
+
+'
+- input: "F65\x1CC00433821\x1CF6.13437\x1CIND\x1C\x1CPaulson\x1CTodd\x1C\x1C\x1C\x1C1365
+    Ridgewood Dr\x1C\x1CWinona\x1CMN\x1C55987\x1C\x1C20101021\x1C2500.00\x1CRTP Company\x1CCfo\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433821
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.13437
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Paulson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Todd
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1365 Ridgewood Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Winona
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '55987'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RTP Company
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Cfo
+
+'
+- input: "F65\x1CC00433821\x1CF6.13436\x1CIND\x1C\x1CSaunders\x1CHarold\x1C\x1C\x1C\x1C9901
+    Riverview Rd\x1C\x1CEden Prairie\x1CMN\x1C55347\x1C\x1C20101021\x1C1000.00\x1CNone\x1CRetired\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433821
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.13436
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Saunders
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Harold
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9901 Riverview Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Eden Prairie
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '55347'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: None
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+- input: "F65\x1CC00433821\x1CF6.13435\x1CIND\x1C\x1CWine\x1CScott\x1C\x1C\x1C\x1C18515
+    8th Ave N\x1C\x1CPlymouth\x1CMN\x1C55447\x1C\x1C20101021\x1C1000.00\x1CPolaris
+    Industries\x1CCeo\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433821
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.13435
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Wine
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Scott
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 18515 8th Ave N
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Plymouth
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '55447'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Polaris Industries
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Ceo
+
+'
+sourceurl: !!python/unicode 20101022
+type: chunk

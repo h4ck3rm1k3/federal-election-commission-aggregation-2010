@@ -1,0 +1,285 @@
+countrows: 5
+filename: 511520.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00442657
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Lawson for Congress
+  - name: STREET 1
+    number: '4'
+    value: 113 Lulworth Ct
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Cary
+  - name: STATE
+    number: '7'
+    value: NC
+  - name: ZIP
+    number: '8'
+    value: '27519'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8NC04074
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Lawson
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: William
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: T
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: Jr.
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Johnson
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Allen
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: D
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101025'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00442657\x1CLawson for Congress\x1C113 Lulworth Ct\x1C\x1CCary\x1CNC\x1C27519\x1CH8NC04074\x1CLawson\x1CWilliam\x1CT\x1CMr.\x1CJr.\x1CH\x1CNC\x1C04\x1CJohnson\x1CAllen\x1CD\x1CMr.\x1C\x1C20101025\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00442657\x1CF6.25335\x1CIND\x1C\x1CBaker\x1CJames\x1C\x1CMr.\x1C\x1C603
+    Hogans Valley Way\x1C\x1CCary\x1CNC\x1C27513\x1C\x1C20101025\x1C1400.00\x1COckham
+    Development Group\x1CCEO\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00442657
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25335
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Baker
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 603 Hogans Valley Way
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cary
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '27513'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Ockham Development Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CEO
+
+'
+- input: "F65\x1CC00442657\x1CF6.25336\x1CIND\x1C\x1CMazer\x1CDana\x1CL\x1CMr.\x1C\x1C11515
+    Autumn Oaks Lane\x1C\x1CRaleigh\x1CNC\x1C27614\x1C\x1C20101023\x1C1400.00\x1CThe
+    Rehab Specialist\x1COwner\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00442657
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25336
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Mazer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Dana
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11515 Autumn Oaks Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Raleigh
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '27614'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Rehab Specialist
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Owner
+
+'
+- input: "F65\x1CC00442657\x1CF6.25337\x1CIND\x1C\x1CTurpanjian\x1CNina\x1C\x1CMr.\x1C\x1C580
+    Silver Spur Rd\x1C\x1CRancho Palos Verde\x1CCA\x1C90275\x1C\x1C20101023\x1C2400.00\x1Cn/a\x1CAttorney\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00442657
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25337
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Turpanjian
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Nina
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 580 Silver Spur Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Rancho Palos Verde
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90275'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Attorney
+
+'
+sourceurl: !!python/unicode 20101025
+type: chunk

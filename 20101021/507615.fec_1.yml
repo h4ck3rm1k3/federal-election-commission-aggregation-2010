@@ -1,0 +1,433 @@
+countrows: 7
+filename: 507615.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00421271\x1CHarry Mitchell for Congress\x1CPO Box 23748\x1C\x1CTempe\x1CAZ\x1C85285\x1CH6AZ05067\x1CMitchell\x1CHarry\x1CE.\x1C\x1C\x1CH\x1CAZ\x1C05\x1C\x1C\x1C\x1C\x1C\x1C20101021\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421271
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Harry Mitchell for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 23748
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Tempe
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85285'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6AZ05067
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Mitchell
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Harry
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: E.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AZ
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: ''
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: ''
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101021
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421271
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 11c-000030852
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CWA - COPE PCC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11070 North 24th Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Phoenix
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85029'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00002089
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '4000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00421271\x1C11c-000030852\x1CPAC\x1CCWA - COPE PCC\x1C\x1C\x1C\x1C\x1C\x1C11070
+    North 24th Avenue\x1C\x1CPhoenix\x1CAZ\x1C85029\x1CC00002089\x1C20101019\x1C4000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421271
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 11ai-000030846
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Sieroty
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Alan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6022 Wilshire Blvd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: No 201
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Sieroty Co. Ins.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate Manager
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00421271\x1C11ai-000030846\x1CIND\x1C\x1CSieroty\x1CAlan\x1C\x1C\x1C\x1C6022
+    Wilshire Blvd\x1CNo 201\x1CLos Angeles\x1CCA\x1C90036\x1C\x1C20101019\x1C2000.00\x1CSieroty
+    Co. Ins.\x1CReal Estate Manager\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421271
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 11ai-000030847
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Goldman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Lisa
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2520 Union St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Francisco
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94123'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1200.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00421271\x1C11ai-000030847\x1CIND\x1C\x1CGoldman\x1CLisa\x1C\x1C\x1C\x1C2520
+    Union St\x1C\x1CSan Francisco\x1CCA\x1C94123\x1C\x1C20101019\x1C1200.00\x1CN/A\x1CHomemaker\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421271
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 11ai-000030848
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Goldman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Douglas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2520 Union St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Francisco
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94123'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1200.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Certain Software, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Software Publisher
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00421271\x1C11ai-000030848\x1CIND\x1C\x1CGoldman\x1CDouglas\x1C\x1C\x1C\x1C2520
+    Union St\x1C\x1CSan Francisco\x1CCA\x1C94123\x1C\x1C20101019\x1C1200.00\x1CCertain
+    Software, Inc.\x1CSoftware Publisher\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421271
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 11ai-000030955
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Shulz
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6221 E Camelback Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Scottsdale
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85251'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N//A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00421271\x1C11ai-000030955\x1CIND\x1C\x1CShulz\x1CWilliam\x1C\x1C\x1C\x1C6221
+    E Camelback Road\x1C\x1CScottsdale\x1CAZ\x1C85251\x1C\x1C20101019\x1C1000.00\x1CN//A\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101021
+type: chunk

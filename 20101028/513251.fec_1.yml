@@ -1,0 +1,1203 @@
+countrows: 10
+filename: 513251.fec
+header: {}
+rows:
+- 2
+- input: "F24\x1CC00489799\x1C24\x1CPlanned Parenthood Votes\x1C434 West 33rd Street\x1C\x1CNew
+    York\x1CNY\x1C10001\x1CSamulcek\x1CAaron\x1C\x1C\x1C\x1C20101028\n"
+  record: fec.version.v6_4.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489799
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Planned Parenthood Votes
+  - name: STREET 1
+    number: '5'
+    value: 434 West 33rd Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10001'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Samulcek
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Aaron
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20101028
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489799
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B372360
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: American Directions Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1350 Connecticut Ave NW Ste 1102
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101027'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61050.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24A
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Phone calls for get out the vote
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00489799
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0MO00183
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Blunt
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Roy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Samulcek
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Aaron
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101028'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00489799\x1CB372360\x1C\x1C\x1CORG\x1CAmerican Directions Group\x1C\x1C\x1C\x1C\x1C\x1C1350
+    Connecticut Ave NW Ste 1102\x1C\x1CWashington\x1CDC\x1C20036\x1CG2010\x1C\x1C20101027\x1C2000.00\x1C61050.00\x1C24A\x1CPhone
+    calls for get out the vote\x1C004\x1CC00489799\x1CO\x1CS0MO00183\x1CBlunt\x1CRoy\x1C\x1C\x1C\x1CS\x1CMO\x1C\x1CSamulcek\x1CAaron\x1C\x1C\x1C\x1C20101028\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489799
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B372362
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: American Directions Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1350 Connecticut Ave NW Ste 1102
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101027'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '6000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61050.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24A
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Phone calls for get out the vote
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00489799
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0MO00183
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Blunt
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Roy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Samulcek
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Aaron
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101028'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00489799\x1CB372362\x1C\x1C\x1CORG\x1CAmerican Directions Group\x1C\x1C\x1C\x1C\x1C\x1C1350
+    Connecticut Ave NW Ste 1102\x1C\x1CWashington\x1CDC\x1C20036\x1CG2010\x1C\x1C20101027\x1C6000.00\x1C61050.00\x1C24A\x1CPhone
+    calls for get out the vote\x1C004\x1CC00489799\x1CO\x1CS0MO00183\x1CBlunt\x1CRoy\x1C\x1C\x1C\x1CS\x1CMO\x1C\x1CSamulcek\x1CAaron\x1C\x1C\x1C\x1C20101028\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489799
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B372361
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: American Directions Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1350 Connecticut Ave NW Ste 1102
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101027'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '6000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61050.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Phone calls for get out the vote
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00489799
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6MO00297
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Carnahan
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Robin
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Samulcek
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Aaron
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101028'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00489799\x1CB372361\x1C\x1C\x1CORG\x1CAmerican Directions Group\x1C\x1C\x1C\x1C\x1C\x1C1350
+    Connecticut Ave NW Ste 1102\x1C\x1CWashington\x1CDC\x1C20036\x1CG2010\x1C\x1C20101027\x1C6000.00\x1C61050.00\x1C24E\x1CPhone
+    calls for get out the vote\x1C004\x1CC00489799\x1CS\x1CS6MO00297\x1CCarnahan\x1CRobin\x1C\x1C\x1C\x1CS\x1CMO\x1C\x1CSamulcek\x1CAaron\x1C\x1C\x1C\x1C20101028\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489799
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B372359
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: American Directions Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1350 Connecticut Ave NW Ste 1102
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101027'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '4000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61050.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Phone calls for get out the vote
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00489799
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6MO00297
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Carnahan
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Robin
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Samulcek
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Aaron
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101028'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00489799\x1CB372359\x1C\x1C\x1CORG\x1CAmerican Directions Group\x1C\x1C\x1C\x1C\x1C\x1C1350
+    Connecticut Ave NW Ste 1102\x1C\x1CWashington\x1CDC\x1C20036\x1CG2010\x1C\x1C20101027\x1C4000.00\x1C61050.00\x1C24E\x1CPhone
+    calls for get out the vote\x1C004\x1CC00489799\x1CS\x1CS6MO00297\x1CCarnahan\x1CRobin\x1C\x1C\x1C\x1CS\x1CMO\x1C\x1CSamulcek\x1CAaron\x1C\x1C\x1C\x1C20101028\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489799
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B372358
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: American Directions Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1350 Connecticut Ave NW Ste 1102
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101027'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '4000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '16775.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Phone calls for get out the vote
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00489799
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MO00019
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Carnahan
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Russ
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '03'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Samulcek
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Aaron
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101028'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00489799\x1CB372358\x1C\x1C\x1CORG\x1CAmerican Directions Group\x1C\x1C\x1C\x1C\x1C\x1C1350
+    Connecticut Ave NW Ste 1102\x1C\x1CWashington\x1CDC\x1C20036\x1CG2010\x1C\x1C20101027\x1C4000.00\x1C16775.00\x1C24E\x1CPhone
+    calls for get out the vote\x1C004\x1CC00489799\x1CS\x1CH0MO00019\x1CCarnahan\x1CRuss\x1C\x1C\x1C\x1CH\x1CMO\x1C03\x1CSamulcek\x1CAaron\x1C\x1C\x1C\x1C20101028\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489799
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B372449
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: American Directions Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1350 Connecticut Ave NW Ste 1102
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101028'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '3000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '49375.65'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24A
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Phone calls for get out the vote
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00489799
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0NH01217
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Guinta
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Frank
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NH
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Samulcek
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Aaron
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101028'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00489799\x1CB372449\x1C\x1C\x1CORG\x1CAmerican Directions Group\x1C\x1C\x1C\x1C\x1C\x1C1350
+    Connecticut Ave NW Ste 1102\x1C\x1CWashington\x1CDC\x1C20036\x1CG2010\x1C\x1C20101028\x1C3000.00\x1C49375.65\x1C24A\x1CPhone
+    calls for get out the vote\x1C004\x1CC00489799\x1CO\x1CH0NH01217\x1CGuinta\x1CFrank\x1C\x1C\x1C\x1CH\x1CNH\x1C01\x1CSamulcek\x1CAaron\x1C\x1C\x1C\x1C20101028\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489799
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B372446
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: American Directions Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1350 Connecticut Ave NW Ste 1102
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101028'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '6000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79125.45'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Phone calls for get out the vote
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00489799
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0NH02181
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Kuster
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Ann McLane
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NH
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '02'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Samulcek
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Aaron
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101028'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00489799\x1CB372446\x1C\x1C\x1CORG\x1CAmerican Directions Group\x1C\x1C\x1C\x1C\x1C\x1C1350
+    Connecticut Ave NW Ste 1102\x1C\x1CWashington\x1CDC\x1C20036\x1CG2010\x1C\x1C20101028\x1C6000.00\x1C79125.45\x1C24E\x1CPhone
+    calls for get out the vote\x1C004\x1CC00489799\x1CS\x1CH0NH02181\x1CKuster\x1CAnn
+    McLane\x1C\x1C\x1C\x1CH\x1CNH\x1C02\x1CSamulcek\x1CAaron\x1C\x1C\x1C\x1C20101028\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00489799
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B372447
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: American Directions Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1350 Connecticut Ave NW Ste 1102
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101028'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '3000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '49375.65'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Phone calls for get out the vote
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00489799
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6NH01230
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Shea-Porter
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Carol
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NH
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Samulcek
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Aaron
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101028'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00489799\x1CB372447\x1C\x1C\x1CORG\x1CAmerican Directions Group\x1C\x1C\x1C\x1C\x1C\x1C1350
+    Connecticut Ave NW Ste 1102\x1C\x1CWashington\x1CDC\x1C20036\x1CG2010\x1C\x1C20101028\x1C3000.00\x1C49375.65\x1C24E\x1CPhone
+    calls for get out the vote\x1C004\x1CC00489799\x1CS\x1CH6NH01230\x1CShea-Porter\x1CCarol\x1C\x1C\x1C\x1CH\x1CNH\x1C01\x1CSamulcek\x1CAaron\x1C\x1C\x1C\x1C20101028\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+sourceurl: !!python/unicode 20101028
+type: chunk

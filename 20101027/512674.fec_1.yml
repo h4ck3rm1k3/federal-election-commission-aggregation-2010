@@ -1,0 +1,358 @@
+countrows: 6
+filename: 512674.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00254573\x1CEddie Bernice Johnson for Congress\x1C3102 Maple Avenue,
+    Suite 605\x1C\x1CDallas\x1CTX\x1C75201   \x1CH2TX00015\x1CJohnson\x1CEddie\x1CBernice\x1C\x1C\x1CH\x1CTX\x1C30\x1CWhitaker\x1CRandy\x1C\x1C\x1C\x1C20101027\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254573
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Eddie Bernice Johnson for Congress
+  - name: STREET 1
+    number: '4'
+    value: 3102 Maple Avenue, Suite 605
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Dallas
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '75201   '
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2TX00015
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Johnson
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Eddie
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: Bernice
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '30'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Whitaker
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Randy
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101027
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254573
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 01027.C3068
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Amedisys PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5959 S. Sherwood Forrest Blvd.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Baton Rouge
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '70816'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: '
+
+'
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: NO VALUE!
+  expected_count: 20
+  input: "F65\x1CC00254573\x1C01027.C3068\x1CPAC\x1CAmedisys PAC\x1C\x1C\x1C\x1C\x1C\x1C5959
+    S. Sherwood Forrest Blvd.\x1C\x1CBaton Rouge\x1CLA\x1C70816\x1C\x1C20101026\x1C1000.00\x1C\n"
+  input_count: 19
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254573
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 01027.C3066
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CULAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 601 Pennsylvania Ave., NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20004'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: '
+
+'
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: NO VALUE!
+  expected_count: 20
+  input: "F65\x1CC00254573\x1C01027.C3066\x1CPAC\x1CCULAC\x1C\x1C\x1C\x1C\x1C\x1C601
+    Pennsylvania Ave., NW\x1C\x1CWashington\x1CDC\x1C20004\x1C\x1C20101026\x1C2500.00\x1C\n"
+  input_count: 19
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254573
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 01027.C3067
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: HCR Manor Care PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 333 N. Summit Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Toledo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '43699'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: '
+
+'
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: NO VALUE!
+  expected_count: 20
+  input: "F65\x1CC00254573\x1C01027.C3067\x1CPAC\x1CHCR Manor Care PAC\x1C\x1C\x1C\x1C\x1C\x1C333
+    N. Summit Street\x1C\x1CToledo\x1COH\x1C43699\x1C\x1C20101026\x1C1000.00\x1C\n"
+  input_count: 19
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254573
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 01027.C3065
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: HomeCare & Hospice PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4130 Whitney Ave.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Hamden
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 06518
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: '
+
+'
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: NO VALUE!
+  expected_count: 20
+  input: "F65\x1CC00254573\x1C01027.C3065\x1CPAC\x1CHomeCare & Hospice PAC\x1C\x1C\x1C\x1C\x1C\x1C4130
+    Whitney Ave.\x1C\x1CHamden\x1CCT\x1C06518\x1C\x1C20101026\x1C5000.00\x1C\n"
+  input_count: 19
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101027
+type: chunk

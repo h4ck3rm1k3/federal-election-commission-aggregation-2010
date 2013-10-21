@@ -1,0 +1,816 @@
+countrows: 13
+filename: 513084.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462309
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Ruth McClung for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 40544
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Tucson
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '857170544'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0AZ07017
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: McClung
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Ruth
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: Crawford
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AZ
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Loftfield
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Anne
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101028'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00462309\x1CRuth McClung for Congress\x1CPO Box 40544\x1C\x1CTucson\x1CAZ\x1C857170544\x1CH0AZ07017\x1CMcClung\x1CRuth\x1CCrawford\x1C\x1C\x1CH\x1CAZ\x1C07\x1CLoftfield\x1CAnne\x1C\x1C\x1C\x1C20101028\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00462309\x1CF6.11131\x1CIND\x1C\x1CBauer\x1CStephen\x1CR\x1C\x1C\x1C8233
+    Burning Tree Rd\x1C\x1CBethesda\x1CMD\x1C20817\x1C\x1C20101026\x1C1500.00\x1CTruffle
+    Hound Capital LLC\x1CInvestment Manager\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462309
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11131
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Bauer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Stephen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8233 Burning Tree Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bethesda
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20817'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Truffle Hound Capital LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Investment Manager
+
+'
+- input: "F65\x1CC00462309\x1CF6.11130\x1CIND\x1C\x1CHorvath\x1CJim\x1C\x1C\x1C\x1C3002
+    N Campbell Ave\x1C200\x1CTucson\x1CAZ\x1C85719\x1C\x1C20101027\x1C2400.00\x1CTown
+    West Realty\x1CRealtor\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462309
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11130
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Horvath
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jim
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3002 N Campbell Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '200'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tucson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85719'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Town West Realty
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Realtor
+
+'
+- input: "F65\x1CC00462309\x1CF6.11129\x1CIND\x1C\x1CKnott\x1CDavid\x1CM\x1C\x1C\x1C485
+    Underhill Bl\x1C205\x1CSyosset\x1CNY\x1C11791\x1C\x1C20101027\x1C1000.00\x1CDorset
+    Mgmt Corp\x1CHedge Fund Manager\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462309
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11129
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Knott
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: M
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 485 Underhill Bl
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '205'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Syosset
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '11791'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Dorset Mgmt Corp
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Hedge Fund Manager
+
+'
+- input: "F65\x1CC00462309\x1CF6.11128\x1CIND\x1C\x1CMarshall\x1CEd\x1CD\x1C\x1C\x1C10261
+    N Scottsdale Rd\x1C\x1CScottsdale\x1CAZ\x1C85253\x1C\x1C20101026\x1C1000.00\x1CEd
+    Marshall Inc\x1CSelf Employed\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462309
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11128
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Marshall
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ed
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: D
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10261 N Scottsdale Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Scottsdale
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85253'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Ed Marshall Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Self Employed
+
+'
+- input: "F65\x1CC00462309\x1CF6.11127\x1CPAC\x1CRAYTHEON COMPANY POLITICAL ACTION
+    COMMITTTEE\x1C\x1C\x1C\x1C\x1C\x1C1100 Wilson Blvd\x1CSuite 1500\x1CArlington\x1CVA\x1C22209\x1CC00097568\x1C20101027\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462309
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11127
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: RAYTHEON COMPANY POLITICAL ACTION COMMITTTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1100 Wilson Blvd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1500
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Arlington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22209'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00097568
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00462309\x1CF6.11126\x1CIND\x1C\x1CSummers\x1CDonald\x1CJ\x1C\x1C\x1C801
+    Frontage Rd #204\x1C\x1COxford\x1CMS\x1C38655\x1C\x1C20101026\x1C2205.00\x1CUniversity
+    of Mississippi\x1CProfessor\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462309
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11126
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Summers
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Donald
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '801 Frontage Rd #204'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Oxford
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '38655'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2205.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: University of Mississippi
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Professor
+
+'
+- input: "F65\x1CC00462309\x1CF6.11125\x1CIND\x1C\x1CVolpe\x1CJon\x1CD\x1C\x1C\x1C4441
+    N Camino Sumo\x1C\x1CTucson\x1CAZ\x1C85718\x1C\x1C20101026\x1C2400.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462309
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11125
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Volpe
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jon
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: D
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4441 N Camino Sumo
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tucson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85718'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00462309\x1CF6.11124\x1CIND\x1C\x1CWhite\x1CJudi\x1C\x1C\x1C\x1C1715
+    E Kleindale\x1C\x1CTucson\x1CAZ\x1C85719\x1C\x1C20101027\x1C2400.00\x1CRetired\x1CRetired\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462309
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11124
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: White
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Judi
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1715 E Kleindale
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tucson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85719'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+- input: "F65\x1CC00462309\x1CF6.11123\x1CPAC\x1CWOMEN UNDER FORTY POLITICAL ACTION
+    COMMITTEE (WUFPAC)\x1C\x1C\x1C\x1C\x1C\x1C811 4TH ST NW UNIT 1208\x1C\x1CWASHINGTON\x1CDC\x1C20001\x1CC00345942\x1C20101027\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462309
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11123
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: WOMEN UNDER FORTY POLITICAL ACTION COMMITTEE (WUFPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 811 4TH ST NW UNIT 1208
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00345942
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00462309\x1CF6.11122\x1CIND\x1C\x1CWotta\x1CDarrell\x1CD\x1C\x1C\x1C10942
+    N Pusch Ridge Vistas\x1C\x1CTucson\x1CAZ\x1C85737\x1C\x1C20101026\x1C1000.00\x1CRetired\x1CRetired\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462309
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11122
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Wotta
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Darrell
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: D
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10942 N Pusch Ridge Vistas
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tucson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85737'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+- input: "F65\x1CC00462309\x1CF6.11121\x1CIND\x1C\x1CYoung\x1CThomas\x1CD\x1C\x1C\x1CPOB
+    86269\x1C\x1CTucson\x1CAZ\x1C85754\x1C\x1C20101026\x1C1400.00\x1CCabco\x1CManager\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462309
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11121
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Young
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Thomas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: D
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: POB 86269
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tucson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85754'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Cabco
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Manager
+
+'
+sourceurl: !!python/unicode 20101028
+type: chunk
