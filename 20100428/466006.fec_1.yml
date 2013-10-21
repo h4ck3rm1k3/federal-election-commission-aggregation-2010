@@ -1,0 +1,151 @@
+countrows: 3
+filename: 466006.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471458
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Henderson for Congress LLC
+  - name: STREET 1
+    number: '4'
+    value: '1675 East Main St. # 105'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Kent
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '44240'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0OH17137
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Henderson
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Murrell
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: Elliott
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '17'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Lutke
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Kenneth
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100428'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00471458\x1CHenderson for Congress LLC\x1C1675 East Main St. # 105\x1C\x1CKent\x1COH\x1C44240\x1CH0OH17137\x1CHenderson\x1CMurrell\x1CElliott\x1C\x1C\x1CH\x1COH\x1C17\x1CLutke\x1CKenneth\x1C\x1C\x1C\x1C20100428\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00471458\x1CF6.4328\x1CIND\x1C\x1Cgurley\x1Cthomas\x1Cw\x1C\x1C\x1C1481
+    limonis st nw\x1C\x1Cuniontown\x1COH\x1C44685\x1C\x1C20100428\x1C1000.00\x1Cself\x1Cconsultant\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471458
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4328
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: gurley
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: thomas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: w
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1481 limonis st nw
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: uniontown
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '44685'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100428'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'consultant
+
+'
+sourceurl: !!python/unicode 20100428
+type: chunk
