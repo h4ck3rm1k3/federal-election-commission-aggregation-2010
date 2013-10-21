@@ -1,0 +1,221 @@
+countrows: 3
+filename: 495162.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER'S FEC ID NUMBER
+    number: '2'
+    value: C90004508
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: ''
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: Viguerie
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: Richard
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 9625 Surveryor Ct Suite 400
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: Manassas
+  - name: STATE
+    number: '14'
+    value: VA
+  - name: ZIP
+    number: '15'
+    value: '20110'
+  - name: Qualified Non-Profit Corporation
+    number: 16-
+    value: ''
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: American Target Advertising Inc
+  - name: INDIVIDUAL OCCUPATION
+    number: '18'
+    value: Chairman
+  - name: REPORT CODE
+    number: '19'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 20-24
+    value: '48'
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: ''
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: ''
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '.00'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '1948.90'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: Neilsen
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: Eric
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: C
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20100921'
+  - value: '
+
+'
+  expected_count: 30
+  input: "F5N\x1CC90004508\x1CIND\x1C\x1CViguerie\x1CRichard\x1C\x1C\x1C\x1C\x1C9625
+    Surveryor Ct Suite 400\x1C\x1CManassas\x1CVA\x1C20110\x1C\x1CAmerican Target Advertising
+    Inc\x1CChairman\x1C\x1C48\x1C\x1C\x1C.00\x1C1948.90\x1CNeilsen\x1CEric\x1CC\x1C\x1C\x1C20100921\x1C\n"
+  input_count: 31
+  record: fec.version.v6_4.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90004508
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Direct Mail Marketing Group
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 22780 Indian Creek Dr. Suite 100
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Dulles
+  - name: PAYEE STATE
+    number: '14'
+    value: VA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20166'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20100921'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1948.90'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '194890.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: Direct Mail
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: H8VA11021
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Fimian
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Keith
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: '11'
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90004508\x1CF57.000001\x1CORG\x1CDirect Mail Marketing Group\x1C\x1C\x1C\x1C\x1C\x1C22780
+    Indian Creek Dr. Suite 100\x1C\x1CDulles\x1CVA\x1C20166\x1CG2010\x1C\x1C20100921\x1C1948.90\x1C194890.00\x1C\x1CDirect
+    Mail\x1C004\x1C\x1CS\x1CH8VA11021\x1CFimian\x1CKeith\x1C\x1C\x1C\x1CH\x1CVA\x1C11\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+sourceurl: !!python/unicode 20100927
+type: chunk

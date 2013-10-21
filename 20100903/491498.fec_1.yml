@@ -1,0 +1,153 @@
+countrows: 3
+filename: 491498.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468348
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Bob Giuda for Congress
+  - name: STREET 1
+    number: '4'
+    value: 26 South Main Street
+  - name: STREET 2
+    number: '5'
+    value: 'PMB #149'
+  - name: CITY
+    number: '6'
+    value: Concord
+  - name: STATE
+    number: '7'
+    value: NH
+  - name: ZIP
+    number: '8'
+    value: '03301'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0NH02207
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Giuda
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Robert
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Johnson
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Rogers
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100903'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00468348\x1CBob Giuda for Congress\x1C26 South Main Street\x1CPMB
+    #149\x1CConcord\x1CNH\x1C03301\x1CH0NH02207\x1CGiuda\x1CRobert\x1C\x1C\x1C\x1CH\x1CNH\x1C02\x1CJohnson\x1CRogers\x1C\x1CMr.\x1C\x1C20100903\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00468348\x1CF6.4935\x1CCAN\x1C\x1CGiuda\x1CRobert\x1C\x1C\x1C\x1C660
+    Beech Hill Rd.\x1C\x1CWarren\x1CNH\x1C03279\x1C\x1C20100902\x1C10000.00\x1CUnited
+    Airlines\x1CPilot\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468348
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4935
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Giuda
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 660 Beech Hill Rd.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Warren
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 03279
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100902'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '10000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: United Airlines
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Pilot
+
+'
+sourceurl: !!python/unicode 20100903
+type: chunk

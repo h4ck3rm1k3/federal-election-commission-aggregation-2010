@@ -1,0 +1,219 @@
+countrows: 4
+filename: 491391.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461350
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Frank Guinta
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 877
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Manchester
+  - name: STATE
+    number: '7'
+    value: NH
+  - name: ZIP
+    number: '8'
+    value: '03105'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6TN09324
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Guinta
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Frank
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: DeMato
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Louis
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100902'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00461350\x1CFriends of Frank Guinta\x1CP.O. Box 877\x1C\x1CManchester\x1CNH\x1C03105\x1CH6TN09324\x1CGuinta\x1CFrank\x1C\x1C\x1C\x1CH\x1CNH\x1C01\x1CDeMato\x1CLouis\x1C\x1C\x1C\x1C20100902\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00461350\x1CF6.8844\x1CIND\x1C\x1CMoran\x1CNicole\x1C\x1C\x1C\x1C50
+    Cedar Crest\x1C\x1CAuburn\x1CNH\x1C03032\x1C\x1C20100902\x1C1000.00\x1CInsight
+    Technology\x1CInfo Requested\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461350
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8844
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Moran
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Nicole
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 50 Cedar Crest
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Auburn
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '03032'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100902'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Insight Technology
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Info Requested
+
+'
+- input: "F65\x1CC00461350\x1CF6.8843\x1CIND\x1C\x1CMorgan\x1CLaura\x1C\x1C\x1C\x1C1
+    Edward Circle\x1C\x1CBedford\x1CNH\x1C03110\x1C\x1C20100901\x1C1000.00\x1CMorgan
+    Self Storage\x1COwner\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461350
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8843
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Morgan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Laura
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1 Edward Circle
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bedford
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '03110'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100901'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Morgan Self Storage
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Owner
+
+'
+sourceurl: !!python/unicode 20100902
+type: chunk
