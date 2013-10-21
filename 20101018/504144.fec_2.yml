@@ -1,0 +1,1489 @@
+countrows: 15
+filename: 504144.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 01011.E1812
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: CCM
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Friends of Christine ODonnell
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 3987
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Wilmington
+  - name: PAYEE STATE
+    number: '16'
+    value: DE
+  - name: PAYEE ZIP
+    number: '17'
+    value: '19807    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100929'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '10.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: NON-DIRECTED F/ELSA MOORHEAD
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '27'
+    value: FRIENDS OF CHRISTINE ODONNELL 08
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '28'
+    value: S6DE00131
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '29'
+    value: ODONNELL
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '30'
+    value: CHRISTINE
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '35'
+    value: DE
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: 'MEMO: NON-DIRECTED F/ELSA MOORHEAD'
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: ''
+  - value: '
+
+'
+  expected_count: 45
+  input: "SB23\x1CC00455378\x1C01011.E1812\x1C\x1C\x1CCCM\x1CFriends of Christine
+    ODonnell\x1C\x1C\x1C\x1C\x1C\x1CPO Box 3987\x1C\x1CWilmington\x1CDE\x1C19807    \x1CG2010\x1C\x1C20100929\x1C10.00\x1C\x1C\x1CNON-DIRECTED
+    F/ELSA MOORHEAD\x1C\x1C\x1CFRIENDS OF CHRISTINE ODONNELL 08\x1CS6DE00131\x1CODONNELL\x1CCHRISTINE\x1C\x1C\x1C\x1CS\x1CDE\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1CX\x1CMEMO:
+    NON-DIRECTED F/ELSA MOORHEAD\x1C\x1C\n"
+  input_count: 46
+  record: fec.version.v6_4.SB
+  result: []
+- input: "SB29\x1CC00455378\x1C01013.E1866\x1C\x1C\x1CORG\x1CAce Press\x1C\x1C\x1C\x1C\x1C\x1C910
+    17th St NW\x1C\x1CWashington\x1CDC\x1C200062616\x1C\x1C\x1C20100921\x1C1351.50\x1C\x1C\x1CINKIND
+    DONATION - NATIONAL INVESTIGATIVE MEDIA\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 01013.E1866
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Ace Press
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 910 17th St NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '200062616'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100921'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '1351.50'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: INKIND DONATION - NATIONAL INVESTIGATIVE MEDIA
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SB29\x1CC00455378\x1C01013.E1867\x1C\x1C\x1CORG\x1CAce Press\x1C\x1C\x1C\x1C\x1C\x1C910
+    17th St NW\x1C\x1CWashington\x1CDC\x1C200062616\x1C\x1C\x1C20100923\x1C970.54\x1C\x1C\x1CINKIND
+    DONATION - NATIONAL INVESTIGATIVE MEDIA\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 01013.E1867
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Ace Press
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 910 17th St NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '200062616'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100923'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '970.54'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: INKIND DONATION - NATIONAL INVESTIGATIVE MEDIA
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SB29\x1CC00455378\x1C01011.E1845\x1C\x1C\x1CORG\x1CU.S. Postal Service\x1C\x1C\x1C\x1C\x1C\x1CWashington
+    Square\x1C1050 Connecticut Ave NW \x1CWashington\x1CDC\x1C200365303\x1C\x1C\x1C20100922\x1C1148.10\x1C\x1C\x1CINKIND
+    DONATION - NATIONAL INVESTIGATIVE MEDIA\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 01011.E1845
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: U.S. Postal Service
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: Washington Square
+  - name: PAYEE STREET 2
+    number: '14'
+    value: '1050 Connecticut Ave NW '
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '200365303'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100922'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '1148.10'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: INKIND DONATION - NATIONAL INVESTIGATIVE MEDIA
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: LS00805.E1694
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Newsmax Media, Inc.
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 560 Village Blvd., Suite 120
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: West Palm Beach
+  - name: CREDITOR STATE
+    number: '14'
+    value: FL
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '33409    '
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: PAC Email Communication
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '2713.50'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '2713.50'
+  - value: '
+
+'
+  expected_count: 20
+  input: "SD10\x1CC00455378\x1CLS00805.E1694\x1CORG\x1CNewsmax Media, Inc.\x1C\x1C\x1C\x1C\x1C\x1C560
+    Village Blvd., Suite 120\x1C\x1CWest Palm Beach\x1CFL\x1C33409    \x1CPAC Email
+    Communication\x1C2713.50\x1C0.00\x1C0.00\x1C2713.50\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.SD
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: LS00914.E1757
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Koch & Hoos, LLC
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: P.O. Box 1154
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Alexandria
+  - name: CREDITOR STATE
+    number: '14'
+    value: VA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '22313    '
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: PAC Accounting Consulting/IT Svcs
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '6651.15'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '6424.95'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '6651.15'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '6424.95'
+  - value: '
+
+'
+  expected_count: 20
+  input: "SD10\x1CC00455378\x1CLS00914.E1757\x1CORG\x1CKoch & Hoos, LLC\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 1154\x1C\x1CAlexandria\x1CVA\x1C22313    \x1CPAC Accounting Consulting/IT
+    Svcs\x1C6651.15\x1C6424.95\x1C6651.15\x1C6424.95\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.SD
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: LS01013.E1870
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Koch & Hoos, LLC
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: P.O. Box 1154
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Alexandria
+  - name: CREDITOR STATE
+    number: '14'
+    value: VA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '22313    '
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Email Communication
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '225.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '225.00'
+  - value: '
+
+'
+  expected_count: 20
+  input: "SD10\x1CC00455378\x1CLS01013.E1870\x1CORG\x1CKoch & Hoos, LLC\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 1154\x1C\x1CAlexandria\x1CVA\x1C22313    \x1CEmail Communication\x1C0.00\x1C225.00\x1C0.00\x1C225.00\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.SD
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: LS00518.E1539
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: CRC Public Relations
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 2760 Eisenhower Ave, 4th Floor
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Alexandria
+  - name: CREDITOR STATE
+    number: '14'
+    value: VA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '22314    '
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: PAC Press Releases
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '1461.50'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '1461.50'
+  - value: '
+
+'
+  expected_count: 20
+  input: "SD10\x1CC00455378\x1CLS00518.E1539\x1CORG\x1CCRC Public Relations\x1C\x1C\x1C\x1C\x1C\x1C2760
+    Eisenhower Ave, 4th Floor\x1C\x1CAlexandria\x1CVA\x1C22314    \x1CPAC Press Releases\x1C1461.50\x1C0.00\x1C0.00\x1C1461.50\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.SD
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: LS00617.E1626
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Direct Mail Processors
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 1150 Conrad Ct
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Hagerstown
+  - name: CREDITOR STATE
+    number: '14'
+    value: MD
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '21740    '
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: PAC Direct Mail/Caging Services
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '7111.75'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '7111.75'
+  - value: '
+
+'
+  expected_count: 20
+  input: "SD10\x1CC00455378\x1CLS00617.E1626\x1CORG\x1CDirect Mail Processors\x1C\x1C\x1C\x1C\x1C\x1C1150
+    Conrad Ct\x1C\x1CHagerstown\x1CMD\x1C21740    \x1CPAC Direct Mail/Caging Services\x1C7111.75\x1C0.00\x1C0.00\x1C7111.75\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.SD
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: LS00914.E1761
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Atbashian
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Oleg
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 1952 76th Street
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Brooklyn
+  - name: CREDITOR STATE
+    number: '14'
+    value: NY
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '11214    '
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: PAC Graphic Design Services
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '265.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '990.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '265.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '990.00'
+  - value: '
+
+'
+  expected_count: 20
+  input: "SD10\x1CC00455378\x1CLS00914.E1761\x1CIND\x1C\x1CAtbashian\x1COleg\x1C\x1C\x1C\x1C1952
+    76th Street\x1C\x1CBrooklyn\x1CNY\x1C11214    \x1CPAC Graphic Design Services\x1C265.00\x1C990.00\x1C265.00\x1C990.00\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.SD
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: LS01011.E1824
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: PR Newswire
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: G.P.O. Box 5897
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: New York
+  - name: CREDITOR STATE
+    number: '14'
+    value: NY
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '100875897'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: PAC Press Releases
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '1574.10'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '1574.10'
+  - value: '
+
+'
+  expected_count: 20
+  input: "SD10\x1CC00455378\x1CLS01011.E1824\x1CORG\x1CPR Newswire\x1C\x1C\x1C\x1C\x1C\x1CG.P.O.
+    Box 5897\x1C\x1CNew York\x1CNY\x1C100875897\x1CPAC Press Releases\x1C0.00\x1C1574.10\x1C0.00\x1C1574.10\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.SD
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: LS00914.E1760
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Morano
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Marc
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 9573 Sunnyslope Dr
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Manassas
+  - name: CREDITOR STATE
+    number: '14'
+    value: VA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '20112    '
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: PAC Management Consulting
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '2000.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '2000.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '0.00'
+  - value: '
+
+'
+  expected_count: 20
+  input: "SD10\x1CC00455378\x1CLS00914.E1760\x1CIND\x1C\x1CMorano\x1CMarc\x1C\x1C\x1C\x1C9573
+    Sunnyslope Dr\x1C\x1CManassas\x1CVA\x1C20112    \x1CPAC Management Consulting\x1C2000.00\x1C0.00\x1C2000.00\x1C0.00\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.SD
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: LS01011.E1820
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Chandler
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Nicolas
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 2319 Trott Ave
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Vienna
+  - name: CREDITOR STATE
+    number: '14'
+    value: VA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '22181    '
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: PAC Research/Communications Consult
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '1492.32'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '1492.32'
+  - value: '
+
+'
+  expected_count: 20
+  input: "SD10\x1CC00455378\x1CLS01011.E1820\x1CIND\x1C\x1CChandler\x1CNicolas\x1C\x1C\x1C\x1C2319
+    Trott Ave\x1C\x1CVienna\x1CVA\x1C22181    \x1CPAC Research/Communications Consult\x1C0.00\x1C1492.32\x1C0.00\x1C1492.32\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.SD
+  result: []
+- input: "SE\x1CC00455378\x1C01013.E1868\x1C\x1C\x1CORG\x1CKoch & Hoos, LLC\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 1154\x1C\x1CAlexandria\x1CVA\x1C22313    \x1CG2010\x1C\x1C20100915\x1C225.00\x1C2225.00\x1C24E\x1CEmail
+    Communication\x1C\x1C\x1CS\x1CS6DE00131\x1CODONNELL\x1CCHRISTINE\x1C\x1C\x1C\x1CS\x1CDE\x1C00\x1CWheeler\x1CScott\x1C\x1C\x1C\x1C20101018\x1CX\x1C\n"
+  record: fec.version.v6_4.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 01013.E1868
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Koch & Hoos, LLC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. Box 1154
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22313    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100915'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '225.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2225.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Email Communication
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6DE00131
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: ODONNELL
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CHRISTINE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: DE
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Wheeler
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Scott
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101018'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00455378\x1C01012.E1864\x1C\x1C\x1CORG\x1CTMA List Brokerage & Management\x1C\x1C\x1C\x1C\x1C\x1C12120
+    Sunset Hills Rd, Ste 450\x1C\x1CReston\x1CVA\x1C20190    \x1CG2010\x1C\x1C20100915\x1C2000.00\x1C2225.00\x1C24E\x1CEmail
+    Communication\x1C\x1C\x1CS\x1CS6DE00131\x1CODONNELL\x1CCHRISTINE\x1C\x1C\x1C\x1CS\x1CDE\x1C00\x1CWheeler\x1CScott\x1C\x1C\x1C\x1C20101018\x1C\x1C\n"
+  record: fec.version.v6_4.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00455378
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 01012.E1864
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: TMA List Brokerage & Management
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 12120 Sunset Hills Rd, Ste 450
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Reston
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20190    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100915'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2225.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Email Communication
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6DE00131
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: ODONNELL
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CHRISTINE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: DE
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Wheeler
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Scott
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101018'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+sourceurl: !!python/unicode 20101018
+type: chunk

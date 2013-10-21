@@ -1,0 +1,294 @@
+countrows: 5
+filename: 505324.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00463877\x1CSANDY ADAMS FOR CONGRESS\x1CP. O. BOX 1566\x1C\x1CORLANDO\x1CFL\x1C32802\x1CH0FL24049\x1CAdams\x1CSandy\x1C\x1C\x1C\x1CH\x1CFL\x1C24\x1CWatkins\x1CNancy\x1CH.\x1C\x1C\x1C20101019\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463877
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SANDY ADAMS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: P. O. BOX 1566
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ORLANDO
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '32802'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0FL24049
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Adams
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Sandy
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: FL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '24'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Watkins
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Nancy
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: H.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101019
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463877
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McDonald
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Harley
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '7 Indian River Avenue, #1107'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Titusville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '32796'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Falcon Marine, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: c.e.o.
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463877\x1CF65.000001\x1CIND\x1C\x1CMcDonald\x1CHarley\x1CC.\x1C\x1C\x1C\"7
+    Indian River Avenue, #1107\"\x1C\x1CTitusville\x1CFL\x1C32796\x1C\x1C20101018\x1C2000.00\x1C\"Falcon
+    Marine, LLC\"\x1Cc.e.o.\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463877
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McDonald
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Carol
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: B.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '7 Indian River Avenue, #1107'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Titusville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '36792'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: self-employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: real estate investor
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463877\x1CF65.000002\x1CIND\x1C\x1CMcDonald\x1CCarol\x1CB.\x1C\x1C\x1C\"7
+    Indian River Avenue, #1107\"\x1C\x1CTitusville\x1CFL\x1C36792\x1C\x1C20101018\x1C2000.00\x1Cself-employed\x1Creal
+    estate investor\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463877
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McDonald
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Matthew
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3752 Sunward Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Merritt Island
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '32953'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Falcon Marine, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: engineer
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463877\x1CF65.000003\x1CIND\x1C\x1CMcDonald\x1CMatthew\x1CC.\x1C\x1C\x1C3752
+    Sunward Drive\x1C\x1CMerritt Island\x1CFL\x1C32953\x1C\x1C20101018\x1C1000.00\x1C\"Falcon
+    Marine, LLC\"\x1Cengineer\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101019
+type: chunk

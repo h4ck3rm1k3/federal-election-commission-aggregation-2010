@@ -1,0 +1,351 @@
+countrows: 6
+filename: 505128.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441295
+  - name: COMMITTEE NAME
+    number: '3'
+    value: GREGG HARPER FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: POST OFFICE BOX 54344
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: PEARL
+  - name: STATE
+    number: '7'
+    value: MS
+  - name: ZIP
+    number: '8'
+    value: '39288'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8MS03067
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: HARPER
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: GREGG
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MS
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Breazeale
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Paul
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: V
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101019'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00441295\x1CGREGG HARPER FOR CONGRESS\x1CPOST OFFICE BOX 54344\x1C\x1CPEARL\x1CMS\x1C39288\x1CH8MS03067\x1CHARPER\x1CGREGG\x1C\x1C\x1C\x1CH\x1CMS\x1C03\x1CBreazeale\x1CPaul\x1CV\x1C\x1C\x1C20101019\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00441295\x1CF6.11434\x1CIND\x1C\x1CLucius\x1CAngela Smith\x1C\x1C\x1C\x1C711
+    South College Street\x1C\x1CBrandon\x1CMS\x1C39042\x1C\x1C20101015\x1C1700.00\x1CBristol-Myers
+    Squibb Oncology\x1Cpharmaceutical representative\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441295
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11434
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lucius
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Angela Smith
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 711 South College Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Brandon
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '39042'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101015'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1700.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Bristol-Myers Squibb Oncology
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'pharmaceutical representative
+
+'
+- input: "F65\x1CC00441295\x1CF6.11433\x1CPAC\x1CCOUNCIL OF INSURANCE AGENTS & BROKERS
+    POLITICAL ACTION COMMITTEE, THE\x1C\x1C\x1C\x1C\x1C\x1C701 Pennsylvania Avenue,
+    NW\x1CSuite 750\x1CWashington\x1CDC\x1C20004\x1CC00039578\x1C20101018\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441295
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11433
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: COUNCIL OF INSURANCE AGENTS & BROKERS POLITICAL ACTION COMMITTEE, THE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 701 Pennsylvania Avenue, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 750
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20004'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00039578
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00441295\x1CF6.11435\x1CPAC\x1CHEALTH MANAGEMENT ASSOCIATES INC
+    FED PAC LLC\x1C\x1C\x1C\x1C\x1C\x1C5811 PELICAN BAY BLVD SUITE 500\x1C\x1CNAPLES\x1CFL\x1C34108\x1CC00442418\x1C20101015\x1C1500.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441295
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11435
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: HEALTH MANAGEMENT ASSOCIATES INC FED PAC LLC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5811 PELICAN BAY BLVD SUITE 500
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: NAPLES
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '34108'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00442418
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101015'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00441295\x1CF6.11432\x1CPAC\x1CMICROSOFT CORPORATION POLITICAL ACTION
+    COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C16011 NE 36th Way\x1CBox 97017\x1CRedmond\x1CWA\x1C98073\x1CC00227546\x1C20101019\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441295
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.11432
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: MICROSOFT CORPORATION POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 16011 NE 36th Way
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Box 97017
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Redmond
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '98073'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00227546
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20101019
+type: chunk

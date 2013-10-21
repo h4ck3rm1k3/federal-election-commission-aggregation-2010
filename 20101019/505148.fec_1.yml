@@ -1,0 +1,486 @@
+countrows: 8
+filename: 505148.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477323
+  - name: COMMITTEE NAME
+    number: '3'
+    value: PALAZZO FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 13155 HIGHWAY 67 SUITE B
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BILOXI
+  - name: STATE
+    number: '7'
+    value: MS
+  - name: ZIP
+    number: '8'
+    value: '39532'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0MS04120
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: PALAZZO
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: STEVEN MCCARTY
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MS
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Breazeale
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Paul
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: V
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101019'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00477323\x1CPALAZZO FOR CONGRESS\x1C13155 HIGHWAY 67 SUITE B\x1C\x1CBILOXI\x1CMS\x1C39532\x1CH0MS04120\x1CPALAZZO\x1CSTEVEN
+    MCCARTY\x1C\x1C\x1C\x1CH\x1CMS\x1C04\x1CBreazeale\x1CPaul\x1CV\x1C\x1C\x1C20101019\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00477323\x1CF6.7291\x1CIND\x1C\x1CGenzer\x1CFrank\x1C\x1C\x1C\x1C145
+    Saint Jude Street\x1C\x1CBiloxi\x1CMS\x1C39530\x1C\x1C20101018\x1C2400.00\x1CSelf
+    Employed\x1CArchitect\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477323
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7291
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Genzer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Frank
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 145 Saint Jude Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Biloxi
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '39530'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Architect
+
+'
+- input: "F65\x1CC00477323\x1CF6.7961\x1CIND\x1C\x1CJordan\x1CWalter\x1C\x1C\x1C\x1CPO
+    Box 661\x1C\x1CGreenwood\x1CMS\x1C38935\x1C\x1C20101019\x1C1000.00\x1CMS Army
+    National Guard\x1CFacility Commander\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477323
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7961
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Jordan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Walter
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 661
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Greenwood
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '38935'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: MS Army National Guard
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Facility Commander
+
+'
+- input: "F65\x1CC00477323\x1CF6.7964\x1CIND\x1C\x1CKittrell\x1CKerry\x1C\x1C\x1C\x1C30
+    Darby Rd\x1C\x1CHattiesburg\x1CMS\x1C39402\x1C\x1C20101019\x1C2400.00\x1Cretired\x1Cretired\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477323
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7964
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kittrell
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kerry
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 30 Darby Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Hattiesburg
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '39402'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'retired
+
+'
+- input: "F65\x1CC00477323\x1CF6.7962\x1CIND\x1C\x1CLowery\x1CWilliam P.\x1C\x1C\x1C\x1C63
+    Sullivan-Kilrain Road #61\x1C\x1CHattiesburg\x1CMS\x1C39402\x1C\x1C20101019\x1C1000.00\x1CMS
+    Army Nat'l Guard\x1CMajor\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477323
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7962
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lowery
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William P.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '63 Sullivan-Kilrain Road #61'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Hattiesburg
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '39402'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: MS Army Nat'l Guard
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Major
+
+'
+- input: "F65\x1CC00477323\x1CF6.7965\x1CIND\x1C\x1CWallace\x1CJohn Mathis\x1C\x1C\x1C\x1C15
+    North Gate Drive\x1C\x1CLaurel\x1CMS\x1C39440\x1C\x1C20101019\x1C1000.00\x1CJefferson
+    Medical Associates\x1CPhysician/President\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477323
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7965
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Wallace
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John Mathis
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 15 North Gate Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Laurel
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '39440'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Jefferson Medical Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Physician/President
+
+'
+- input: "F65\x1CC00477323\x1CF6.7963\x1CIND\x1C\x1CWoods\x1CE.G.\x1C\x1C\x1C\x1C101
+    Twisted Oak Dr\x1C\x1CPicayune\x1CMS\x1C39466\x1C\x1C20101019\x1C1000.00\x1Cself\x1Cconsultant\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477323
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7963
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Woods
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: E.G.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101 Twisted Oak Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Picayune
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '39466'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'consultant
+
+'
+sourceurl: !!python/unicode 20101019
+type: chunk
