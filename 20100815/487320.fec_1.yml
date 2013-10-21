@@ -1,0 +1,222 @@
+countrows: 4
+filename: 487320.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00435628\x1CAllen West for Congress\x1CPO Box 1028\x1C\x1CDeerfield
+    Beach\x1CFL\x1C334431028\x1CH8FL22038\x1CWest\x1CAllen\x1CB\x1C\x1C\x1CH\x1CFL\x1C22\x1CWilder\x1CGregory\x1CB\x1CTreasurer\x1C\x1C20100815\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435628
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Allen West for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 1028
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Deerfield Beach
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '334431028'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8FL22038
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: West
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Allen
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: B
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: FL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '22'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Wilder
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Gregory
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: B
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Treasurer
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100815
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435628
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '58017000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ryan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: George
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 803447
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dallas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '753803447'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100814'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Ryan, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00435628\x1C58017000\x1CIND\x1C\x1CRyan\x1CGeorge\x1C\x1C\x1C\x1CPO
+    Box 803447\x1C\x1CDallas\x1CTX\x1C753803447\x1C\x1C20100814\x1C2400\x1CRyan, Inc.\x1CCEO\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435628
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '58015000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Stevans
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kriss
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 30 Rose Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Venice
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '902912495'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100814'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: consultant
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00435628\x1C58015000\x1CIND\x1C\x1CStevans\x1CKriss\x1C\x1C\x1C\x1C30
+    Rose Avenue\x1C\x1CVenice\x1CCA\x1C902912495\x1C\x1C20100814\x1C1000\x1Cself\x1Cconsultant\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100815
+type: chunk

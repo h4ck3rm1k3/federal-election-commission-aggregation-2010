@@ -1,0 +1,365 @@
+countrows: 6
+filename: 485350.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00478586\x1CBill Hardiman For Congress\x1CPO Box 2066\x1C\x1CGrand
+    Rapids\x1CMI\x1C495012066\x1CH0MI03159\x1CHardiman\x1CClyde Preston\x1C\x1CSen.\x1C\x1CH\x1CMI\x1C03\x1CWelsh\x1CSean\x1C\x1C\x1C\x1C20100731\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00478586
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Bill Hardiman For Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 2066
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Grand Rapids
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '495012066'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0MI03159
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Hardiman
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Clyde Preston
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Sen.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MI
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Welsh
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Sean
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100731
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00478586
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '859000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Huizenga
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: J.C.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3755 36th Street SE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 100
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Grand Rapids
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '495123143'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100730'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1900'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Westwater Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Charter Schools Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00478586\x1C859000\x1CIND\x1C\x1CHuizenga\x1CJ.C.\x1C\x1CMr.\x1C\x1C3755
+    36th Street SE\x1CSuite 100\x1CGrand Rapids\x1CMI\x1C495123143\x1C\x1C20100730\x1C1900\x1CWestwater
+    Group\x1CCharter Schools Owner\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00478586
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '861000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lenderink
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Thomas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1271 House Street NE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Belmont
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '493069203'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100730'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Lenderink Tree Farm
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00478586\x1C861000\x1CIND\x1C\x1CLenderink\x1CThomas\x1CA.\x1CMr.\x1C\x1C1271
+    House Street NE\x1C\x1CBelmont\x1CMI\x1C493069203\x1C\x1C20100730\x1C1000\x1CLenderink
+    Tree Farm\x1Cowner\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00478586
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '863000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McGraw
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2130 Enterprise Street SE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Kentwood
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '495085352'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100730'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Eastbrook Homes
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President/CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00478586\x1C863000\x1CIND\x1C\x1CMcGraw\x1CMichael\x1CA.\x1CMr.\x1C\x1C2130
+    Enterprise Street SE\x1C\x1CKentwood\x1CMI\x1C495085352\x1C\x1C20100730\x1C1500\x1CEastbrook
+    Homes\x1CPresident/CEO\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00478586
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '862000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Stoddard
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3330 Oakdale
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Hickory Corners
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '490609314'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100730'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: none
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00478586\x1C862000\x1CIND\x1C\x1CStoddard\x1CJan\x1C\x1CMrs.\x1C\x1C3330
+    Oakdale\x1C\x1CHickory Corners\x1CMI\x1C490609314\x1C\x1C20100730\x1C1400\x1Cnone\x1Cretired\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100731
+type: chunk

@@ -1,0 +1,151 @@
+countrows: 3
+filename: 485211.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00437889
+  - name: COMMITTEE NAME
+    number: '3'
+    value: PETERS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 226
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BLOOMFIELD HILLS
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '48303'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8MI09068
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: PETERS
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: GARY
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MI
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: 09
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: ''
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: ''
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100729'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00437889\x1CPETERS FOR CONGRESS\x1CPO BOX 226\x1C\x1CBLOOMFIELD HILLS\x1CMI\x1C48303\x1CH8MI09068\x1CPETERS\x1CGARY\x1C\x1C\x1C\x1CH\x1CMI\x1C09\x1C\x1C\x1C\x1C\x1C\x1C20100729\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00437889\x1CF6.4178\x1CPAC\x1CGRASSROOTS ORGANIZING ACTING & LEADING
+    PAC - GOALPAC\x1C\x1C\x1C\x1C\x1C\x1CPO Box 30344\x1C\x1CBethesda\x1CMD\x1C20824\x1CC00381996\x1C20100729\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00437889
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4178
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: GRASSROOTS ORGANIZING ACTING & LEADING PAC - GOALPAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 30344
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bethesda
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20824'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00381996
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100729'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20100730
+type: chunk

@@ -1,0 +1,220 @@
+countrows: 4
+filename: 484707.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00460402
+  - name: COMMITTEE NAME
+    number: '3'
+    value: POMPEO FOR CONGRESS INC
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 780146
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: WICHITA
+  - name: STATE
+    number: '7'
+    value: KS
+  - name: ZIP
+    number: '8'
+    value: '67278'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0KS04051
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: POMPEO
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: MICHAEL RICHARD
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: KS
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Herbert
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Mark
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: K.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100727'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00460402\x1CPOMPEO FOR CONGRESS INC\x1CPO BOX 780146\x1C\x1CWICHITA\x1CKS\x1C67278\x1CH0KS04051\x1CPOMPEO\x1CMICHAEL
+    RICHARD\x1C\x1C\x1C\x1CH\x1CKS\x1C04\x1CHerbert\x1CMark\x1CK.\x1CMr.\x1C\x1C20100727\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00460402\x1CF6.9424\x1CIND\x1C\x1CDool\x1CRobert\x1C\x1CMr.\x1C\x1C8951
+    Boxthorn Ct.\x1C\x1CWichita\x1CKS\x1C67226\x1C\x1C20100727\x1C1000.00\x1CMid-continent
+    Safety Llc\x1COwner\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00460402
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9424
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Dool
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8951 Boxthorn Ct.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Wichita
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '67226'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100727'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Mid-continent Safety Llc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Owner
+
+'
+- input: "F65\x1CC00460402\x1CF6.9425\x1CIND\x1C\x1CMichaelis\x1CW.A.\x1C\x1CMr.\x1CJr.\x1C211
+    N. Broadway St.; P.O. Box 247\x1C\x1CWichita\x1CKS\x1C67201\x1C\x1C20100727\x1C1900.00\x1CEmprise
+    Financial Corp.\x1CChairman\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00460402
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9425
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Michaelis
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: W.A.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 211 N. Broadway St.; P.O. Box 247
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Wichita
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '67201'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100727'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1900.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Emprise Financial Corp.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Chairman
+
+'
+sourceurl: !!python/unicode 20100727
+type: chunk

@@ -1,0 +1,293 @@
+countrows: 5
+filename: 485343.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00459503\x1CGoodman for Congress\x1CPO Box 10691\x1C\x1CSpringfield\x1CMO\x1C658080691\x1CH0MO07105\x1CGoodman\x1CJack\x1C\x1C\x1C\x1C\x1CMO\x1C07\x1CWarren\x1CCherry\x1C\x1C\x1C\x1C20100731\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00459503
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Goodman for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 10691
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Springfield
+  - name: STATE
+    number: '7'
+    value: MO
+  - name: ZIP
+    number: '8'
+    value: '658080691'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0MO07105
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Goodman
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Jack
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: ''
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MO
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Warren
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Cherry
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100731
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00459503
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2092000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Herschend
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sharon
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1144 Lakeside Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Branson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '656162568'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100730'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Herschend Entertainment
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Co-Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00459503\x1C2092000\x1CIND\x1C\x1CHerschend\x1CSharon\x1C\x1C\x1C\x1C1144
+    Lakeside Drive\x1C\x1CBranson\x1CMO\x1C656162568\x1C\x1C20100730\x1C2400\x1CHerschend
+    Entertainment\x1CCo-Owner\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00459503
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2094000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Jack
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Herschend
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1144 Lakeside Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Branson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '656162568'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100730'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Herschend Entertainment
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Co-Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00459503\x1C2094000\x1CIND\x1C\x1CJack\x1CHerschend\x1C\x1C\x1C\x1C1144
+    Lakeside Drive\x1C\x1CBranson\x1CMO\x1C656162568\x1C\x1C20100730\x1C2400\x1CHerschend
+    Entertainment\x1CCo-Owner\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00459503
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2096000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Warren
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Cherry
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5698 Farm Road 2175
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Exeter
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '656478329'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100730'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1450'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00459503\x1C2096000\x1CIND\x1C\x1CWarren\x1CCherry\x1C\x1C\x1C\x1C5698
+    Farm Road 2175\x1C\x1CExeter\x1CMO\x1C656478329\x1C\x1C20100730\x1C1450\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100731
+type: chunk
