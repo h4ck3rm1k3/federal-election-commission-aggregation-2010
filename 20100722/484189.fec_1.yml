@@ -1,0 +1,223 @@
+countrows: 4
+filename: 484189.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00481051\x1CCece For Congress\x1C2817 Erica Place\x1C\x1CNashville\x1CTN\x1C372043111\x1CH0TN05192\x1CHeil\x1CCece\x1C\x1C\x1C\x1CH\x1CTN\x1C05\x1CTopping\x1CKristen\x1C\x1C\x1C\x1C20100722\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00481051
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Cece For Congress
+  - name: STREET 1
+    number: '4'
+    value: 2817 Erica Place
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Nashville
+  - name: STATE
+    number: '7'
+    value: TN
+  - name: ZIP
+    number: '8'
+    value: '372043111'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0TN05192
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Heil
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Cece
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TN
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Topping
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Kristen
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100722
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00481051
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '316000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Eaden
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Glenn
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1829 Laurel Ridge Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Nashville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '372154808'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100720'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Southern Machinery Co.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Engineer
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00481051\x1C316000\x1CIND\x1C\x1CEaden\x1CGlenn\x1C\x1C\x1C\x1C1829
+    Laurel Ridge Drive\x1C\x1CNashville\x1CTN\x1C372154808\x1C\x1C20100720\x1C1500\x1CSouthern
+    Machinery Co.\x1CEngineer\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00481051
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '304000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Burch
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Lucius
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: E.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: III
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 102 Woodmont Boulevard
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 320
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Nashville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '372055251'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100721'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Burch Investment Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Venture Capitalist
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00481051\x1C304000\x1CIND\x1C\x1CBurch\x1CLucius\x1CE.\x1C\x1CIII\x1C102
+    Woodmont Boulevard\x1CSuite 320\x1CNashville\x1CTN\x1C372055251\x1C\x1C20100721\x1C2400\x1CBurch
+    Investment Group\x1CVenture Capitalist\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100722
+type: chunk

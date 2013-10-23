@@ -1,0 +1,152 @@
+countrows: 3
+filename: 485008.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00459503\x1CGoodman for Congress\x1CPO Box 10691\x1C\x1CSpringfield\x1CMO\x1C658080691\x1CH0MO07105\x1CGoodman\x1CJack\x1C\x1C\x1C\x1C\x1CMO\x1C07\x1CWarren\x1CCherry\x1C\x1C\x1C\x1C20100729\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00459503
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Goodman for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 10691
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Springfield
+  - name: STATE
+    number: '7'
+    value: MO
+  - name: ZIP
+    number: '8'
+    value: '658080691'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0MO07105
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Goodman
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Jack
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: ''
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MO
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Warren
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Cherry
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100729
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00459503
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2090000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Meek
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mary Kathryn
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 1746
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Springfield
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '658011746'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100728'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Trymeek Corp
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Broker
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00459503\x1C2090000\x1CIND\x1C\x1CMeek\x1CMary Kathryn\x1C\x1C\x1C\x1CPO
+    Box 1746\x1C\x1CSpringfield\x1CMO\x1C658011746\x1C\x1C20100728\x1C1000\x1CTrymeek
+    Corp\x1CBroker\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100729
+type: chunk

@@ -1,0 +1,221 @@
+countrows: 4
+filename: 513978.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00365841\x1CMCCOTTER CONGRESSIONAL COMMITTEE\x1CPO Box 530788\x1C\x1CLivonia\x1CMI\x1C481530788\x1CH2MI00037\x1CMcCotter\x1CThaddeus\x1CG.\x1CMr.\x1C\x1CH\x1CMI\x1C11\x1CBovitz\x1CRobert\x1CA\x1C\x1C\x1C20101029\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00365841
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MCCOTTER CONGRESSIONAL COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: PO Box 530788
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Livonia
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '481530788'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2MI00037
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: McCotter
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Thaddeus
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: G.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MI
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '11'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Bovitz
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Robert
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: A
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101029
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00365841
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '27108000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Schostak Family PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 17800 N Laurel Park Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 200C
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Livonia
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '481523985'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00458406
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00365841\x1C27108000\x1CCOM\x1CSchostak Family PAC\x1C\x1C\x1C\x1C\x1C\x1C17800
+    N Laurel Park Drive\x1CSuite 200C\x1CLivonia\x1CMI\x1C481523985\x1CC00458406\x1C20101029\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00365841
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '27109000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: SNR Denton LLP PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 233 S Wacker Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 700
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Chicago
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '606066300'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00365841\x1C27109000\x1CORG\x1CSNR Denton LLP PAC\x1C\x1C\x1C\x1C\x1C\x1C233
+    S Wacker Drive\x1CSuite 700\x1CChicago\x1CIL\x1C606066300\x1C\x1C20101029\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101029
+type: chunk

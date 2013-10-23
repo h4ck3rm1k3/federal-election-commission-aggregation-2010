@@ -1,0 +1,486 @@
+countrows: 8
+filename: 514946.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00460402
+  - name: COMMITTEE NAME
+    number: '3'
+    value: POMPEO FOR CONGRESS INC
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 780146
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: WICHITA
+  - name: STATE
+    number: '7'
+    value: KS
+  - name: ZIP
+    number: '8'
+    value: '67278'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0KS04051
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: POMPEO
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: MICHAEL RICHARD
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: KS
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Herbert
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Mark
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: K.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101030'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00460402\x1CPOMPEO FOR CONGRESS INC\x1CPO BOX 780146\x1C\x1CWICHITA\x1CKS\x1C67278\x1CH0KS04051\x1CPOMPEO\x1CMICHAEL
+    RICHARD\x1C\x1C\x1C\x1CH\x1CKS\x1C04\x1CHerbert\x1CMark\x1CK.\x1CMr.\x1C\x1C20101030\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00460402\x1CF6.12702\x1CIND\x1C\x1CKessler\x1CSterling\x1C\x1CMr.\x1C\x1C13106
+    Prate Rd.\x1C\x1CLee's Summit\x1CKS\x1C64063\x1C\x1C20101029\x1C1500.00\x1CFarmer's
+    Insurance\x1CAgent\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00460402
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12702
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kessler
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sterling
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 13106 Prate Rd.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lee's Summit
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '64063'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Farmer's Insurance
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Agent
+
+'
+- input: "F65\x1CC00460402\x1CF6.12699\x1CIND\x1C\x1CTrammell\x1CLeon\x1C\x1CMr.\x1C\x1C9796
+    SW 40th \x1C\x1CTowanda\x1CKS\x1C67144\x1C\x1C20101029\x1C1000.00\x1CTramco, Inc.\x1CCEO\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00460402
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12699
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Trammell
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Leon
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '9796 SW 40th '
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Towanda
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '67144'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Tramco, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CEO
+
+'
+- input: "F65\x1CC00460402\x1CF6.12693\x1CPAC\x1CGOLDMAN SACHS GROUP, INC. POLITICAL
+    ACTION COMMITTEE, THE\x1C\x1C\x1C\x1C\x1C\x1C101 Constitution Avenue, NW\x1CSuite
+    1000E\x1CWashington\x1CDC\x1C20001\x1CC00350744\x1C20101029\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00460402
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12693
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: GOLDMAN SACHS GROUP, INC. POLITICAL ACTION COMMITTEE, THE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101 Constitution Avenue, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1000E
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00350744
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00460402\x1CF6.12705\x1CPAC\x1CMCDONALDS CORPORATION POLITICAL ACTION
+    COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C2111 McDonalds Dr\x1CDept 213\x1COAK BROOK\x1CIL\x1C60523\x1CC00063164\x1C20101029\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00460402
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12705
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: MCDONALDS CORPORATION POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2111 McDonalds Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Dept 213
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: OAK BROOK
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60523'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00063164
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00460402\x1CF6.12690\x1CPAC\x1CUNITED SERVICES AUTOMOBILE ASSOCIATION
+    EMPLOYEE PAC - USAA EMPLOYEE PAC\x1C\x1C\x1C\x1C\x1C\x1C9800 Fredericksburg Road\x1C.\x1CSan
+    Antonio\x1CTX\x1C78288\x1CC00164145\x1C20101029\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00460402
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12690
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: UNITED SERVICES AUTOMOBILE ASSOCIATION EMPLOYEE PAC - USAA EMPLOYEE PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9800 Fredericksburg Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: .
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Antonio
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78288'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00164145
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00460402\x1CF6.12696\x1CPAC\x1CWINE AND SPIRITS WHOLESALERS OF AMERICA,
+    INC. POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C805 FIFTEENTH ST NW SUITE
+    430\x1C\x1CWASHINGTON\x1CDC\x1C20005\x1CC00147173\x1C20101029\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00460402
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12696
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: WINE AND SPIRITS WHOLESALERS OF AMERICA, INC. POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 805 FIFTEENTH ST NW SUITE 430
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00147173
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20101101
+type: chunk

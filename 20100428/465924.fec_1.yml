@@ -1,0 +1,434 @@
+countrows: 7
+filename: 465924.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00347492\x1CTiberi for Congress\x1C2931 E Dublin Granville Road\x1CSuite
+    190\x1CColumbus\x1COH\x1C432312098\x1CH0OH12062\x1CTiberi\x1CPatrick\x1CJ.\x1C\x1C\x1CH\x1COH\x1C12\x1CBenton\x1CJeffrey\x1C\x1C\x1C\x1C20100427\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Tiberi for Congress
+  - name: STREET 1
+    number: '4'
+    value: 2931 E Dublin Granville Road
+  - name: STREET 2
+    number: '5'
+    value: Suite 190
+  - name: CITY
+    number: '6'
+    value: Columbus
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '432312098'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0OH12062
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Tiberi
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Patrick
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: J.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '12'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Benton
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Jeffrey
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100427
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22574000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: General Dynamics Voluntary PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3190 Fairview Park Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 100
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Falls Church
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '220424545'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00078451
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100426'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C22574000\x1CCOM\x1CGeneral Dynamics Voluntary PAC\x1C\x1C\x1C\x1C\x1C\x1C3190
+    Fairview Park Drive\x1CSuite 100\x1CFalls Church\x1CVA\x1C220424545\x1CC00078451\x1C20100426\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22575000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: OSI Restautant Partners, LLC. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2202 N West Shore Boulevard
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Floor 5
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tampa
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '336075747'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00253153
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100426'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C22575000\x1CCOM\x1COSI Restautant Partners, LLC. PAC\x1C\x1C\x1C\x1C\x1C\x1C2202
+    N West Shore Boulevard\x1CFloor 5\x1CTampa\x1CFL\x1C336075747\x1CC00253153\x1C20100426\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22577000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: United Transportation Union PAC (UTU PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 14600 Detroit Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cleveland
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '441074207'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00001636
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100426'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C22577000\x1CCOM\x1CUnited Transportation Union PAC (UTU
+    PAC)\x1C\x1C\x1C\x1C\x1C\x1C14600 Detroit Avenue\x1C\x1CCleveland\x1COH\x1C441074207\x1CC00001636\x1C20100426\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22578000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Doerschlag
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Christopher
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2700 Crafton Park
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Columbus
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '432213629'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100426'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: WD Partners
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C22578000\x1CIND\x1C\x1CDoerschlag\x1CChristopher\x1C\x1C\x1C\x1C2700
+    Crafton Park\x1C\x1CColumbus\x1COH\x1C432213629\x1C\x1C20100426\x1C1000\x1CWD
+    Partners\x1CCEO\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22580000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McCloud
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Douglas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1666 Birdsong Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Blacklick
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '430048624'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100426'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C22580000\x1CIND\x1C\x1CMcCloud\x1CDouglas\x1CR.\x1C\x1C\x1C1666
+    Birdsong Court\x1C\x1CBlacklick\x1COH\x1C430048624\x1C\x1C20100426\x1C1000\x1CSelf\x1CReal
+    Estate\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100428
+type: chunk

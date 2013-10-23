@@ -1,0 +1,435 @@
+countrows: 7
+filename: 484705.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00347476\x1CDave Camp for Congress 2010\x1C5915 Eastman Avenue\x1CSuite
+    100\x1CMidland\x1CMI\x1C486406824\x1CH0MI10071\x1CCamp\x1CDavid Lee\x1C\x1C\x1C\x1CH\x1CMI\x1C04\x1CLang\x1CGwen\x1CD\x1C\x1C\x1C20100727\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347476
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Dave Camp for Congress 2010
+  - name: STREET 1
+    number: '4'
+    value: 5915 Eastman Avenue
+  - name: STREET 2
+    number: '5'
+    value: Suite 100
+  - name: CITY
+    number: '6'
+    value: Midland
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '486406824'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0MI10071
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Camp
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: David Lee
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MI
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Lang
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Gwen
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: D
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100727
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347476
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '38574000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Arch Coal Inc. PAC (Arch PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: City Place One, Suite 300
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Saint Louis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '63141'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00167668
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100726'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347476\x1C38574000\x1CCOM\x1CArch Coal Inc. PAC (Arch PAC)\x1C\x1C\x1C\x1C\x1C\x1CCity
+    Place One, Suite 300\x1C\x1CSaint Louis\x1CMO\x1C63141\x1CC00167668\x1C20100726\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347476
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '38571000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McNamara
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Patrick
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6481 Warren Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Ann Arbor
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '481059775'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100726'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Financial Concepts, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347476\x1C38571000\x1CIND\x1C\x1CMcNamara\x1CPatrick\x1C\x1C\x1C\x1C6481
+    Warren Road\x1C\x1CAnn Arbor\x1CMI\x1C481059775\x1C\x1C20100726\x1C1000\x1CFinancial
+    Concepts, Inc.\x1CCEO\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347476
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '38591000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Oreffice
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Paul
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6850 E Cuarenta Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Paradise Valley
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '852534802'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100727'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347476\x1C38591000\x1CIND\x1C\x1COreffice\x1CPaul\x1C\x1C\x1C\x1C6850
+    E Cuarenta Court\x1C\x1CParadise Valley\x1CAZ\x1C852534802\x1C\x1C20100727\x1C1000\x1Cn/a\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347476
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '38590000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Partrich
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ross
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: H.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2620 W Long Lake Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Bloomfield
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '483231830'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100727'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RHP Properties, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate Developer
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347476\x1C38590000\x1CIND\x1C\x1CPartrich\x1CRoss\x1CH.\x1C\x1C\x1C2620
+    W Long Lake Road\x1C\x1CWest Bloomfield\x1CMI\x1C483231830\x1C\x1C20100727\x1C1000\x1CRHP
+    Properties, Inc.\x1CReal Estate Developer\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347476
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '38589000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: than Forbes
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Nathan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: M
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 100 Galleria Ofc Ctr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 427
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Southfield
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '480348430'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100727'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The formbes Company
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate Developer
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347476\x1C38589000\x1CIND\x1C\x1Cthan Forbes\x1CNathan\x1CM\x1C\x1C\x1C100
+    Galleria Ofc Ctr\x1CSuite 427\x1CSouthfield\x1CMI\x1C480348430\x1C\x1C20100727\x1C1000\x1CThe
+    formbes Company\x1CReal Estate Developer\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100727
+type: chunk

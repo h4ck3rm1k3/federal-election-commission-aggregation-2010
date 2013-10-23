@@ -1,0 +1,222 @@
+countrows: 4
+filename: 449396.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00446468\x1CLYNCH FOR CONGRESS\x1CPO Box 210544\x1C\x1CRoyal Palm
+    Beach\x1CFL\x1C33421\x1CH6FL19042\x1CLynch\x1CEdward\x1C\x1C\x1C\x1CH\x1CFL\x1C19\x1CLynch\x1CEdward\x1C\x1C\x1C\x1C20100128\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00446468
+  - name: COMMITTEE NAME
+    number: '3'
+    value: LYNCH FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO Box 210544
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Royal Palm Beach
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '33421'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6FL19042
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Lynch
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Edward
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: FL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '19'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Lynch
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Edward
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100128
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00446468
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Dibble
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Dibble
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 363 Joost Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Fransico
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94131'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100122'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3422.10'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Microsoft
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: manager
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00446468\x1CF65.000001\x1CIND\x1C\x1CDibble\x1CDibble\x1C\x1C\x1C\x1C363
+    Joost Ave\x1C\x1CSan Fransico\x1CCA\x1C94131\x1C\x1C20100122\x1C3422.10\x1CMicrosoft\x1Cmanager\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00446468
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rosenblum
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Steve
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 98 Summit Lake Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Palm Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '33406'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100122'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: umemployed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00446468\x1CF65.000002\x1CIND\x1C\x1CRosenblum\x1CSteve\x1C\x1C\x1C\x1C98
+    Summit Lake Drive\x1C\x1CWest Palm Beach\x1CFL\x1C33406\x1C\x1C20100122\x1C2000.00\x1Cumemployed\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100129
+type: chunk

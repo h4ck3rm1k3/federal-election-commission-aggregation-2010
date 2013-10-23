@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:h4ck3rm1k3/federal-election-commission-aggregation-2010.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "origin2"]
+	url = git@bitbucket.org:h4ck3rm1k3/federal-election-commission-aggregation-2010.git
+	fetch = +refs/heads/*:refs/remotes/origin2/*

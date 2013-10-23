@@ -1,0 +1,219 @@
+countrows: 4
+filename: 465219.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435313
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Moll for Congress
+  - name: STREET 1
+    number: '4'
+    value: 195 Eagles Nest Rd
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Zanesville
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '43701'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8OH18070
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Moll
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Jeanette
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: M
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Ms
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '18'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Moll
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Gary
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100421'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00435313\x1CMoll for Congress\x1C195 Eagles Nest Rd\x1C\x1CZanesville\x1COH\x1C43701\x1CH8OH18070\x1CMoll\x1CJeanette\x1CM\x1CMs\x1C\x1CH\x1COH\x1C18\x1CMoll\x1CGary\x1C\x1C\x1C\x1C20100421\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00435313\x1CF6.6313\x1CIND\x1C\x1CHickman\x1CLisa\x1C\x1C\x1C\x1CPO
+    Box 121\x1C\x1COak Hill\x1COH\x1C45656\x1C\x1C20100420\x1C1000.00\x1CH&H Industries,
+    Inc.\x1CSecretary\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435313
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6313
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hickman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Lisa
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 121
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Oak Hill
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '45656'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100420'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: H&H Industries, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Secretary
+
+'
+- input: "F65\x1CC00435313\x1CF6.6314\x1CIND\x1C\x1CLawless\x1CJoseph\x1C\x1C\x1C\x1C945
+    E. 3rd St.\x1C\x1CDover\x1COH\x1C44622\x1C\x1C20100420\x1C1000.00\x1CThe Dover
+    Tank & Plate Co.\x1CDraftsman\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435313
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6314
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lawless
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joseph
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 945 E. 3rd St.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dover
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '44622'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100420'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Dover Tank & Plate Co.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Draftsman
+
+'
+sourceurl: !!python/unicode 20100422
+type: chunk

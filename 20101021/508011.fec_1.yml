@@ -1,0 +1,1051 @@
+countrows: 9
+filename: 508011.fec
+header: {}
+rows:
+- 2
+- input: "F24\x1CC90004946\x1C48\x1CPLANNED PARENTHOOD PENNSYLVANIA ADVOCA\x1C1514
+    N 2ND ST\x1C\x1CHARRISBURG\x1CPA\x1C17102\x1CLAIRDA\x1CANNE\x1CM\x1CMS\x1C\x1C20101021\n"
+  record: fec.version.v6_4.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90004946
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: PLANNED PARENTHOOD PENNSYLVANIA ADVOCA
+  - name: STREET 1
+    number: '5'
+    value: 1514 N 2ND ST
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: HARRISBURG
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '17102'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: LAIRDA
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: ANNE
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: M
+  - name: TREASURER PREFIX
+    number: '13'
+    value: MS
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20101021
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90004946
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: PAC
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Planned Parenthood PA Advocates
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1514 N 2ND ST
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: HARRISBURG
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '17102'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101016'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '487.92'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: STAFF TIME CANVASSING
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C90004946
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6PA08194
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MURPHY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: PATRICK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 08
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: LAIRD
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: ANNE
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: M
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101021
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC90004946\x1CSE.000001\x1C\x1C\x1CPAC\x1CPlanned Parenthood PA Advocates\x1C\x1C\x1C\x1C\x1C\x1C1514
+    N 2ND ST\x1C\x1CHARRISBURG\x1CPA\x1C17102\x1CG2010\x1C\x1C20101016\x1C487.92\x1C.00\x1C\x1CSTAFF
+    TIME CANVASSING\x1C\x1CC90004946\x1CS\x1CH6PA08194\x1CMURPHY\x1CPATRICK\x1C\x1C\x1C\x1CH\x1CPA\x1C08\x1CLAIRD\x1CANNE\x1CM\x1C\x1C\x1C20101021\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90004946
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000002
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: PAC
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: PLANNED PARENTHOOD PA ADVOCATES
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1514 N 2ND ST
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: HARRISBURG
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '17102'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101016'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '40.90'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: PRINTING COSTS
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C90004946
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6PA08194
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MURPHY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: PATRICK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 08
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: LAIRD
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: ANNE
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: M
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101021
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC90004946\x1CSE.000002\x1C\x1C\x1CPAC\x1CPLANNED PARENTHOOD PA ADVOCATES\x1C\x1C\x1C\x1C\x1C\x1C1514
+    N 2ND ST\x1C\x1CHARRISBURG\x1CPA\x1C17102\x1CG2010\x1C\x1C20101016\x1C40.90\x1C.00\x1C\x1CPRINTING
+    COSTS\x1C\x1CC90004946\x1CS\x1CH6PA08194\x1CMURPHY\x1CPATRICK\x1C\x1C\x1C\x1CH\x1CPA\x1C08\x1CLAIRD\x1CANNE\x1CM\x1C\x1C\x1C20101021\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90004946
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000003
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: PLANNED PARENTHOOD PA ADVOCATES
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1514 N 2ND ST
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: HARRISBURG
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '17102'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101016'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '100.54'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TRAVEL FOR CANVASS
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C90004946
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6PA08194
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MURPHY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: PATRICK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 08
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: LAIRD
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: ANNE
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: M
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101021
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC90004946\x1CSE.000003\x1C\x1C\x1CORG\x1CPLANNED PARENTHOOD PA ADVOCATES\x1C\x1C\x1C\x1C\x1C\x1C1514
+    N 2ND ST\x1C\x1CHARRISBURG\x1CPA\x1C17102\x1CG2010\x1C\x1C20101016\x1C100.54\x1C.00\x1C\x1CTRAVEL
+    FOR CANVASS\x1C\x1CC90004946\x1CS\x1CH6PA08194\x1CMURPHY\x1CPATRICK\x1C\x1C\x1C\x1CH\x1CPA\x1C08\x1CLAIRD\x1CANNE\x1CM\x1C\x1C\x1C20101021\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90004946
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000004
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: PAC
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: PLANNED PARENTHOOD PA ADVOCATES
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1514 N 2ND ST
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: HARRISBURG
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '17102'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101018'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '171.62'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: STAFF TIME PHONE BANKING
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C90004946
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6PA08194
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MURPHY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: PATRICK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 08
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: LAIRD
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: ANNE
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: M
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101021
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC90004946\x1CSE.000004\x1C\x1C\x1CPAC\x1CPLANNED PARENTHOOD PA ADVOCATES\x1C\x1C\x1C\x1C\x1C\x1C1514
+    N 2ND ST\x1C\x1CHARRISBURG\x1CPA\x1C17102\x1CG2010\x1C\x1C20101018\x1C171.62\x1C.00\x1C\x1CSTAFF
+    TIME PHONE BANKING\x1C\x1CC90004946\x1CS\x1CH6PA08194\x1CMURPHY\x1CPATRICK\x1C\x1C\x1C\x1CH\x1CPA\x1C08\x1CLAIRD\x1CANNE\x1CM\x1C\x1C\x1C20101021\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90004946
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000005
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: PAC
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: PLANNED PARENTHOOD PA ADVOCATES
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1514 N 2ND ST
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: HARRISBURG
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '17102'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101018'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '.74'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: PRINTING COSTS
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6PA08194
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MURPHY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: PATRICK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 08
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: LAIRD
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: ANNE
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: M
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101021
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC90004946\x1CSE.000005\x1C\x1C\x1CPAC\x1CPLANNED PARENTHOOD PA ADVOCATES\x1C\x1C\x1C\x1C\x1C\x1C1514
+    N 2ND ST\x1C\x1CHARRISBURG\x1CPA\x1C17102\x1CG2010\x1C\x1C20101018\x1C.74\x1C.00\x1C\x1CPRINTING
+    COSTS\x1C\x1C\x1CS\x1CH6PA08194\x1CMURPHY\x1CPATRICK\x1C\x1C\x1C\x1CH\x1CPA\x1C08\x1CLAIRD\x1CANNE\x1CM\x1C\x1C\x1C20101021\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90004946
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000006
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: PAC
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: PLANNED PARENTHOOD PA ADVOCATES
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1514 N 2ND ST
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: HARRISBURG
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '17102'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101021'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '10643.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: MAILING
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C90004946
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4PA08074
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: FITZPATRICK
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: MICHAEL
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 08
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: LAIRD
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: ANNE
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: M
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101021
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC90004946\x1CSE.000006\x1C\x1C\x1CPAC\x1CPLANNED PARENTHOOD PA ADVOCATES\x1C\x1C\x1C\x1C\x1C\x1C1514
+    N 2ND ST\x1C\x1CHARRISBURG\x1CPA\x1C17102\x1CG2010\x1C\x1C20101021\x1C10643.00\x1C.00\x1C\x1CMAILING\x1C\x1CC90004946\x1CO\x1CH4PA08074\x1CFITZPATRICK\x1CMICHAEL\x1C\x1C\x1C\x1CH\x1CPA\x1C08\x1CLAIRD\x1CANNE\x1CM\x1C\x1C\x1C20101021\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90004946
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000007
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: PAC
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: PLANNED PARENTHOOD PA ADVOCATES
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1514 N 2ND STREET
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: HARRISBURG
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '17102'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101018'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '125.69'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: MONT TO DATE PHONE EXPENSES
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C90004946
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6PA08194
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MURPHY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: PATRICK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 08
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: LAIRD
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: ANNE
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: M
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101021
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC90004946\x1CSE.000007\x1C\x1C\x1CPAC\x1CPLANNED PARENTHOOD PA ADVOCATES\x1C\x1C\x1C\x1C\x1C\x1C1514
+    N 2ND STREET\x1C\x1CHARRISBURG\x1CPA\x1C17102\x1CG2010\x1C\x1C20101018\x1C125.69\x1C.00\x1C\x1CMONT
+    TO DATE PHONE EXPENSES\x1C\x1CC90004946\x1CS\x1CH6PA08194\x1CMURPHY\x1CPATRICK\x1C\x1C\x1C\x1CH\x1CPA\x1C08\x1CLAIRD\x1CANNE\x1CM\x1C\x1C\x1C20101021\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+sourceurl: !!python/unicode 20101021
+type: chunk

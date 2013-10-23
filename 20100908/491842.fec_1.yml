@@ -1,0 +1,152 @@
+countrows: 3
+filename: 491842.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00468546\x1CGEORGE DEMOS FOR CONGRESS\x1C5 VILLAGE PLAZA DRIVE\x1C\x1CROHKONKOMA\x1CNY\x1C11779\x1CH0NY01137\x1CDemos\x1CGeorge\x1C\x1C\x1C\x1CH\x1CNY\x1C01\x1CVasillaros\x1CJohn\x1C\x1C\x1C\x1C20100908\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468546
+  - name: COMMITTEE NAME
+    number: '3'
+    value: GEORGE DEMOS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 5 VILLAGE PLAZA DRIVE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ROHKONKOMA
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '11779'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0NY01137
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Demos
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: George
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Vasillaros
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: John
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100908
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468546
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Vassilaros
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1185 Park Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10128'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100908'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: John A Vassilaros & Sons Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Coffee Roaster
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00468546\x1CF65.000001\x1CIND\x1C\x1CVassilaros\x1CJohn\x1C\x1C\x1C\x1C1185
+    Park Avenue\x1C\x1CNew York\x1CNY\x1C10128\x1C\x1C20100908\x1C1400.00\x1CJohn
+    A Vassilaros & Sons Inc.\x1CCoffee Roaster\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100908
+type: chunk

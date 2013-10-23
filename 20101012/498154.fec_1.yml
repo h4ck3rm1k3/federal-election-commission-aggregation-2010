@@ -1,0 +1,2226 @@
+countrows: 18
+filename: 498154.fec
+header: {}
+rows:
+- 2
+- input: "F24\x1CC00030718\x1C48\x1CNational Association of Realtors Political Action
+    Committee\x1C430 North Michigan Avenue\x1C\x1CChicago\x1CIL\x1C606114011\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\n"
+  record: fec.version.v6_4.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: National Association of Realtors Political Action Committee
+  - name: STREET 1
+    number: '5'
+    value: 430 North Michigan Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chicago
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '606114011'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Helsel
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: James
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20101012
+
+'
+- input: "TEXT\x1CC00030718\x1C1\x1C\x1CF24\x1C\n"
+  record: fec.version.v6_4.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F24
+  - name: TEXT4000
+    number: '6'
+    value: '
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E7C07EB7AF4BE46FE888
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: National Association of REALTORS
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 430 N Michigan Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606114087'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101012'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '400.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '573729.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Consulting Services
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H8NJ03156
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Adler
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NJ
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '03'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CE7C07EB7AF4BE46FE888\x1C\x1C\x1CORG\x1CNational Association
+    of REALTORS\x1C\x1C\x1C\x1C\x1C\x1C430 N Michigan Avenue\x1C\x1CChicago\x1CIL\x1C606114087\x1CG2010\x1C\x1C20101012\x1C400.00\x1C573729.33\x1C\x1CConsulting
+    Services\x1C\x1C\x1CS\x1CH8NJ03156\x1CAdler\x1CJohn\x1CH\x1CRep.\x1C\x1CH\x1CNJ\x1C03\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E90903079282D4E7EA85
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: National Association of REALTORS
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 430 N Michigan Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606114087'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101011'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '100.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '397858.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Consulting Services
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H8NJ03156
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Adler
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NJ
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '03'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CE90903079282D4E7EA85\x1C\x1C\x1CORG\x1CNational Association
+    of REALTORS\x1C\x1C\x1C\x1C\x1C\x1C430 N Michigan Avenue\x1C\x1CChicago\x1CIL\x1C606114087\x1CG2010\x1C\x1C20101011\x1C100.00\x1C397858.33\x1C\x1CConsulting
+    Services\x1C\x1C\x1CS\x1CH8NJ03156\x1CAdler\x1CJohn\x1CH\x1CRep.\x1C\x1CH\x1CNJ\x1C03\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E165FEE7E10884901B57
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Fenn Communications Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2715 M Street NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Ste 150
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101011'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '300000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '331658.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV Ad Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4IN02101
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Donnelly
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: IN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '02'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CE165FEE7E10884901B57\x1C\x1C\x1CORG\x1CFenn Communications
+    Group\x1C\x1C\x1C\x1C\x1C\x1C2715 M Street NW\x1CSte 150\x1CWashington\x1CDC\x1C20007\x1CG2010\x1C\x1C20101011\x1C300000.00\x1C331658.33\x1C\x1CTV
+    Ad Costs\x1C\x1C\x1CS\x1CH4IN02101\x1CDonnelly\x1CJoe\x1C\x1CRep.\x1C\x1CH\x1CIN\x1C02\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E149EBC48A3A24C45BBA
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Peter D Hart Research Associates Inc
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1724 Connecticut Ave NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '200091103'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101011'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '28150.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '331658.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Survey Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4IN02101
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Donnelly
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: IN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '02'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CE149EBC48A3A24C45BBA\x1C\x1C\x1CORG\x1CPeter D Hart Research
+    Associates Inc\x1C\x1C\x1C\x1C\x1C\x1C1724 Connecticut Ave NW\x1C\x1CWashington\x1CDC\x1C200091103\x1CG2010\x1C\x1C20101011\x1C28150.00\x1C331658.33\x1C\x1CSurvey
+    Costs\x1C\x1C\x1CS\x1CH4IN02101\x1CDonnelly\x1CJoe\x1C\x1CRep.\x1C\x1CH\x1CIN\x1C02\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E149FAB2EC6EB42FB8B6
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Peter D Hart Research Associates Inc
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1724 Connecticut Ave NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '200091103'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101011'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '27150.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '320658.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Survey Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H2CA18056
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Cardoza
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Dennis
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '18'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CE149FAB2EC6EB42FB8B6\x1C\x1C\x1CORG\x1CPeter D Hart Research
+    Associates Inc\x1C\x1C\x1C\x1C\x1C\x1C1724 Connecticut Ave NW\x1C\x1CWashington\x1CDC\x1C200091103\x1CG2010\x1C\x1C20101011\x1C27150.00\x1C320658.33\x1C\x1CSurvey
+    Costs\x1C\x1C\x1CS\x1CH2CA18056\x1CCardoza\x1CDennis\x1C\x1CRep.\x1C\x1CH\x1CCA\x1C18\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E47B2A398501C4BEFA7A
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Fenn Communications Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2715 M Street NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Ste 150
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101011'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '290000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '320658.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV Ad Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H2CA18056
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Cardoza
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Dennis
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '18'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CE47B2A398501C4BEFA7A\x1C\x1C\x1CORG\x1CFenn Communications
+    Group\x1C\x1C\x1C\x1C\x1C\x1C2715 M Street NW\x1CSte 150\x1CWashington\x1CDC\x1C20007\x1CG2010\x1C\x1C20101011\x1C290000.00\x1C320658.33\x1C\x1CTV
+    Ad Costs\x1C\x1C\x1CS\x1CH2CA18056\x1CCardoza\x1CDennis\x1C\x1CRep.\x1C\x1CH\x1CCA\x1C18\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E7460CC6EB66144A98AA
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: National Association of REALTORS
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 430 N Michigan Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606114087'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101011'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '100.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '331658.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Consulting Services
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4IN02101
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Donnelly
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: IN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '02'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CE7460CC6EB66144A98AA\x1C\x1C\x1CORG\x1CNational Association
+    of REALTORS\x1C\x1C\x1C\x1C\x1C\x1C430 N Michigan Avenue\x1C\x1CChicago\x1CIL\x1C606114087\x1CG2010\x1C\x1C20101011\x1C100.00\x1C331658.33\x1C\x1CConsulting
+    Services\x1C\x1C\x1CS\x1CH4IN02101\x1CDonnelly\x1CJoe\x1C\x1CRep.\x1C\x1CH\x1CIN\x1C02\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E5133AAA36DA14857805
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Fenn Communications Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2715 M Street NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Ste 150
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101011'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '400000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '429908.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV Ad Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6CO07023
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Perlmutter
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Ed
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CE5133AAA36DA14857805\x1C\x1C\x1CORG\x1CFenn Communications
+    Group\x1C\x1C\x1C\x1C\x1C\x1C2715 M Street NW\x1CSte 150\x1CWashington\x1CDC\x1C20007\x1CG2010\x1C\x1C20101011\x1C400000.00\x1C429908.33\x1C\x1CTV
+    Ad Costs\x1C\x1C\x1CS\x1CH6CO07023\x1CPerlmutter\x1CEd\x1C\x1CRep.\x1C\x1CH\x1CCO\x1C07\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E3D5CD565CD0B42618DA
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Amplify Public Affairs LLC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 919 18th Street NW  10th Fl
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20006'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101011'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '4000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '397858.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Website Design/Production/Operation
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H8NJ03156
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Adler
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NJ
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '03'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CE3D5CD565CD0B42618DA\x1C\x1C\x1CORG\x1CAmplify Public
+    Affairs LLC\x1C\x1C\x1C\x1C\x1C\x1C919 18th Street NW  10th Fl\x1C\x1CWashington\x1CDC\x1C20006\x1CG2010\x1C\x1C20101011\x1C4000.00\x1C397858.33\x1C\x1CWebsite
+    Design/Production/Operation\x1C\x1C\x1CS\x1CH8NJ03156\x1CAdler\x1CJohn\x1CH\x1CRep.\x1C\x1CH\x1CNJ\x1C03\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E0EF14DA4842345B0837
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: National Association of REALTORS
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 430 N Michigan Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606114087'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101011'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '100.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '429908.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Consulting Services
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6CO07023
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Perlmutter
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Ed
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CE0EF14DA4842345B0837\x1C\x1C\x1CORG\x1CNational Association
+    of REALTORS\x1C\x1C\x1C\x1C\x1C\x1C430 N Michigan Avenue\x1C\x1CChicago\x1CIL\x1C606114087\x1CG2010\x1C\x1C20101011\x1C100.00\x1C429908.33\x1C\x1CConsulting
+    Services\x1C\x1C\x1CS\x1CH6CO07023\x1CPerlmutter\x1CEd\x1C\x1CRep.\x1C\x1CH\x1CCO\x1C07\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EEB0F9E84280A42EB8BD
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Peter D Hart Research Associates Inc
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1724 Connecticut Ave NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '200091103'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101011'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '26400.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '429908.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Survey Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6CO07023
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Perlmutter
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Ed
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CEEB0F9E84280A42EB8BD\x1C\x1C\x1CORG\x1CPeter D Hart Research
+    Associates Inc\x1C\x1C\x1C\x1C\x1C\x1C1724 Connecticut Ave NW\x1C\x1CWashington\x1CDC\x1C200091103\x1CG2010\x1C\x1C20101011\x1C26400.00\x1C429908.33\x1C\x1CSurvey
+    Costs\x1C\x1C\x1CS\x1CH6CO07023\x1CPerlmutter\x1CEd\x1C\x1CRep.\x1C\x1CH\x1CCO\x1C07\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EE6BC4AAF24DB42E9A43
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Fenn Communications Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2715 M Street NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Ste 150
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101011'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '60000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '397858.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Internet Ad Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H8NJ03156
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Adler
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NJ
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '03'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CEE6BC4AAF24DB42E9A43\x1C\x1C\x1CORG\x1CFenn Communications
+    Group\x1C\x1C\x1C\x1C\x1C\x1C2715 M Street NW\x1CSte 150\x1CWashington\x1CDC\x1C20007\x1CG2010\x1C\x1C20101011\x1C60000.00\x1C397858.33\x1C\x1CInternet
+    Ad Costs\x1C\x1C\x1CS\x1CH8NJ03156\x1CAdler\x1CJohn\x1CH\x1CRep.\x1C\x1CH\x1CNJ\x1C03\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E38A684425978456C8E6
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: National Association of REALTORS
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 430 N Michigan Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606114087'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101011'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '100.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '397858.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Consulting Services
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H8NJ03156
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Adler
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NJ
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '03'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CE38A684425978456C8E6\x1C\x1C\x1CORG\x1CNational Association
+    of REALTORS\x1C\x1C\x1C\x1C\x1C\x1C430 N Michigan Avenue\x1C\x1CChicago\x1CIL\x1C606114087\x1CG2010\x1C\x1C20101011\x1C100.00\x1C397858.33\x1C\x1CConsulting
+    Services\x1C\x1C\x1CS\x1CH8NJ03156\x1CAdler\x1CJohn\x1CH\x1CRep.\x1C\x1CH\x1CNJ\x1C03\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EFCD541D8F1EA4157B10
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Terris Barnes & Walters
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 400 Montgomery Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Ste 900
+  - name: PAYEE CITY
+    number: '15'
+    value: San Francisco
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94104'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101012'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '175471.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '573729.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Direct Mail Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H8NJ03156
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Adler
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NJ
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '03'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CEFCD541D8F1EA4157B10\x1C\x1C\x1CORG\x1CTerris Barnes
+    & Walters\x1C\x1C\x1C\x1C\x1C\x1C400 Montgomery Street\x1CSte 900\x1CSan Francisco\x1CCA\x1C94104\x1CG2010\x1C\x1C20101012\x1C175471.00\x1C573729.33\x1C\x1CDirect
+    Mail Costs\x1C\x1C\x1CS\x1CH8NJ03156\x1CAdler\x1CJohn\x1CH\x1CRep.\x1C\x1CH\x1CNJ\x1C03\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E2AC5066C26A14ACF820
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: National Association of REALTORS
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 430 N Michigan Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606114087'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101011'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '100.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '320658.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Consulting Services
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H2CA18056
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Cardoza
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Dennis
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '18'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101012'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00030718\x1CE2AC5066C26A14ACF820\x1C\x1C\x1CORG\x1CNational Association
+    of REALTORS\x1C\x1C\x1C\x1C\x1C\x1C430 N Michigan Avenue\x1C\x1CChicago\x1CIL\x1C606114087\x1CG2010\x1C\x1C20101011\x1C100.00\x1C320658.33\x1C\x1CConsulting
+    Services\x1C\x1C\x1CS\x1CH2CA18056\x1CCardoza\x1CDennis\x1C\x1CRep.\x1C\x1CH\x1CCA\x1C18\x1CHelsel\x1CJames\x1C\x1C\x1C\x1C20101012\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+sourceurl: !!python/unicode 20101012
+type: chunk

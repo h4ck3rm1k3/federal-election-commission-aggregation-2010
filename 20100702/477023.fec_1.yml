@@ -1,0 +1,151 @@
+countrows: 3
+filename: 477023.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471938
+  - name: COMMITTEE NAME
+    number: '3'
+    value: RICK BARBER FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 211 ARROWHEAD DR
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: MONTGOMERY
+  - name: STATE
+    number: '7'
+    value: AL
+  - name: ZIP
+    number: '8'
+    value: '36117'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0AL02103
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Barber
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Rick
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Bridges
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Gary
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100702'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00471938\x1CRICK BARBER FOR CONGRESS\x1C211 ARROWHEAD DR\x1C\x1CMONTGOMERY\x1CAL\x1C36117\x1CH0AL02103\x1CBarber\x1CRick\x1C\x1C\x1C\x1CH\x1CAL\x1C02\x1CBridges\x1CGary\x1C\x1C\x1C\x1C20100702\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00471938\x1CF6.5798\x1CIND\x1C\x1CNeuwein\x1CSue\x1C\x1C\x1C\x1C113
+    Saint Andrews Place\x1C\x1CEnterprise\x1CAL\x1C36330\x1C\x1C20100630\x1C2400.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471938
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5798
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Neuwein
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sue
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 113 Saint Andrews Place
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Enterprise
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '36330'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100630'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20100702
+type: chunk

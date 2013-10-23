@@ -1,0 +1,218 @@
+countrows: 4
+filename: 477950.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00469171
+  - name: COMMITTEE NAME
+    number: '3'
+    value: FRIENDS OF JEANNE SEAVER
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 14115
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: SAVANNAH
+  - name: STATE
+    number: '7'
+    value: GA
+  - name: ZIP
+    number: '8'
+    value: '31416'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0GA12034
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: SEAVER
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: JEAN
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: MARIE
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: GA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '12'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: MCKEEVER
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: SCOTT
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: E
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100709'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00469171\x1CFRIENDS OF JEANNE SEAVER\x1CPO BOX 14115\x1C\x1CSAVANNAH\x1CGA\x1C31416\x1CH0GA12034\x1CSEAVER\x1CJEAN\x1CMARIE\x1C\x1C\x1CH\x1CGA\x1C12\x1CMCKEEVER\x1CSCOTT\x1CE\x1C\x1C\x1C20100709\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00469171\x1CF6.5062\x1CIND\x1C\x1CBLAND\x1CDELBERT\x1CC\x1C\x1C\x1C6054
+    GA HWY 121\x1C\x1CREIDSVILLE\x1CGA\x1C30453\x1C\x1C20100707\x1C1500.00\x1CSELF-EMPLOYED\x1CFARMER\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00469171
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5062
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BLAND
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DELBERT
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6054 GA HWY 121
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: REIDSVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '30453'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100707'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF-EMPLOYED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'FARMER
+
+'
+- input: "F65\x1CC00469171\x1CF6.5063\x1CIND\x1C\x1CBLAND\x1CSANDRA\x1C\x1C\x1C\x1C6054
+    GA HWY 121\x1C\x1CREIDSVILLE\x1CGA\x1C30453\x1C\x1C20100707\x1C1500.00\x1CBLAND
+    FARMS\x1CMANAGER\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00469171
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5063
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BLAND
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: SANDRA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6054 GA HWY 121
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: REIDSVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '30453'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100707'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: BLAND FARMS
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'MANAGER
+
+'
+sourceurl: !!python/unicode 20100709
+type: chunk

@@ -1,0 +1,153 @@
+countrows: 3
+filename: 492127.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451005
+  - name: COMMITTEE NAME
+    number: '3'
+    value: RICHARD HANNA FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 2308 GENESEE STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: UTICA
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '13502'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8NY24066
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: HANNA
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: RICHARD
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '24'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: ROBERTELLO
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: DANIEL
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: J
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100909'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00451005\x1CRICHARD HANNA FOR CONGRESS COMMITTEE\x1C2308 GENESEE
+    STREET\x1C\x1CUTICA\x1CNY\x1C13502\x1CH8NY24066\x1CHANNA\x1CRICHARD\x1C\x1C\x1C\x1CH\x1CNY\x1C24\x1CROBERTELLO\x1CDANIEL\x1CJ\x1C\x1C\x1C20100909\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00451005\x1CF6.10373\x1CIND\x1C\x1CKOWALSKY\x1CEDWARD\x1C\x1C\x1C\x1CP.O.
+    BOX 514\x1C\x1CUTICA\x1CNY\x1C13503\x1C\x1C20100909\x1C2400.00\x1CEMPIRE RECYCLING\x1CBusiness
+    Owner\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451005
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.10373
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: KOWALSKY
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: EDWARD
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. BOX 514
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: UTICA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '13503'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100909'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: EMPIRE RECYCLING
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Business Owner
+
+'
+sourceurl: !!python/unicode 20100909
+type: chunk

@@ -1,0 +1,363 @@
+countrows: 6
+filename: 484650.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00477604\x1CHeacock For Congress\x1CPO Box 68345\x1C\x1CGrand Rapids\x1CMI\x1C495168345\x1CH0MI03134\x1CHeacock\x1CSteven\x1CR\x1C\x1C\x1CH\x1CMI\x1C03\x1CFrick\x1CR.
+    Jack\x1C\x1C\x1C\x1C20100727\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477604
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Heacock For Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 68345
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Grand Rapids
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '495168345'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0MI03134
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Heacock
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Steven
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: R
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MI
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Frick
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: R. Jack
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100727
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477604
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '809000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Conservative Oppurtunity Leadership And Enterprise Pac (cole Pac)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 12176 Chancery Station Circle
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Reston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '201905803'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00404392
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100726'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00477604\x1C809000\x1CCOM\x1CConservative Oppurtunity Leadership
+    And Enterprise Pac (cole Pac)\x1C\x1C\x1C\x1C\x1C\x1C12176 Chancery Station Circle\x1C\x1CReston\x1CVA\x1C201905803\x1CC00404392\x1C20100726\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477604
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '813000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Fallon
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: H
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 526 Lakeside Drive NE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Grand Rapids
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '495032132'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100726'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Miller Johnson
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Lawyer
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00477604\x1C813000\x1CIND\x1C\x1CFallon\x1CWilliam\x1CH\x1C\x1C\x1C526
+    Lakeside Drive NE\x1C\x1CGrand Rapids\x1CMI\x1C495032132\x1C\x1C20100726\x1C1000\x1CMiller
+    Johnson\x1CLawyer\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477604
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '832000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kay
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Debra Walsh
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1155 Idema Drive SE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Grand Rapids
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '495063166'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100727'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00477604\x1C832000\x1CIND\x1C\x1CKay\x1CDebra Walsh\x1C\x1C\x1C\x1C1155
+    Idema Drive SE\x1C\x1CGrand Rapids\x1CMI\x1C495063166\x1C\x1C20100727\x1C1300\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477604
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '830000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Miller
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Bonnie
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: K
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7140 Oakbrook Street SE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Grand Rapids
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '495466830'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100727'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00477604\x1C830000\x1CIND\x1C\x1CMiller\x1CBonnie\x1CK\x1C\x1C\x1C7140
+    Oakbrook Street SE\x1C\x1CGrand Rapids\x1CMI\x1C495466830\x1C\x1C20100727\x1C1000\x1CRetired\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100727
+type: chunk

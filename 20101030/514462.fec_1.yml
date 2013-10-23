@@ -1,0 +1,151 @@
+countrows: 3
+filename: 514462.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00441410\x1CCRIMMINS FOR CONGRESS\x1CPO BOX 70216\x1C\x1CSAN DIEGO\x1CCA\x1C92167\x1CH8CA53019\x1CCrimmins\x1CMichael\x1CP\x1C\x1C\x1CH\x1CCA\x1C53\x1CDeMarco\x1CDaniel\x1CEdward\x1C\x1C\x1C20101030\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441410
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CRIMMINS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 70216
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: SAN DIEGO
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '92167'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8CA53019
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Crimmins
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Michael
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: P
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '53'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: DeMarco
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Daniel
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: Edward
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101030
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441410
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Barbey
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1920 Spindrift Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: La Jolla
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '92037'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00441410\x1CF65.000001\x1CIND\x1C\x1CBarbey\x1CJohn\x1C\x1C\x1C\x1C1920
+    Spindrift Drive\x1C\x1CLa Jolla\x1CCA\x1C92037\x1C\x1C20101030\x1C2400.00\x1CRetired\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101030
+type: chunk

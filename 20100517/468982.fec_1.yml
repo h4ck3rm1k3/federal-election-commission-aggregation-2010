@@ -1,0 +1,686 @@
+countrows: 11
+filename: 468982.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: COMMITTEE NAME
+    number: '3'
+    value: WHITFIELD FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: P.O. BOX 391
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: HOPKINSVILLE
+  - name: STATE
+    number: '7'
+    value: KY
+  - name: ZIP
+    number: '8'
+    value: '42241'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4KY01040
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: WHITFIELD
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: ED
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: KY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Calhoun
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Earl L.
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100517'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00289983\x1CWHITFIELD FOR CONGRESS COMMITTEE\x1CP.O. BOX 391\x1C\x1CHOPKINSVILLE\x1CKY\x1C42241\x1CH4KY01040\x1CWHITFIELD\x1CED\x1C\x1C\x1C\x1CH\x1CKY\x1C01\x1CCalhoun\x1CEarl
+    L.\x1C\x1CMr.\x1C\x1C20100517\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00289983\x1CF6.27551\x1CPAC\x1CACTION COMMITTEE FOR RURAL ELECTRIFICATION
+    NATIONAL RURAL ELECTRIC COOPERATIVE ASSOCIATION\x1C\x1C\x1C\x1C\x1C\x1C4301 Wilson
+    Boulevard\x1C.\x1CArlington\x1CVA\x1C22203\x1CC00002972\x1C20100517\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.27551
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ACTION COMMITTEE FOR RURAL ELECTRIFICATION NATIONAL RURAL ELECTRIC COOPERATIVE
+      ASSOCIATION
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4301 Wilson Boulevard
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: .
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Arlington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22203'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00002972
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100517'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00289983\x1CF6.27552\x1CPAC\x1CAmerican Podiatric Medical Association
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C9312 Old Georgetown Rd\x1C\x1CBethesda\x1CMD\x1C20814\x1CC00008839\x1C20100517\x1C3000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.27552
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Podiatric Medical Association PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9312 Old Georgetown Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bethesda
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20814'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00008839
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100517'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00289983\x1CF6.27553\x1CPAC\x1CAMERICAN SOYBEAN ASSOCIATION PAC
+    (SOYPAC)\x1C\x1C\x1C\x1C\x1C\x1C12125 WOODCREST EXECUTIVE DRIVE\x1CSUITE 100\x1CST
+    LOUIS\x1CMO\x1C63141\x1CC00408468\x1C20100517\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.27553
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN SOYBEAN ASSOCIATION PAC (SOYPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 12125 WOODCREST EXECUTIVE DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 100
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ST LOUIS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '63141'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00408468
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100517'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00289983\x1CF6.27554\x1CPAC\x1CAREVA  INC. PAC\x1C\x1C\x1C\x1C\x1C\x1C4800
+    Hampden Lane\x1C\x1CBethesda\x1CMD\x1C20814\x1CC00395285\x1C20100517\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.27554
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AREVA  INC. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4800 Hampden Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bethesda
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20814'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00395285
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100517'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00289983\x1CF6.27555\x1CPAC\x1CBOEHRINGER INGELHEIM CORPORATION
+    POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C1201 PENNSYLVANIA AVE NW\x1CSUITE
+    315\x1CWASHINGTON\x1CDC\x1C20004\x1CC00420398\x1C20100517\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.27555
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BOEHRINGER INGELHEIM CORPORATION POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1201 PENNSYLVANIA AVE NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 315
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20004'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00420398
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100517'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00289983\x1CF6.27556\x1CPAC\x1CBRIDGESTONE AMERICAS HOLDING INC.
+    POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C607 14th Street NW Suite 500\x1C\x1CWashington\x1CDC\x1C20005\x1CC00371948\x1C20100517\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.27556
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BRIDGESTONE AMERICAS HOLDING INC. POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 607 14th Street NW Suite 500
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00371948
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100517'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00289983\x1CF6.27557\x1CPAC\x1CDTE Energy Company PAC\x1C\x1C\x1C\x1C\x1C\x1C2000
+    Second Avenue\x1C\x1CDetroit\x1CMI\x1C48226\x1CC00081547\x1C20100517\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.27557
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: DTE Energy Company PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2000 Second Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Detroit
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '48226'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00081547
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100517'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00289983\x1CF6.27558\x1CPAC\x1CMEDCO HEALTH SOLUTIONS INC POLITICAL
+    ACTION COMMITTEE (AKA: MEDCO HEALTH PAC)\x1C\x1C\x1C\x1C\x1C\x1C591 Redwood Hwy.
+    #4000\x1CBldg. 4000\x1CMill Valley\x1CCA\x1C94941\x1CC00384362\x1C20100517\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.27558
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: 'MEDCO HEALTH SOLUTIONS INC POLITICAL ACTION COMMITTEE (AKA: MEDCO HEALTH
+      PAC)'
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '591 Redwood Hwy. #4000'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Bldg. 4000
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mill Valley
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94941'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00384362
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100517'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00289983\x1CF6.27559\x1CPAC\x1COrthopaedic PAC, The\x1C\x1C\x1C\x1C\x1C\x1C317
+    Machussetts Ave, NE\x1C\x1CWashington\x1CDC\x1C20002\x1CC00343137\x1C20100517\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.27559
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Orthopaedic PAC, The
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 317 Machussetts Ave, NE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20002'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00343137
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100517'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20100517
+type: chunk

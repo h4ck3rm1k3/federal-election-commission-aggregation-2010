@@ -1,0 +1,152 @@
+countrows: 3
+filename: 504311.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00481440\x1CHanks For Congress 2010\x1CPO Box 1595\x1C\x1CTravis
+    Afb\x1CCA\x1C945350595\x1CH0CA01148\x1CHanks\x1CLoren\x1C\x1C\x1C\x1CH\x1CCA\x1C01\x1CHonea\x1CMelanie\x1C\x1C\x1C\x1C20101018\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00481440
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Hanks For Congress 2010
+  - name: STREET 1
+    number: '4'
+    value: PO Box 1595
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Travis Afb
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '945350595'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CA01148
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Hanks
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Loren
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Honea
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Melanie
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101018
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00481440
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '739000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Morris
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Gwen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1500 Glendale Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mckinleyville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '955199208'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101017'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00481440\x1C739000\x1CIND\x1C\x1CMorris\x1CGwen\x1C\x1C\x1C\x1C1500
+    Glendale Drive\x1C\x1CMckinleyville\x1CCA\x1C955199208\x1C\x1C20101017\x1C1000\x1Cn/a\x1CHomemaker\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101019
+type: chunk

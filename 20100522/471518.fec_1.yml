@@ -1,0 +1,366 @@
+countrows: 6
+filename: 471518.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00391029\x1CJim Costa For Congress\x1C2037 W Bullard Avenue\x1C#
+    355\x1CFresno\x1CCA\x1C937111200\x1CH4CA20082\x1CCosta\x1CJim\x1C\x1CMr.\x1C\x1CH\x1CCA\x1C20\x1CCosta\x1CKen\x1C\x1C\x1C\x1C20100522\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00391029
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Jim Costa For Congress
+  - name: STREET 1
+    number: '4'
+    value: 2037 W Bullard Avenue
+  - name: STREET 2
+    number: '5'
+    value: '# 355'
+  - name: CITY
+    number: '6'
+    value: Fresno
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '937111200'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4CA20082
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Costa
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Jim
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '20'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Costa
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Ken
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100522
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00391029
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '6868000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gallo
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 1130
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Modesto
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '953531130'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: E & J Gallo Winery
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Co-Chairman of the Board
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00391029\x1C6868000\x1CIND\x1C\x1CGallo\x1CRobert\x1CJ.\x1C\x1C\x1CPO
+    Box 1130\x1C\x1CModesto\x1CCA\x1C953531130\x1C\x1C20100520\x1C1000\x1CE & J Gallo
+    Winery\x1CCo-Chairman of the Board\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00391029
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '6867000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gallo
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 1130
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Modesto
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '953531130'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: E & J Gallo Winery
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Co-Chairman of the Board
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00391029\x1C6867000\x1CIND\x1C\x1CGallo\x1CRobert\x1CJ.\x1C\x1C\x1CPO
+    Box 1130\x1C\x1CModesto\x1CCA\x1C953531130\x1C\x1C20100520\x1C1400\x1CE & J Gallo
+    Winery\x1CCo-Chairman of the Board\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00391029
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '6884000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gordon
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Douglas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4188 N Wishon Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Fresno
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '937044200'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Miles, Sears & Eanni
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney at Law
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00391029\x1C6884000\x1CIND\x1C\x1CGordon\x1CDouglas\x1CL.\x1C\x1C\x1C4188
+    N Wishon Avenue\x1C\x1CFresno\x1CCA\x1C937044200\x1C\x1C20100520\x1C2400\x1CMiles,
+    Sears & Eanni\x1CAttorney at Law\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00391029
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '6883000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Watters
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Richard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2644 Fresno Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Fresno
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '937213620'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Miles, Sears & Eanni
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney at Law
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00391029\x1C6883000\x1CIND\x1C\x1CWatters\x1CRichard\x1CC.\x1C\x1C\x1C2644
+    Fresno Street\x1C\x1CFresno\x1CCA\x1C937213620\x1C\x1C20100520\x1C2400\x1CMiles,
+    Sears & Eanni\x1CAttorney at Law\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100522
+type: chunk

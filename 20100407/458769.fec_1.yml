@@ -1,0 +1,417 @@
+countrows: 7
+filename: 458769.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00470351
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Texans for Hurd
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 15114
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ARLINGTON
+  - name: STATE
+    number: '7'
+    value: VA
+  - name: ZIP
+    number: '8'
+    value: '22215'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0TX23086
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: HURD
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: WILLIAM
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '23'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: JENTGENS
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: ROBERT
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100407'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00470351\x1CTexans for Hurd\x1CPO BOX 15114\x1C\x1CARLINGTON\x1CVA\x1C22215\x1CH0TX23086\x1CHURD\x1CWILLIAM\x1C\x1C\x1C\x1CH\x1CTX\x1C23\x1CJENTGENS\x1CROBERT\x1C\x1C\x1C\x1C20100407\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00470351\x1CF6.6740\x1CIND\x1C\x1CAdams\x1CBrent\x1C\x1C\x1C\x1C101
+    Colorado Street\x1C#1402\x1CAustin\x1CTX\x1C78701\x1C\x1C20100405\x1C1000.00\x1COlivewood
+    Capital\x1CInvestment Manager\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00470351
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6740
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Adams
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Brent
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101 Colorado Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '#1402'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Austin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78701'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100405'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Olivewood Capital
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Investment Manager
+
+'
+- input: "F65\x1CC00470351\x1CF6.6734\x1CIND\x1C\x1CElsenbrook\x1CLesha\x1C\x1C\x1C\x1C3
+    Pine Crescent Court\x1C\x1CHouston\x1CTX\x1C77024\x1C\x1C20100405\x1C1000.00\x1CHomemaker\x1CHomemaker\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00470351
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6734
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Elsenbrook
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Lesha
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3 Pine Crescent Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '77024'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100405'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Homemaker
+
+'
+- input: "F65\x1CC00470351\x1CF6.6741\x1CIND\x1C\x1CHardaway\x1CJay\x1C\x1C\x1C\x1C2502
+    West 7th Street\x1C\x1CAustin\x1CTX\x1C78703\x1C\x1C20100405\x1C1400.00\x1CPennybacker
+    Capital\x1CAnalyst\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00470351
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6741
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hardaway
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jay
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2502 West 7th Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Austin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78703'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100405'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Pennybacker Capital
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Analyst
+
+'
+- input: "F65\x1CC00470351\x1CF6.6744\x1CIND\x1C\x1CPAPPAS\x1CHARRIS\x1C\x1C\x1C\x1C243
+    HEDWIG\x1C\x1CHOUSTON\x1CTX\x1C77024\x1C\x1C20100407\x1C2400.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00470351
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6744
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: PAPPAS
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: HARRIS
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 243 HEDWIG
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: HOUSTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '77024'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100407'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00470351\x1CF6.6737\x1CIND\x1C\x1CRoss\x1CAdam\x1C\x1C\x1C\x1C2525
+    MCKINNON\x1CSUITE 550\x1CDALLAS\x1CTX\x1C75201\x1C\x1C20100405\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00470351
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6737
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ross
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Adam
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2525 MCKINNON
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 550
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: DALLAS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75201'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100405'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20100407
+type: chunk

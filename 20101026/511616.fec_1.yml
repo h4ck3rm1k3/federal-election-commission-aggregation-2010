@@ -1,0 +1,7637 @@
+countrows: 55
+filename: 511616.fec
+header: {}
+rows:
+- 2
+- input: "F24\x1CC00041160\x1C24\x1CMichigan Republican Party\x1C520 Seymour Street\x1C\x1CLansing\x1CMI\x1C48933
+    \   \x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\n"
+  record: fec.version.v6_4.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Michigan Republican Party
+  - name: STREET 1
+    number: '5'
+    value: 520 Seymour Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lansing
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48933    '
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Meyers
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Carl
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20101025
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Nebo Media
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K Street NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '37727.77'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV Ad
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEDA5E71FF8EB84C4FAD6\x1C\x1C\x1CORG\x1CNebo Media\x1C\x1C\x1C\x1C\x1C\x1C3299
+    K Street NW\x1C\x1CWashington\x1CDC\x1C20007\x1CG2010\x1C\x1C20101024\x1C37727.77\x1C220570.63\x1C\x1CTV
+    Ad\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E18AD0014EFD447869F4
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WTOL TV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 730 N. Summit St.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Toledo
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '43604'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '5697.85'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE18AD0014EFD447869F4\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CWTOL
+    TV\x1C\x1C\x1C\x1C\x1C\x1C730 N. Summit St.\x1C\x1CToledo\x1COH\x1C43604\x1CG2010\x1C\x1C20101024\x1C5697.85\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: ED5F57E43D54C4C519AF
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Nebo Media
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K Street NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '4173.04'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Prod/Place
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CED5F57E43D54C4C519AF\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CNebo
+    Media\x1C\x1C\x1C\x1C\x1C\x1C3299 K Street NW\x1C\x1CWashington\x1CDC\x1C20007\x1CG2010\x1C\x1C20101024\x1C4173.04\x1C220570.63\x1C\x1CTV
+    AD Prod/Place\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EF73D238D15FA435699D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WZZM TV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 645 3 Mile
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Grand Rapids
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49544'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1827.39'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEF73D238D15FA435699D\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CWZZM
+    TV\x1C\x1C\x1C\x1C\x1C\x1C645 3 Mile\x1C\x1CGrand Rapids\x1CMI\x1C49544\x1CG2010\x1C\x1C20101024\x1C1827.39\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E60617BDA33E84D6F829
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WTVG TV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 4247 Dorr St.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Toledo
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '43607'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '3227.27'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE60617BDA33E84D6F829\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CWTVG
+    TV\x1C\x1C\x1C\x1C\x1C\x1C4247 Dorr St.\x1C\x1CToledo\x1COH\x1C43607\x1CG2010\x1C\x1C20101024\x1C3227.27\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EDDFE7E66E4704E6EBEB
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WHTV TV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2820 E. Saginaw
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lansing
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '48912'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '132.97'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEDDFE7E66E4704E6EBEB\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CWHTV
+    TV\x1C\x1C\x1C\x1C\x1C\x1C2820 E. Saginaw\x1C\x1CLansing\x1CMI\x1C48912\x1CG2010\x1C\x1C20101024\x1C132.97\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EFB97FE8AD8A14B248DA
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Wwmt Tv
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 25 W. Michigan Ave Ste 102
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Battle Creek
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49017'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '7647.51'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEFB97FE8AD8A14B248DA\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CWwmt
+    Tv\x1C\x1C\x1C\x1C\x1C\x1C25 W. Michigan Ave Ste 102\x1C\x1CBattle Creek\x1CMI\x1C49017\x1CG2010\x1C\x1C20101024\x1C7647.51\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EA7AFBD1571EF4240BDC
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: FXNC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1211 Avenue of Americas
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '10036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '258.43'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEA7AFBD1571EF4240BDC\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CFXNC\x1C\x1C\x1C\x1C\x1C\x1C1211
+    Avenue of Americas\x1C\x1CNew York\x1CNY\x1C10036\x1CG2010\x1C\x1C20101024\x1C258.43\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E50568170692C470EA87
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: CNN
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: One CNN Plaza
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Atlanta
+  - name: PAYEE STATE
+    number: '16'
+    value: GA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '30303'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '59.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE50568170692C470EA87\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CCNN\x1C\x1C\x1C\x1C\x1C\x1COne
+    CNN Plaza\x1C\x1CAtlanta\x1CGA\x1C30303\x1CG2010\x1C\x1C20101024\x1C59.08\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EAF5F54DA892140BC92F
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: HGTV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 5070
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Knoxville
+  - name: PAYEE STATE
+    number: '16'
+    value: TN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '37950'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '146.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEAF5F54DA892140BC92F\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CHGTV\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 5070\x1C\x1CKnoxville\x1CTN\x1C37950\x1CG2010\x1C\x1C20101024\x1C146.00\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E248954A4B0E04FDDAB7
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: GOLF
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7580 Commerce Center Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Orlando
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '32819'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '53.20'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE248954A4B0E04FDDAB7\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CGOLF\x1C\x1C\x1C\x1C\x1C\x1C7580
+    Commerce Center Dr.\x1C\x1COrlando\x1CFL\x1C32819\x1CG2010\x1C\x1C20101024\x1C53.20\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E79F75D68D88641C487B
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: AEN
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 235 E. 45th St.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '10036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '79.80'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE79F75D68D88641C487B\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CAEN\x1C\x1C\x1C\x1C\x1C\x1C235
+    E. 45th St.\x1C\x1CNew York\x1CNY\x1C10036\x1CG2010\x1C\x1C20101024\x1C79.80\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EC6954260D644482492F
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WILX TV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 500 American Rd.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lansing
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '48911'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '4080.90'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEC6954260D644482492F\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CWILX
+    TV\x1C\x1C\x1C\x1C\x1C\x1C500 American Rd.\x1C\x1CLansing\x1CMI\x1C48911\x1CG2010\x1C\x1C20101024\x1C4080.90\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E1D3B6E792FBF4513A1E
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: TNT
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1010 Techwood Dr. NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Atlanta
+  - name: PAYEE STATE
+    number: '16'
+    value: GA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '30303'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '136.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE1D3B6E792FBF4513A1E\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CTNT\x1C\x1C\x1C\x1C\x1C\x1C1010
+    Techwood Dr. NW\x1C\x1CAtlanta\x1CGA\x1C30303\x1CG2010\x1C\x1C20101024\x1C136.08\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E827F04F750D142A4BBA
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: USA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 30 Rockefeller Plaza
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 21st Floor
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '10112'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '251.55'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE827F04F750D142A4BBA\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CUSA\x1C\x1C\x1C\x1C\x1C\x1C30
+    Rockefeller Plaza\x1C21st Floor\x1CNew York\x1CNY\x1C10112\x1CG2010\x1C\x1C20101024\x1C251.55\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E573E29321FD148EAA72
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: HALL
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1325 Avenue of Americas
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '10036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '15.12'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE573E29321FD148EAA72\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CHALL\x1C\x1C\x1C\x1C\x1C\x1C1325
+    Avenue of Americas\x1C\x1CNew York\x1CNY\x1C10036\x1CG2010\x1C\x1C20101024\x1C15.12\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E55A682B601BE45AFAAF
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WLAJ TV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 5815 S. Pennsylvania
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lansing
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '48911'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '377.58'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE55A682B601BE45AFAAF\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CWLAJ
+    TV\x1C\x1C\x1C\x1C\x1C\x1C5815 S. Pennsylvania\x1C\x1CLansing\x1CMI\x1C48911\x1CG2010\x1C\x1C20101024\x1C377.58\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E05B5C5EE5B6A4A6DBBB
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WNWO TV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 300 S. Bryne
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Toledo
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '43615'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '556.11'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE05B5C5EE5B6A4A6DBBB\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CWNWO
+    TV\x1C\x1C\x1C\x1C\x1C\x1C300 S. Bryne\x1C\x1CToledo\x1COH\x1C43615\x1CG2010\x1C\x1C20101024\x1C556.11\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E2DB55BA731424EEB851
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WOOD TV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 120 College Ave. SE
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Grand Rapids
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49503'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '3749.43'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE2DB55BA731424EEB851\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CWOOD
+    TV\x1C\x1C\x1C\x1C\x1C\x1C120 College Ave. SE\x1C\x1CGrand Rapids\x1CMI\x1C49503\x1CG2010\x1C\x1C20101024\x1C3749.43\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E03CA1582371A4038A73
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WXMI TV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3117 Plaza Dr. NE
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Grand Rapids
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49525'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1459.12'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE03CA1582371A4038A73\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CWXMI
+    TV\x1C\x1C\x1C\x1C\x1C\x1C3117 Plaza Dr. NE\x1C\x1CGrand Rapids\x1CMI\x1C49525\x1CG2010\x1C\x1C20101024\x1C1459.12\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E5677E299B5704D20BDC
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: TBSC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1010 Techwood Dr. NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Atlanta
+  - name: PAYEE STATE
+    number: '16'
+    value: GA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '30303'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '12.32'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE5677E299B5704D20BDC\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CTBSC\x1C\x1C\x1C\x1C\x1C\x1C1010
+    Techwood Dr. NW\x1C\x1CAtlanta\x1CGA\x1C30303\x1CG2010\x1C\x1C20101024\x1C12.32\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EAADB31208D8B4F49AB8
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Wlns-tv
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2820 E. Saginaw
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lansing
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '48912'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2571.48'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEAADB31208D8B4F49AB8\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CWlns-tv\x1C\x1C\x1C\x1C\x1C\x1C2820
+    E. Saginaw\x1C\x1CLansing\x1CMI\x1C48912\x1CG2010\x1C\x1C20101024\x1C2571.48\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E23614134AC544EA7887
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WOTV TV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 120 College Ave. SE
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Grand Rapids
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49503'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '60.67'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE23614134AC544EA7887\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CWOTV
+    TV\x1C\x1C\x1C\x1C\x1C\x1C120 College Ave. SE\x1C\x1CGrand Rapids\x1CMI\x1C49503\x1CG2010\x1C\x1C20101024\x1C60.67\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E2863A214CE5946DC84F
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: TWC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 300 Interstate North Pkwy
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Atlanta
+  - name: PAYEE STATE
+    number: '16'
+    value: GA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '30339'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '10.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE2863A214CE5946DC84F\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CTWC\x1C\x1C\x1C\x1C\x1C\x1C300
+    Interstate North Pkwy\x1C\x1CAtlanta\x1CGA\x1C30339\x1CG2010\x1C\x1C20101024\x1C10.08\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: ED40EC2AF13A74CCD8FC
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: HIST
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 235 E 45th
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '10017'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '59.92'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CED40EC2AF13A74CCD8FC\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CHIST\x1C\x1C\x1C\x1C\x1C\x1C235
+    E 45th\x1C\x1CNew York\x1CNY\x1C10017\x1CG2010\x1C\x1C20101024\x1C59.92\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E8CA731537A724259BF7
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ESPN
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: ESPN Plaza
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bristol
+  - name: PAYEE STATE
+    number: '16'
+    value: CT
+  - name: PAYEE ZIP
+    number: '17'
+    value: '06010'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '211.32'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE8CA731537A724259BF7\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CESPN\x1C\x1C\x1C\x1C\x1C\x1CESPN
+    Plaza\x1C\x1CBristol\x1CCT\x1C06010\x1CG2010\x1C\x1C20101024\x1C211.32\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: ECC49FA0A5D6345C58CB
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: LIF
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 309 W. 49th
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '10019'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1.56'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CECC49FA0A5D6345C58CB\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CLIF\x1C\x1C\x1C\x1C\x1C\x1C309
+    W. 49th\x1C\x1CNew York\x1CNY\x1C10019\x1CG2010\x1C\x1C20101024\x1C1.56\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EFA46B1E26756471C9A0
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EDA5E71FF8EB84C4FAD6
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WSYM TV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 600 W. St, Joe
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Ste. 47
+  - name: PAYEE CITY
+    number: '15'
+    value: Lansing
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '48933'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '872.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '220570.63'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEFA46B1E26756471C9A0\x1CEDA5E71FF8EB84C4FAD6\x1CSE\x1CORG\x1CWSYM
+    TV\x1C\x1C\x1C\x1C\x1C\x1C600 W. St, Joe\x1CSte. 47\x1CLansing\x1CMI\x1C48933\x1CG2010\x1C\x1C20101024\x1C872.00\x1C220570.63\x1C\x1CTV
+    AD Placement\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Nebo Media
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K Street NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '6640.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE51DFA5314D774D2EB93\x1C\x1C\x1CORG\x1CNebo Media\x1C\x1C\x1C\x1C\x1C\x1C3299
+    K Street NW\x1C\x1CWashington\x1CDC\x1C20007\x1CG2010\x1C\x1C20101024\x1C6640.22\x1C61273.76\x1C\x1CRadio
+    Ad\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EB867A85081F643CC8FA
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WMAX/Ava Maria Radio
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. Box 504
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Ann Arbor
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '48106'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '145.69'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEB867A85081F643CC8FA\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWMAX/Ava
+    Maria Radio\x1C\x1C\x1C\x1C\x1C\x1CP.O. Box 504\x1C\x1CAnn Arbor\x1CMI\x1C48106\x1CG2010\x1C\x1C20101024\x1C145.69\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E0AAB7DE02A3B4BBA8C6
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WCCW-FM
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 300 E. Front St.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Ste. 450
+  - name: PAYEE CITY
+    number: '15'
+    value: Traverse City
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49684'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '196.88'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE0AAB7DE02A3B4BBA8C6\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWCCW-FM\x1C\x1C\x1C\x1C\x1C\x1C300
+    E. Front St.\x1CSte. 450\x1CTraverse City\x1CMI\x1C49684\x1CG2010\x1C\x1C20101024\x1C196.88\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E263B31BBCE924E29894
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WCHT/Lake Radio Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 524 Ludington St.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Escanaba
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49829'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '231.47'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE263B31BBCE924E29894\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWCHT/Lake
+    Radio Inc.\x1C\x1C\x1C\x1C\x1C\x1C524 Ludington St.\x1C\x1CEscanaba\x1CMI\x1C49829\x1CG2010\x1C\x1C20101024\x1C231.47\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EF944345954E2401FA7F
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WHKB Radio
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 313 E. Montezuma Ave.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Houghton
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49331'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '92.59'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEF944345954E2401FA7F\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWHKB
+    Radio\x1C\x1C\x1C\x1C\x1C\x1C313 E. Montezuma Ave.\x1C\x1CHoughton\x1CMI\x1C49331\x1CG2010\x1C\x1C20101024\x1C92.59\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E8607FF15D5644857B1F
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WHTO Radio
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 212 W. J Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Iron Mountain
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49801'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '102.88'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE8607FF15D5644857B1F\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWHTO
+    Radio\x1C\x1C\x1C\x1C\x1C\x1C212 W. J Street\x1C\x1CIron Mountain\x1CMI\x1C49801\x1CG2010\x1C\x1C20101024\x1C102.88\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E507CEC8832054673B15
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WSUE/WSOO Soverign Communications
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. Box 536
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Sault Ste Marie
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49783'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '233.68'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE507CEC8832054673B15\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWSUE/WSOO
+    Soverign Communications\x1C\x1C\x1C\x1C\x1C\x1CP.O. Box 536\x1C\x1CSault Ste Marie\x1CMI\x1C49783\x1CG2010\x1C\x1C20101024\x1C233.68\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E0F957DE82C8C41A4A6A
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WATZ/Midwest Broadcasting
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 123 Prentiss
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alpena
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49707'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '185.18'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE0F957DE82C8C41A4A6A\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWATZ/Midwest
+    Broadcasting\x1C\x1C\x1C\x1C\x1C\x1C123 Prentiss\x1C\x1CAlpena\x1CMI\x1C49707\x1CG2010\x1C\x1C20101024\x1C185.18\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EA33AED64CCB54845875
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Wkcq Radio
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2000 Whittier St.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Saginaw
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '48601'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '484.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEA33AED64CCB54845875\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWkcq
+    Radio\x1C\x1C\x1C\x1C\x1C\x1C2000 Whittier St.\x1C\x1CSaginaw\x1CMI\x1C48601\x1CG2010\x1C\x1C20101024\x1C484.22\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E00DC814ED0D14CA2BD1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Nebo Media
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K Street NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '734.47'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Prod/Place
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE00DC814ED0D14CA2BD1\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CNebo
+    Media\x1C\x1C\x1C\x1C\x1C\x1C3299 K Street NW\x1C\x1CWashington\x1CDC\x1C20007\x1CG2010\x1C\x1C20101024\x1C734.47\x1C61273.76\x1C\x1CRadio
+    Ad Prod/Place\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E31BF339621024900997
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WHNN Radio
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1740 Champagne Drive North
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Saginaw
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '48604'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '485.43'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE31BF339621024900997\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWHNN
+    Radio\x1C\x1C\x1C\x1C\x1C\x1C1740 Champagne Drive North\x1C\x1CSaginaw\x1CMI\x1C48604\x1CG2010\x1C\x1C20101024\x1C485.43\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E71411457AD5B4F8AB49
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WMIQ/Northern Star Broadcasting
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 101 E. Kent St.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Iron Mountain
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49801'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '109.73'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE71411457AD5B4F8AB49\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWMIQ/Northern
+    Star Broadcasting\x1C\x1C\x1C\x1C\x1C\x1C101 E. Kent St.\x1C\x1CIron Mountain\x1CMI\x1C49801\x1CG2010\x1C\x1C20101024\x1C109.73\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EAD81F4AB06C94E6F982
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WFXD/Great Lakes Radio
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3060 US 41 West
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Marquette
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49855'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '107.28'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEAD81F4AB06C94E6F982\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWFXD/Great
+    Lakes Radio\x1C\x1C\x1C\x1C\x1C\x1C3060 US 41 West\x1C\x1CMarquette\x1CMI\x1C49855\x1CG2010\x1C\x1C20101024\x1C107.28\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E3CBA45E401AB4EF0AC8
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WJML/WMKT
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 310 W. Front St Ste 411
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Traverse City
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49684'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '276.07'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE3CBA45E401AB4EF0AC8\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWJML/WMKT\x1C\x1C\x1C\x1C\x1C\x1C310
+    W. Front St Ste 411\x1C\x1CTraverse City\x1CMI\x1C49684\x1CG2010\x1C\x1C20101024\x1C276.07\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E41B51650D1E94E3594B
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WDMJ/Northern StarBroadcasting
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1402 Ashmun St.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Sault Ste Marie
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49783'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '108.75'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE41B51650D1E94E3594B\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWDMJ/Northern
+    StarBroadcasting\x1C\x1C\x1C\x1C\x1C\x1C1402 Ashmun St.\x1C\x1CSault Ste Marie\x1CMI\x1C49783\x1CG2010\x1C\x1C20101024\x1C108.75\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E09E713098CFF4792AF0
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WKLT-FM
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1020 Hastings St.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Traverse City
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49686'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '268.87'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE09E713098CFF4792AF0\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWKLT-FM\x1C\x1C\x1C\x1C\x1C\x1C1020
+    Hastings St.\x1C\x1CTraverse City\x1CMI\x1C49686\x1CG2010\x1C\x1C20101024\x1C268.87\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E8FFBAB68F6324572912
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WKJZ Radio
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 549
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Tawas City
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '48764'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '112.67'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE8FFBAB68F6324572912\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWKJZ
+    Radio\x1C\x1C\x1C\x1C\x1C\x1CPO Box 549\x1C\x1CTawas City\x1CMI\x1C48764\x1CG2010\x1C\x1C20101024\x1C112.67\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E8B53011052F34E4F819
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WJNR/Results Broadcasting of Iron
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 212 W. J Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Iron Mountain
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49801'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '118.31'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE8B53011052F34E4F819\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWJNR/Results
+    Broadcasting of Iron\x1C\x1C\x1C\x1C\x1C\x1C212 W. J Street\x1C\x1CIron Mountain\x1CMI\x1C49801\x1CG2010\x1C\x1C20101024\x1C118.31\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EBCBF13DD5E464AD9BA7
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WJPD/WKNW Northern Star
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1009 West Ridge St.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Marquette
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49855'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '251.31'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEBCBF13DD5E464AD9BA7\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWJPD/WKNW
+    Northern Star\x1C\x1C\x1C\x1C\x1C\x1C1009 West Ridge St.\x1C\x1CMarquette\x1CMI\x1C49855\x1CG2010\x1C\x1C20101024\x1C251.31\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E8A28256BD2254965ACA
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WYKX/WDBC Radio
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 604 Ludington
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Escanaba
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49829'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '226.32'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE8A28256BD2254965ACA\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWYKX/WDBC
+    Radio\x1C\x1C\x1C\x1C\x1C\x1C604 Ludington\x1C\x1CEscanaba\x1CMI\x1C49829\x1CG2010\x1C\x1C20101024\x1C226.32\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EB8A47F99C2A64D1B985
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WLJZ Radio
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 232 Front St. No. 2
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Traverse City
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49684'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '144.27'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEB8A47F99C2A64D1B985\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWLJZ
+    Radio\x1C\x1C\x1C\x1C\x1C\x1C232 Front St. No. 2\x1C\x1CTraverse City\x1CMI\x1C49684\x1CG2010\x1C\x1C20101024\x1C144.27\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E556944B0B5924D7284C
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WAGN/WHYB Radio
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 413 10th Ave.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Menominee
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49858'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '185.18'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE556944B0B5924D7284C\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWAGN/WHYB
+    Radio\x1C\x1C\x1C\x1C\x1C\x1C413 10th Ave.\x1C\x1CMenominee\x1CMI\x1C49858\x1CG2010\x1C\x1C20101024\x1C185.18\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EA905AE439D5D4295A7B
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WSGW/WCEN Radio
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1795 Tittabawassee Rd.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Saginaw
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '48604'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1214.80'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEA905AE439D5D4295A7B\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWSGW/WCEN
+    Radio\x1C\x1C\x1C\x1C\x1C\x1C1795 Tittabawassee Rd.\x1C\x1CSaginaw\x1CMI\x1C48604\x1CG2010\x1C\x1C20101024\x1C1214.80\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EC67D28789F6342F3B9B
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WLDR-FM
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 13999 SW Bayshore Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Traverse City
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49684'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '74.82'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CEC67D28789F6342F3B9B\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWLDR-FM\x1C\x1C\x1C\x1C\x1C\x1C13999
+    SW Bayshore Dr.\x1C\x1CTraverse City\x1CMI\x1C49684\x1CG2010\x1C\x1C20101024\x1C74.82\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E2E95EB01771B4AC5878
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E51DFA5314D774D2EB93
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WTCM/Midwest Broadcasting
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 314 E. Front St.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Traverse City
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49686'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101024'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '549.35'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '61273.76'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ad Placement
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101025'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00041160\x1CE2E95EB01771B4AC5878\x1CE51DFA5314D774D2EB93\x1CSE\x1CORG\x1CWTCM/Midwest
+    Broadcasting\x1C\x1C\x1C\x1C\x1C\x1C314 E. Front St.\x1C\x1CTraverse City\x1CMI\x1C49686\x1CG2010\x1C\x1C20101024\x1C549.35\x1C61273.76\x1C\x1CRadio
+    Ad Placement\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20101025\x1CX\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+sourceurl: !!python/unicode 20101026
+type: chunk

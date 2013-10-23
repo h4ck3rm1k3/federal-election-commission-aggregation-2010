@@ -1,0 +1,219 @@
+countrows: 4
+filename: 513372.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: COMMITTEE NAME
+    number: '3'
+    value: TREY GOWDY FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 3324
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: SPARTANBURG
+  - name: STATE
+    number: '7'
+    value: SC
+  - name: ZIP
+    number: '8'
+    value: '29304'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0SC04257
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: GOWDY
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: TREY
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: SC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Quattlebaum
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Marvin
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101028'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00462523\x1CTREY GOWDY FOR CONGRESS\x1CPO BOX 3324\x1C\x1CSPARTANBURG\x1CSC\x1C29304\x1CH0SC04257\x1CGOWDY\x1CTREY\x1C\x1C\x1C\x1CH\x1CSC\x1C04\x1CQuattlebaum\x1CMarvin\x1C\x1C\x1C\x1C20101028\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00462523\x1CF6.8244\x1CIND\x1C\x1CFERDOWSI\x1CFARZIN\x1C\x1C\x1C\x1C1728
+    GENERAL GEORGE PATTON DRIVE\x1C\x1CBRENTWOOD\x1CTN\x1C37027\x1C\x1C20101026\x1C2400.00\x1CMANAGEMENT
+    RESOURCES CO.\x1CBUSINESSMAN\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8244
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: FERDOWSI
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: FARZIN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1728 GENERAL GEORGE PATTON DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BRENTWOOD
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '37027'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: MANAGEMENT RESOURCES CO.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'BUSINESSMAN
+
+'
+- input: "F65\x1CC00462523\x1CF6.8245\x1CIND\x1C\x1CMENGULOGLU\x1CBARAN\x1C\x1C\x1C\x1C620
+    HALTON ROAD\x1CAPT. 12304\x1CGREENVILLE\x1CSC\x1C29607\x1C\x1C20101027\x1C1000.00\x1CINFO
+    REQUESTED\x1CINFO REQUESTED\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462523
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8245
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: MENGULOGLU
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: BARAN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 620 HALTON ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: APT. 12304
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: GREENVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29607'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: INFO REQUESTED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'INFO REQUESTED
+
+'
+sourceurl: !!python/unicode 20101028
+type: chunk

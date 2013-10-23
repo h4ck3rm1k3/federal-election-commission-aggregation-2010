@@ -1,0 +1,404 @@
+countrows: 5
+filename: 495333.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER'S FEC ID NUMBER
+    number: '2'
+    value: C90009481
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: Filangieri Society for Justice and Good Government
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 14 Paddock Drive
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: Greenwich
+  - name: STATE
+    number: '14'
+    value: CT
+  - name: ZIP
+    number: '15'
+    value: 06831
+  - name: Qualified Non-Profit Corporation
+    number: 16-
+    value: Y
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '18'
+    value: ''
+  - name: REPORT CODE
+    number: '19'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 20-24
+    value: '24'
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: '20100915'
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: '20100928'
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '43000.00'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '42894.82'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: Auriana
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: Lawrence
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: E
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20100928'
+  - value: '
+
+'
+  expected_count: 30
+  input: "F5N\x1CC90009481\x1CORG\x1CFilangieri Society for Justice and Good Government\x1C\x1C\x1C\x1C\x1C\x1C\x1C14
+    Paddock Drive\x1C\x1CGreenwich\x1CCT\x1C06831\x1CY\x1C\x1C\x1C\x1C24\x1C20100915\x1C20100928\x1C43000.00\x1C42894.82\x1CAuriana\x1CLawrence\x1CE\x1C\x1C\x1C20100928\x1C\n"
+  input_count: 31
+  record: fec.version.v6_4.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009481
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Auriana
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Lawrence
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: E
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 839 Lake Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Greenwich
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 06831
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100928'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '43000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Federated Investors
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Co-Portfolio Manager
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90009481\x1CF56.000001\x1CIND\x1C\x1CAuriana\x1CLawrence\x1CE\x1C\x1C\x1C839
+    Lake Avenue\x1C\x1CGreenwich\x1CCT\x1C06831\x1C\x1C20100928\x1C43000.00\x1CFederated
+    Investors\x1CCo-Portfolio Manager\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009481
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Adpress, Inc.
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 135 East 54th Street
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Penthouse F
+  - name: PAYEE CITY
+    number: '13'
+    value: New York
+  - name: PAYEE STATE
+    number: '14'
+    value: NY
+  - name: PAYEE ZIP
+    number: '15'
+    value: '10022'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20100928'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '40432.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '47940.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: Vote for Joe DioGuardi in GOP Primary-emails
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: DioGuardi
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: NY
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90009481\x1CF57.000001\x1CORG\x1C\"Adpress, Inc.\"\x1C\x1C\x1C\x1C\x1C\x1C135
+    East 54th Street\x1CPenthouse F\x1CNew York\x1CNY\x1C10022\x1CP2010\x1C\x1C20100928\x1C40432.72\x1C47940.22\x1C\x1CVote
+    for Joe DioGuardi in GOP Primary-emails\x1C004\x1C\x1CS\x1C\x1CDioGuardi\x1CJoe\x1C\x1C\x1C\x1CS\x1CNY\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009481
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Adpress, Inc.
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 135 East 54th Street
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: New York
+  - name: PAYEE STATE
+    number: '14'
+    value: NY
+  - name: PAYEE ZIP
+    number: '15'
+    value: '10022'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20100928'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2462.10'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '50402.32'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: Postcard mailing/Republican primary election voters
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: DioGuardi
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: NY
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90009481\x1CF57.000002\x1CORG\x1C\"Adpress, Inc.\"\x1C\x1C\x1C\x1C\x1C\x1C135
+    East 54th Street\x1C\x1CNew York\x1CNY\x1C10022\x1CP2010\x1C\x1C20100928\x1C2462.10\x1C50402.32\x1C\x1CPostcard
+    mailing/Republican primary election voters\x1C004\x1C\x1CS\x1C\x1CDioGuardi\x1CJoe\x1C\x1C\x1C\x1CS\x1CNY\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+sourceurl: !!python/unicode 20100928
+type: chunk

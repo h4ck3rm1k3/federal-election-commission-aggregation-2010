@@ -1,0 +1,486 @@
+countrows: 8
+filename: 514280.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471219
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SAM CALIGIURI FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 11252
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Waterbury
+  - name: STATE
+    number: '7'
+    value: CT
+  - name: ZIP
+    number: '8'
+    value: '06703'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CT05176
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: CALIGIURI
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: SAM
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CT
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Kolo
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: William M.
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101029'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00471219\x1CSAM CALIGIURI FOR CONGRESS\x1CPO BOX 11252\x1C\x1CWaterbury\x1CCT\x1C06703\x1CH0CT05176\x1CCALIGIURI\x1CSAM\x1C\x1C\x1C\x1CH\x1CCT\x1C05\x1CKolo\x1CWilliam
+    M.\x1C\x1C\x1C\x1C20101029\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00471219\x1CF6.4410\x1CIND\x1C\x1CBowman\x1CPaul A.\x1C\x1C\x1C\x1C205
+    Maple Avenue\x1C\x1CCheshire\x1CCT\x1C06410\x1C\x1C20101029\x1C2000.00\x1CPabco,
+    Inc.\x1CManager\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471219
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4410
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Bowman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Paul A.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 205 Maple Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cheshire
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '06410'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Pabco, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Manager
+
+'
+- input: "F65\x1CC00471219\x1CF6.4411\x1CIND\x1C\x1CFoley\x1CLawrence\x1C\x1C\x1C\x1C44
+    Morehouse Lane\x1C\x1CSouthport\x1CCT\x1C06890\x1C\x1C20101029\x1C1000.00\x1CBronson
+    Point Management, LLC\x1CPrincipal\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471219
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4411
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Foley
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Lawrence
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 44 Morehouse Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Southport
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 06890
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Bronson Point Management, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Principal
+
+'
+- input: "F65\x1CC00471219\x1CF6.4412\x1CIND\x1C\x1CGendell\x1CJeffrey L.\x1C\x1C\x1C\x1C9
+    Perkins Road\x1C\x1CGreenwich\x1CCT\x1C06830\x1C\x1C20101029\x1C1000.00\x1CTontine
+    Associates\x1CInvestment manager\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471219
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4412
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gendell
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jeffrey L.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9 Perkins Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Greenwich
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 06830
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Tontine Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Investment manager
+
+'
+- input: "F65\x1CC00471219\x1CF6.4413\x1CIND\x1C\x1CPeterffy\x1CThomas\x1C\x1C\x1C\x1C25
+    Conyers Farm Drive\x1C\x1CGreenwich\x1CCT\x1C06831\x1C\x1C20101029\x1C2400.00\x1CInteractive
+    Brokers Group\x1CChairman & CEO\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471219
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4413
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Peterffy
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Thomas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 25 Conyers Farm Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Greenwich
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 06831
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Interactive Brokers Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Chairman & CEO
+
+'
+- input: "F65\x1CC00471219\x1CF6.4415\x1CPTY\x1CBrookfield Republican Towne Committee\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 5154\x1C\x1CBrookfield\x1CCT\x1C06804\x1C\x1C20101029\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471219
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4415
+  - name: ENTITY TYPE
+    number: '4'
+    value: PTY
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Brookfield Republican Towne Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. Box 5154
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Brookfield
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 06804
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00471219\x1CF6.4414\x1CPAC\x1CTRUTH ACCOUNTABILITY AND COURAGE POLITICAL
+    ACTION COMMITTEE (TACPAC)\x1C\x1C\x1C\x1C\x1C\x1C228 S WASHINGTON ST STE 115\x1C\x1CALEXANDRIA\x1CVA\x1C22314\x1CC00413070\x1C20101029\x1C3000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471219
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4414
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: TRUTH ACCOUNTABILITY AND COURAGE POLITICAL ACTION COMMITTEE (TACPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 228 S WASHINGTON ST STE 115
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ALEXANDRIA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22314'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00413070
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20101030
+type: chunk

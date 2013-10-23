@@ -1,0 +1,505 @@
+countrows: 8
+filename: 491592.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00236513\x1CEngel for Congress\x1C462 California Road\x1C\x1CBronxville\x1CNY\x1C10708\x1CH8NY19058\x1CEngel\x1CEliot\x1CL.\x1CRep.\x1C\x1CH\x1CNY\x1C17\x1CLinhardt\x1CArnold\x1C\x1C\x1C\x1C20100904\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00236513
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Engel for Congress
+  - name: STREET 1
+    number: '4'
+    value: 462 California Road
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Bronxville
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '10708'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8NY19058
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Engel
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Eliot
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: L.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Rep.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '17'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Linhardt
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Arnold
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100904
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00236513
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6A7CBDAF07423409EA8F
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Choueke
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Tony
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2708 The Strand
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Manhattan Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '902662154'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100903'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Allegre Pacific Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00236513\x1C6A7CBDAF07423409EA8F\x1CIND\x1C\x1CChoueke\x1CTony\x1C\x1C\x1C\x1C2708
+    The Strand\x1C\x1CManhattan Beach\x1CCA\x1C902662154\x1C\x1C20100903\x1C1000.00\x1CAllegre
+    Pacific Inc.\x1CCEO\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00236513
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 606614D85D8A744D09F4
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: May
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Corey
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6389 LaPunta Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '900682825'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100903'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Sekretagent Productions
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00236513\x1C606614D85D8A744D09F4\x1CIND\x1C\x1CMay\x1CCorey\x1C\x1C\x1C\x1C6389
+    LaPunta Drive\x1C\x1CLos Angeles\x1CCA\x1C900682825\x1C\x1C20100903\x1C1000.00\x1CSekretagent
+    Productions\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00236513
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6DEE2F6D8F96643F7A1E
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Cohen
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Martin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 24858 Malibu Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Malibu
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '902654617'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100903'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self-employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Physician
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00236513\x1C6DEE2F6D8F96643F7A1E\x1CIND\x1C\x1CCohen\x1CMartin\x1CL\x1C\x1C\x1C24858
+    Malibu Road\x1C\x1CMalibu\x1CCA\x1C902654617\x1C\x1C20100903\x1C1500.00\x1CSelf-employed\x1CPhysician\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00236513
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 63F3E125ACD144824A40
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Low
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Donald
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5850 Canoga Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt. 110
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Woodland Hills
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '913676513'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100903'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: self employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate Investor
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00236513\x1C63F3E125ACD144824A40\x1CIND\x1C\x1CLow\x1CDonald\x1C\x1C\x1C\x1C5850
+    Canoga Ave\x1CApt. 110\x1CWoodland Hills\x1CCA\x1C913676513\x1C\x1C20100903\x1C1000.00\x1Cself
+    employed\x1CReal Estate Investor\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00236513
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 65D6DD0EFD7BC4D4DBA9
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: May
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Lawrence
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: MD
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 24814 Malibu Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Malibu
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '902654617'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100903'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Physician
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00236513\x1C65D6DD0EFD7BC4D4DBA9\x1CIND\x1C\x1CMay\x1CLawrence\x1CA\x1C\x1CMD\x1C24814
+    Malibu Rd\x1C\x1CMalibu\x1CCA\x1C902654617\x1C\x1C20100903\x1C1000.00\x1CSelf\x1CPhysician\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00236513
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6484D866D707D49B8A4B
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Steinberg
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Dominique
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 20162 REDLANDS DR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Newport Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '926601324'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100903'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Information Requested
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Information Requested
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00236513\x1C6484D866D707D49B8A4B\x1CIND\x1C\x1CSteinberg\x1CDominique\x1C\x1C\x1C\x1C20162
+    REDLANDS DR\x1C\x1CNewport Beach\x1CCA\x1C926601324\x1C\x1C20100903\x1C1000.00\x1CInformation
+    Requested\x1CInformation Requested\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100905
+type: chunk

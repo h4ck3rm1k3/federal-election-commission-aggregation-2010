@@ -1,0 +1,344 @@
+countrows: 4
+filename: 513521.fec
+header: {}
+rows:
+- 2
+- input: "F24\x1CC00486845\x1C24\x1CLeague of Conservation Voters Victory Fund\x1C1920
+    L St NW Ste 800\x1C\x1CWashington\x1CDC\x1C20003    \x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20101028\n"
+  record: fec.version.v6_4.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00486845
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: League of Conservation Voters Victory Fund
+  - name: STREET 1
+    number: '5'
+    value: 1920 L St NW Ste 800
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20003    '
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Collins
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Patrick
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20101028
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00486845
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E28EE4CAB4D8549A2939
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Mission Control, Inc
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 114 A Mansfield Hollow Rod
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Mansfield Center
+  - name: PAYEE STATE
+    number: '16'
+    value: CT
+  - name: PAYEE ZIP
+    number: '17'
+    value: '06250'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101027'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '13825.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '207724.17'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Direct Mail
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Perriello
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Tom
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: S.P.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '05'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101028'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00486845\x1CE28EE4CAB4D8549A2939\x1C\x1C\x1CORG\x1CMission Control,
+    Inc\x1C\x1C\x1C\x1C\x1C\x1C114 A Mansfield Hollow Rod\x1C\x1CMansfield Center\x1CCT\x1C06250\x1CG2010\x1C\x1C20101027\x1C13825.00\x1C207724.17\x1C\x1CDirect
+    Mail\x1C\x1C\x1CS\x1C\x1CPerriello\x1CTom\x1CS.P.\x1CRep.\x1C\x1CH\x1CVA\x1C05\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20101028\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00486845
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E1438425962A64DCD92A
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Defenders Of Wildlife Action Fund
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1130 17th St NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '2003'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101027'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '7625.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '59822.75'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Partner Mail Campaign
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Teague
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Harry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NM
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '02'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101028'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00486845\x1CE1438425962A64DCD92A\x1C\x1C\x1CORG\x1CDefenders Of Wildlife
+    Action Fund\x1C\x1C\x1C\x1C\x1C\x1C1130 17th St NW\x1C\x1CWashington\x1CDC\x1C2003\x1CG2010\x1C\x1C20101027\x1C7625.00\x1C59822.75\x1C\x1CPartner
+    Mail Campaign\x1C\x1C\x1CS\x1C\x1CTeague\x1CHarry\x1C\x1C\x1C\x1CH\x1CNM\x1C02\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20101028\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.SE
+  result: []
+sourceurl: !!python/unicode 20101029
+type: chunk

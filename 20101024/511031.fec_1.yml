@@ -1,0 +1,152 @@
+countrows: 3
+filename: 511031.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00468678\x1CSURYA FOR CONGRESS\x1CPO BOX 9536\x1C\x1CCINCINNATI\x1COH\x1C45209\x1CH0OH02048\x1CYalamanchili\x1CSurya\x1C\x1C\x1C\x1CH\x1COH\x1C02\x1CYalamanchili\x1CSurya\x1C\x1C\x1C\x1C20101024\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468678
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SURYA FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 9536
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: CINCINNATI
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '45209'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0OH02048
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Yalamanchili
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Surya
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Yalamanchili
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Surya
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101024
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468678
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lewis
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Andwele
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 40 W 135th Street, Apt 15R
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10037'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Morgan Stanley
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Finance
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00468678\x1CF65.000001\x1CIND\x1C\x1CLewis\x1CAndwele\x1C\x1C\x1C\x1C\"40
+    W 135th Street, Apt 15R\"\x1C\x1CNew York\x1CNY\x1C10037\x1C\x1C20101024\x1C1000.00\x1CMorgan
+    Stanley\x1CFinance\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101024
+type: chunk

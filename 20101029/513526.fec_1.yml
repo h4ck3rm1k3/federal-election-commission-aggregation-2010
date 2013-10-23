@@ -1,0 +1,353 @@
+countrows: 6
+filename: 513526.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468405
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Robert Hurt for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 2
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Chatham
+  - name: STATE
+    number: '7'
+    value: VA
+  - name: ZIP
+    number: '8'
+    value: '245310002'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0VA05095
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: HURT
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: ROBERT
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: VA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Selph
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: John G.
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101028'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00468405\x1CRobert Hurt for Congress\x1CPO Box 2\x1C\x1CChatham\x1CVA\x1C245310002\x1CH0VA05095\x1CHURT\x1CROBERT\x1C\x1C\x1C\x1CH\x1CVA\x1C05\x1CSelph\x1CJohn
+    G.\x1C\x1C\x1C\x1C20101028\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00468405\x1CF6.17145\x1CIND\x1C\x1CFazakerley\x1CGregory W.\x1C\x1C\x1C\x1CPO
+    Box 955\x1C\x1CMiddleburg\x1CVA\x1C20118\x1C\x1C20101026\x1C2400.00\x1CCG Investments
+    Inc.\x1CReal estate development\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468405
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.17145
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Fazakerley
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Gregory W.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 955
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Middleburg
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20118'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: CG Investments Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Real estate development
+
+'
+- input: "F65\x1CC00468405\x1CF6.17144\x1CIND\x1C\x1CMcCaffery\x1CMichael G.\x1C\x1C\x1C\x1C360
+    Poett Road\x1C\x1CHillsborough\x1CCA\x1C94010\x1C\x1C20101026\x1C2054.55\x1CMcKena
+    Capital Management\x1CCEO\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468405
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.17144
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McCaffery
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael G.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 360 Poett Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Hillsborough
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94010'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2054.55'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: McKena Capital Management
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CEO
+
+'
+- input: "F65\x1CC00468405\x1CF6.17146\x1CIND\x1C\x1CRuddy\x1CChristopher\x1C\x1C\x1C\x1C1120
+    Bear Island Dr\x1C\x1CWest Palm Beach\x1CFL\x1C33409\x1C\x1C20101026\x1C1500.00\x1CNewsmax
+    Media Inc.\x1CCEO/President\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468405
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.17146
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ruddy
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Christopher
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1120 Bear Island Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Palm Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '33409'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Newsmax Media Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CEO/President
+
+'
+- input: "F65\x1CC00468405\x1CF6.17147\x1CIND\x1C\x1CWhiddon\x1CThomas E.\x1C\x1C\x1C\x1C2316
+    Gulf Blvd\x1C\x1CIndian Rodes Beach\x1CFL\x1C33785\x1C\x1C20101026\x1C2083.33\x1CRetired\x1CRetired\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468405
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.17147
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Whiddon
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Thomas E.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2316 Gulf Blvd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Indian Rodes Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '33785'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2083.33'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+sourceurl: !!python/unicode 20101029
+type: chunk

@@ -1,0 +1,483 @@
+countrows: 5
+filename: 513712.fec
+header: {}
+rows:
+- 2
+- input: "F24\x1CC90011917\x1C24\x1CINDIANA CHAMBER OF COMMERCE\x1C115 W. WASHINGTON
+    ST. STE 850S\x1C\x1CINDIANAPOLIS\x1CIN\x1C46204\x1CBrantley\x1CJeff\x1C\x1C\x1C\x1C20101029\n"
+  record: fec.version.v6_4.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011917
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: INDIANA CHAMBER OF COMMERCE
+  - name: STREET 1
+    number: '5'
+    value: 115 W. WASHINGTON ST. STE 850S
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: INDIANAPOLIS
+  - name: STATE
+    number: '8'
+    value: IN
+  - name: ZIP
+    number: '9'
+    value: '46204'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Brantley
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Jeff
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20101029
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011917
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Hulu
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 12312 West Olympic Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90064'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101028'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2410.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Young
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Todd
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: IN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 09
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Brantley
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Jeff
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: S
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Mr.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101029
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC90011917\x1CSE.000001\x1C\x1C\x1CORG\x1CHulu\x1C\x1C\x1C\x1C\x1C\x1C12312
+    West Olympic Blvd\x1C\x1CLos Angeles\x1CCA\x1C90064\x1CG2010\x1C\x1C20101028\x1C2410.00\x1C.00\x1C\x1CAdvertising\x1C\x1C\x1CS\x1C\x1CYoung\x1CTodd\x1C\x1C\x1C\x1CH\x1CIN\x1C09\x1CBrantley\x1CJeff\x1CS\x1CMr.\x1C\x1C20101029\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011917
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000002
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Amplified Strategies
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1803 42nd Avenue E
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Seattle
+  - name: PAYEE STATE
+    number: '16'
+    value: WA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '98112'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101028'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '15000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Direct mail
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Walorski
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Jackie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: IN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '02'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Brantley
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Jeff
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: S
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Mr.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101029
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC90011917\x1CSE.000002\x1C\x1C\x1CORG\x1CAmplified Strategies\x1C\x1C\x1C\x1C\x1C\x1C1803
+    42nd Avenue E\x1C\x1CSeattle\x1CWA\x1C98112\x1CG2010\x1C\x1C20101028\x1C15000.00\x1C.00\x1C\x1CDirect
+    mail\x1C\x1C\x1CS\x1C\x1CWalorski\x1CJackie\x1C\x1C\x1C\x1CH\x1CIN\x1C02\x1CBrantley\x1CJeff\x1CS\x1CMr.\x1C\x1C20101029\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011917
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000003
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Amplified Strategies
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1803 42nd Avenue E
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Seattle
+  - name: PAYEE STATE
+    number: '16'
+    value: WA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '98112'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101028'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '15000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Direct mail
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Young
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Todd
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: IN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 09
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Brantley
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Jeff
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: S
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Mr.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101029
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC90011917\x1CSE.000003\x1C\x1C\x1CORG\x1CAmplified Strategies\x1C\x1C\x1C\x1C\x1C\x1C1803
+    42nd Avenue E\x1C\x1CSeattle\x1CWA\x1C98112\x1CG2010\x1C\x1C20101028\x1C15000.00\x1C.00\x1C\x1CDirect
+    mail\x1C\x1C\x1CS\x1C\x1CYoung\x1CTodd\x1C\x1C\x1C\x1CH\x1CIN\x1C09\x1CBrantley\x1CJeff\x1CS\x1CMr.\x1C\x1C20101029\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+sourceurl: !!python/unicode 20101029
+type: chunk

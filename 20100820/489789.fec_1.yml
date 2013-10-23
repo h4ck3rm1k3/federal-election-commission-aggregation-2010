@@ -1,0 +1,362 @@
+countrows: 6
+filename: 489789.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00352849\x1CCrenshaw for Congress Campaign\x1C4963 Beach Boulevard\x1C\x1CJacksonville\x1CFL\x1C322074802\x1CH0FL04066\x1CCrenshaw\x1CAnder\x1C\x1CHon.\x1C\x1CH\x1CFL\x1C04\x1CScheu\x1CWilliam\x1CE.\x1CMr.\x1C\x1C20100820\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00352849
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Crenshaw for Congress Campaign
+  - name: STREET 1
+    number: '4'
+    value: 4963 Beach Boulevard
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Jacksonville
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '322074802'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0FL04066
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Crenshaw
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Ander
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Hon.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: FL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Scheu
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: William
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: E.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100820
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00352849
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '17433000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Medical Association PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 25 Massachusetts Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200017400'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00000422
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100819'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00352849\x1C17433000\x1CCOM\x1CAmerican Medical Association PAC\x1C\x1C\x1C\x1C\x1C\x1C25
+    Massachusetts Avenue NW\x1CSuite 600\x1CWashington\x1CDC\x1C200017400\x1CC00000422\x1C20100819\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00352849
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '17432000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Simpson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Bryan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4861 Ortega Boulevard
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Jacksonville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '322107637'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100819'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Medcom Services
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Benefits Exec.
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00352849\x1C17432000\x1CIND\x1C\x1CSimpson\x1CBryan\x1C\x1CMr.\x1CJr.\x1C4861
+    Ortega Boulevard\x1C\x1CJacksonville\x1CFL\x1C322107637\x1C\x1C20100819\x1C1000\x1CMedcom
+    Services\x1CBenefits Exec.\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00352849
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '17431000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Simpson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Page
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4861 Ortega Boulevard
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Jacksonville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '322107637'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100819'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00352849\x1C17431000\x1CIND\x1C\x1CSimpson\x1CPage\x1C\x1CMrs.\x1C\x1C4861
+    Ortega Boulevard\x1C\x1CJacksonville\x1CFL\x1C322107637\x1C\x1C20100819\x1C1000\x1CSelf\x1CHomemaker\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00352849
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '17430000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Comcast Corp PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1701 John F Kennedy Boulevard
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Philadelphia
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '191032838'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00248716
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100820'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00352849\x1C17430000\x1CCOM\x1CComcast Corp PAC\x1C\x1C\x1C\x1C\x1C\x1C1701
+    John F Kennedy Boulevard\x1C\x1CPhiladelphia\x1CPA\x1C191032838\x1CC00248716\x1C20100820\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100820
+type: chunk

@@ -1,0 +1,436 @@
+countrows: 7
+filename: 472597.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00474619\x1CBERG FOR CONGRESS\x1CPO BOX 9394\x1C\x1CFARGO\x1CND\x1C58106\x1CH0ND00135\x1CBerg\x1CRichard
+    A\x1C\x1C\x1C\x1CH\x1CND\x1C00\x1CZander\x1CKelly\x1C\x1C\x1C\x1C20100527\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474619
+  - name: COMMITTEE NAME
+    number: '3'
+    value: BERG FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 9394
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: FARGO
+  - name: STATE
+    number: '7'
+    value: ND
+  - name: ZIP
+    number: '8'
+    value: '58106'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0ND00135
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Berg
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Richard A
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: ND
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '00'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Zander
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Kelly
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100527
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474619
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1373000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Moore
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: M.D.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3201 Sandy Lane SE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mandan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ND
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '585544737'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100526'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Bone & Joint Center
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Physician
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00474619\x1C1373000\x1CIND\x1C\x1CMoore\x1CMichael\x1CR\x1C\x1CM.D.\x1C3201
+    Sandy Lane SE\x1C\x1CMandan\x1CND\x1C585544737\x1C\x1C20100526\x1C1000\x1CThe
+    Bone & Joint Center\x1CPhysician\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474619
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1434000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Burgum
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Doug
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10 Tallgrass Trail
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Horace
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ND
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '580479548'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kilbourne Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chairman
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00474619\x1C1434000\x1CIND\x1C\x1CBurgum\x1CDoug\x1C\x1C\x1C\x1C10
+    Tallgrass Trail\x1C\x1CHorace\x1CND\x1C580479548\x1C\x1C20100527\x1C2400\x1CKilbourne
+    Group\x1CChairman\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474619
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1435000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Burgum
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Doug
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10 Tallgrass Trail
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Horace
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ND
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '580479548'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kilbourne Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chairman
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00474619\x1C1435000\x1CIND\x1C\x1CBurgum\x1CDoug\x1C\x1C\x1C\x1C10
+    Tallgrass Trail\x1C\x1CHorace\x1CND\x1C580479548\x1C\x1C20100527\x1C2400\x1CKilbourne
+    Group\x1CChairman\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474619
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1418000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Fliginger
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mark
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 597
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bismarck
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ND
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '585020597'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Cody Oil & Gas Corporation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Business Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00474619\x1C1418000\x1CIND\x1C\x1CFliginger\x1CMark\x1C\x1C\x1C\x1CPO
+    Box 597\x1C\x1CBismarck\x1CND\x1C585020597\x1C\x1C20100527\x1C1000\x1CCody Oil
+    & Gas Corporation\x1CBusiness Owner\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474619
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1388000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kraljic
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Rebecca
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1400 Eagle Crest Loop
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bismarck
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ND
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '585038872'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00474619\x1C1388000\x1CIND\x1C\x1CKraljic\x1CRebecca\x1CJ\x1C\x1C\x1C1400
+    Eagle Crest Loop\x1C\x1CBismarck\x1CND\x1C585038872\x1C\x1C20100527\x1C2000\x1CHomemaker\x1CHomemaker\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100528
+type: chunk

@@ -1,0 +1,153 @@
+countrows: 3
+filename: 465322.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00387399\x1CFriends of Mike Sodrel\x1C702 N Shore Drive\x1CSuite
+    500\x1CJeffersonville\x1CIN\x1C471303104\x1CH2IN09084\x1CSodrel\x1CMichael\x1CE.\x1CMr.\x1C\x1CH\x1CIN\x1C09\x1CByrne\x1CJ.
+    Patrick\x1C\x1CMr.\x1C\x1C20100422\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00387399
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Mike Sodrel
+  - name: STREET 1
+    number: '4'
+    value: 702 N Shore Drive
+  - name: STREET 2
+    number: '5'
+    value: Suite 500
+  - name: CITY
+    number: '6'
+    value: Jeffersonville
+  - name: STATE
+    number: '7'
+    value: IN
+  - name: ZIP
+    number: '8'
+    value: '471303104'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2IN09084
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Sodrel
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Michael
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: E.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IN
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: 09
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Byrne
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: J. Patrick
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100422
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00387399
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16300000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Czerw
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Carol
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4830 Bent Ridge Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Clemmons
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '270129416'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100422'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: NanoTechLabs
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Bookkeeper
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00387399\x1C16300000\x1CIND\x1C\x1CCzerw\x1CCarol\x1CA.\x1CMrs.\x1C\x1C4830
+    Bent Ridge Lane\x1C\x1CClemmons\x1CNC\x1C270129416\x1C\x1C20100422\x1C1000\x1CNanoTechLabs\x1CBookkeeper\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100422
+type: chunk

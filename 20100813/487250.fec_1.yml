@@ -1,0 +1,808 @@
+countrows: 13
+filename: 487250.fec
+header: {}
+rows:
+- 2
+- input: "F9N\x1CC30000798\x1C\x1C\"AMERICAN FEDERATION OF STATE, COUNTY AND MUNICIPAL
+    EMPLOYEES, AFL-CIO\"\x1C\x1C\x1C\x1C\x1C\x1C\x1C1625 L STREET NW\x1C\x1CWASHINGTON\x1CDC\x1C20036\x1C\x1C\x1C20100810\x1C20100812\x1C20100812\x1CJOBS\x1CCLQ\x1C\x1C\x1CSAUNDERS\x1CLEE\x1CA\x1C\x1C\x1C1625
+    L STREET NW\x1C\x1CWASHINGTON\x1CDC\x1C20036\x1C\"AMERICAN FEDERATION OF STATE,
+    COUNTY A\"\x1CINTERNATIONAL SECRETARY-TREASURER\x1C.00\x1C68539.00\x1CGRAHAM\x1CSTEPHEN\x1C\x1C\x1C\x1C20100813\n"
+  record: fec.version.v6_4.F9
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F9N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000798
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: AMERICAN FEDERATION OF STATE, COUNTY AND MUNICIPAL EMPLOYEES, AFL-CIO
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 1625 L STREET NW
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: WASHINGTON
+  - name: STATE
+    number: '14'
+    value: DC
+  - name: ZIP
+    number: '15'
+    value: '20036'
+  - name: INDIVIDUAL EMPLOYER
+    number: '16'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '17'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '18'
+    value: '20100810'
+  - name: COVERAGE THROUGH DATE
+    number: '19'
+    value: '20100812'
+  - name: DATE OF PUBLIC DISTRIBUTION
+    number: '20'
+    value: '20100812'
+  - name: COMMUNICATION TITLE
+    number: '21'
+    value: JOBS
+  - name: FILER CODE
+    number: '22'
+    value: CLQ
+  - name: FILER CODE DESCRIPTION
+    number: '23'
+    value: ''
+  - name: SEGREGATED BANK ACCOUNT
+    number: '24'
+    value: ''
+  - name: CUSTODIAN LAST NAME
+    number: '25'
+    value: SAUNDERS
+  - name: CUSTODIAN FIRST NAME
+    number: '26'
+    value: LEE
+  - name: CUSTODIAN MIDDLE NAME
+    number: '27'
+    value: A
+  - name: CUSTODIAN PREFIX
+    number: '28'
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: '29'
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: '30'
+    value: 1625 L STREET NW
+  - name: CUSTODIAN STREET 2
+    number: '31'
+    value: ''
+  - name: CUSTODIAN CITY
+    number: '32'
+    value: WASHINGTON
+  - name: CUSTODIAN STATE
+    number: '33'
+    value: DC
+  - name: CUSTODIAN ZIP
+    number: '34'
+    value: '20036'
+  - name: CUSTODIAN EMPLOYER
+    number: '35'
+    value: AMERICAN FEDERATION OF STATE, COUNTY A
+  - name: CUSTODIAN OCCUPATION
+    number: '36'
+    value: INTERNATIONAL SECRETARY-TREASURER
+  - name: TOTAL DONATIONS THIS STATEMENT
+    number: 37-9.
+    value: '.00'
+  - name: TOTAL DISB./OBLIG. THIS STATEMENT
+    number: 38-10.
+    value: '68539.00'
+  - name: PERSON COMPLETING LAST NAME
+    number: '39'
+    value: GRAHAM
+  - name: PERSON COMPLETING FIRST NAME
+    number: '40'
+    value: STEPHEN
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '42'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '43'
+    value: ''
+  - name: DATE SIGNED
+    number: '44'
+    value: '20100813
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000798
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000001
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: POLICANO
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: CHRISTOPHER
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 1625 L STREET NW
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: WASHINGTON
+  - name: CONTROLLER STATE
+    number: '12'
+    value: DC
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '20036'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: AMERICAN FEDERATION OF STATE, COUNTY A
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: DIRECTOR PUBLIC AFFAIRS
+  - value: '
+
+'
+  expected_count: 15
+  input: "F91\x1CC30000798\x1CF91.000001\x1CPOLICANO\x1CCHRISTOPHER\x1C\x1C\x1C\x1C1625
+    L STREET NW\x1C\x1CWASHINGTON\x1CDC\x1C20036\x1C\"AMERICAN FEDERATION OF STATE,
+    COUNTY A\"\x1CDIRECTOR PUBLIC AFFAIRS\x1C\n"
+  input_count: 16
+  record: fec.version.v6_4.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000798
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000002
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: RUMMEL
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: BLAINE
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 1625 L STREET NW
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: WASHINGTON
+  - name: CONTROLLER STATE
+    number: '12'
+    value: DC
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '20036'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: AMERICAN FEDERATION OF STATE, COUNTY A
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: ASST DIRECTOR LEGISLATION
+  - value: '
+
+'
+  expected_count: 15
+  input: "F91\x1CC30000798\x1CF91.000002\x1CRUMMEL\x1CBLAINE\x1C\x1C\x1C\x1C1625 L
+    STREET NW\x1C\x1CWASHINGTON\x1CDC\x1C20036\x1C\"AMERICAN FEDERATION OF STATE,
+    COUNTY A\"\x1CASST DIRECTOR LEGISLATION\x1C\n"
+  input_count: 16
+  record: fec.version.v6_4.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000798
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: VISUALITY
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 5980 EXECUTIVE DRIVE
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE A
+  - name: PAYEE CITY
+    number: '15'
+    value: MADISON
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '53719'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100811'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '15000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: RADIO AD JOBS
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20100812'
+  - value: '
+
+'
+  expected_count: 26
+  input: "F93\x1CC30000798\x1CF93.000001\x1C\x1C\x1CORG\x1CVISUALITY\x1C\x1C\x1C\x1C\x1C\x1C5980
+    EXECUTIVE DRIVE\x1CSUITE A\x1CMADISON\x1CWI\x1C53719\x1CP2010\x1C\x1C20100811\x1C15000.00\x1C\x1CRADIO
+    AD JOBS\x1C\x1C\x1C20100812\x1C\n"
+  input_count: 27
+  record: fec.version.v6_4.F93
+  result: []
+- input: "F94\x1CC30000798\x1CF94.000002\x1CF93.000001\x1CF93\x1CH6WI08122\x1CKAGEN\x1CSTEVEN\x1CL\x1C\x1C\x1CH\x1CWI\x1C08\x1CP2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000798
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000002
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000001
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: H6WI08122
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: KAGEN
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: STEVEN
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: L
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: H
+  - name: CANDIDATE STATE
+    number: '13'
+    value: WI
+  - name: CANDIDATE DIST
+    number: '14'
+    value: 08
+  - name: ELECTION CODE
+    number: '15'
+    value: P2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000798
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.000002
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: THE CAMPAIGN GROUP, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1600 LOCUST STREET
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: PHILADELPHIA
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '19103'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100810'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '53539.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: RADIO AD JOBS
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20100812'
+  - value: '
+
+'
+  expected_count: 26
+  input: "F93\x1CC30000798\x1CF93.000002\x1C\x1C\x1CORG\x1C\"THE CAMPAIGN GROUP, INC.\"\x1C\x1C\x1C\x1C\x1C\x1C1600
+    LOCUST STREET\x1C\x1CPHILADELPHIA\x1CPA\x1C19103\x1CP2010\x1C\x1C20100810\x1C53539.00\x1C\x1CRADIO
+    AD JOBS\x1C\x1C\x1C20100812\x1C\n"
+  input_count: 27
+  record: fec.version.v6_4.F93
+  result: []
+- input: "F94\x1CC30000798\x1CF94.000004\x1CF93.000002\x1CF93\x1CH0NY23081\x1COWENS\x1CWILLIAM\x1C\x1C\x1C\x1CH\x1CNY\x1C23\x1CP2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000798
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000004
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000002
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: H0NY23081
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: OWENS
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: WILLIAM
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: H
+  - name: CANDIDATE STATE
+    number: '13'
+    value: NY
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '23'
+  - name: ELECTION CODE
+    number: '15'
+    value: P2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30000798\x1CF94.000005\x1CF93.000002\x1CF93\x1CH8FL24026\x1CKOSMAS\x1CSUZANNE\x1C\x1C\x1C\x1CH\x1CFL\x1C24\x1CP2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000798
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000005
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000002
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: H8FL24026
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: KOSMAS
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: SUZANNE
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: H
+  - name: CANDIDATE STATE
+    number: '13'
+    value: FL
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '24'
+  - name: ELECTION CODE
+    number: '15'
+    value: P2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30000798\x1CF94.000006\x1CF93.000002\x1CF93\x1CH6FL00046\x1CBOYD\x1CF\x1CALLEN\x1C\x1CJR\x1CH\x1CFL\x1C02\x1CP2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000798
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000006
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000002
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: H6FL00046
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: BOYD
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: F
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ALLEN
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: JR
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: H
+  - name: CANDIDATE STATE
+    number: '13'
+    value: FL
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '02'
+  - name: ELECTION CODE
+    number: '15'
+    value: P2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30000798\x1CF94.000007\x1CF93.000002\x1CF93\x1CH8MD01086\x1CKRATOVIL\x1CFRANK\x1C\x1C\x1CJR\x1CH\x1CMD\x1C01\x1CP2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000798
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000007
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000002
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: H8MD01086
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: KRATOVIL
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: FRANK
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: JR
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: H
+  - name: CANDIDATE STATE
+    number: '13'
+    value: MD
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '01'
+  - name: ELECTION CODE
+    number: '15'
+    value: P2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30000798\x1CF94.000008\x1CF93.000002\x1CF93\x1CH4NH02175\x1CHODES\x1CPAUL\x1CW\x1C\x1C\x1CH\x1CNH\x1C02\x1CP2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000798
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000008
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000002
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: H4NH02175
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: HODES
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: PAUL
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: W
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: H
+  - name: CANDIDATE STATE
+    number: '13'
+    value: NH
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '02'
+  - name: ELECTION CODE
+    number: '15'
+    value: P2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30000798\x1CF94.000009\x1CF93.000002\x1CF93\x1CH6NH01230\x1CSHEA-PORTER\x1CCAROL\x1C\x1C\x1C\x1CH\x1CNH\x1C01\x1CP2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000798
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000009
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000002
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: H6NH01230
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: SHEA-PORTER
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: CAROL
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: H
+  - name: CANDIDATE STATE
+    number: '13'
+    value: NH
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '01'
+  - name: ELECTION CODE
+    number: '15'
+    value: P2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+sourceurl: !!python/unicode 20100813
+type: chunk

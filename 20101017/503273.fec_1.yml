@@ -1,0 +1,420 @@
+countrows: 7
+filename: 503273.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00251918
+  - name: COMMITTEE NAME
+    number: '3'
+    value: PASTOR FOR ARIZONA
+  - name: STREET 1
+    number: '4'
+    value: PO Box 1978
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Phoenix
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85001'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2AZ02055
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: PASTOR
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: ED L
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AZ
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Losada
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Joseph
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101017'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00251918\x1CPASTOR FOR ARIZONA\x1CPO Box 1978\x1C\x1CPhoenix\x1CAZ\x1C85001\x1CH2AZ02055\x1CPASTOR\x1CED
+    L\x1C\x1C\x1C\x1CH\x1CAZ\x1C04\x1CLosada\x1CJoseph\x1C\x1C\x1C\x1C20101017\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00251918\x1CF6.7944\x1CIND\x1C\x1CHeiden\x1CBruce\x1C\x1C\x1C\x1CP.O.
+    Box 428\x1C\x1CBuckeye\x1CAZ\x1C85326\x1C\x1C20101015\x1C1000.00\x1CHeiden Land
+    & Cattle Company\x1CCEO\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00251918
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7944
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Heiden
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Bruce
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. Box 428
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Buckeye
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85326'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101015'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Heiden Land & Cattle Company
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CEO
+
+'
+- input: "F65\x1CC00251918\x1CF6.7943\x1CIND\x1C\x1CRousseau\x1CWill\x1C\x1C\x1C\x1C2314
+    N. Manor Dr. West\x1C\x1CPhoenix\x1CAZ\x1C85002\x1C\x1C20101015\x1C1500.00\x1CSelf-Employed\x1CFarmer\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00251918
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7943
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rousseau
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Will
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2314 N. Manor Dr. West
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Phoenix
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85002'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101015'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self-Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Farmer
+
+'
+- input: "F65\x1CC00251918\x1CF6.7946\x1CPAC\x1CSALT RIVER VALLEY WATER USERS' ASSOCIATION
+    POLITICAL INVOLVEMENT COMMITTEE ( SRPPIC)\x1C\x1C\x1C\x1C\x1C\x1CPO BOX 52025
+    ISB336\x1C\x1CPHOENIX\x1CAZ\x1C85072\x1CC00048579\x1C20101015\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00251918
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7946
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: SALT RIVER VALLEY WATER USERS' ASSOCIATION POLITICAL INVOLVEMENT COMMITTEE
+      ( SRPPIC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 52025 ISB336
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: PHOENIX
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85072'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00048579
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101015'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00251918\x1CF6.7945\x1CPAC\x1CARIZONA WESTSIDE DISTRICTS PAC\x1C\x1C\x1C\x1C\x1C\x1C1850
+    N CENTRAL AVENUE SUITE 1100\x1CC/O MOYES SELLERS &SIMS\x1CPHONENIX\x1CAZ\x1C85004\x1CC00415539\x1C20101015\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00251918
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7945
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ARIZONA WESTSIDE DISTRICTS PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1850 N CENTRAL AVENUE SUITE 1100
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: C/O MOYES SELLERS &SIMS
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: PHONENIX
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85004'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00415539
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101015'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00251918\x1CF6.7942\x1CPAC\x1CINTERNATIONAL BROTHERHOOD OF BOILERMAKERS
+    CAMPAIGN ASSISTANCE FUND\x1C\x1C\x1C\x1C\x1C\x1C753 State Ave.\x1CSuite 565\x1CKansas
+    City\x1CKS\x1C66101\x1CC00005157\x1C20101015\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00251918
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7942
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: INTERNATIONAL BROTHERHOOD OF BOILERMAKERS CAMPAIGN ASSISTANCE FUND
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 753 State Ave.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 565
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Kansas City
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '66101'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00005157
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101015'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20101017
+type: chunk

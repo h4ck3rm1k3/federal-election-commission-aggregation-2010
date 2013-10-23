@@ -1,0 +1,152 @@
+countrows: 3
+filename: 490668.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00213611\x1CLOUISE SLAUGHTER RE-ELECTION COMMITTEE\x1CP.O. Box 730\x1CC/0
+    C. BRUCE LAWRENCE\x1CHoneoye\x1CNY\x1C14471\x1CH6NY03031\x1CSlaughter\x1CLouise\x1CM\x1C\x1C\x1CH\x1CNY\x1C28\x1CCallaghan\x1CBonnie\x1CL.\x1C\x1C\x1C20100827\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213611
+  - name: COMMITTEE NAME
+    number: '3'
+    value: LOUISE SLAUGHTER RE-ELECTION COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 730
+  - name: STREET 2
+    number: '5'
+    value: C/0 C. BRUCE LAWRENCE
+  - name: CITY
+    number: '6'
+    value: Honeoye
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '14471'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6NY03031
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Slaughter
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Louise
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: M
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '28'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Callaghan
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Bonnie
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: L.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100827
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213611
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Nurses Assoc. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8515 Georgia Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: STE 400
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Silver Spring
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20910'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100827'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00213611\x1CF65.000001\x1CPAC\x1CAmerican Nurses Assoc. PAC\x1C\x1C\x1C\x1C\x1C\x1C8515
+    Georgia Avenue\x1CSTE 400\x1CSilver Spring\x1CMD\x1C20910\x1C\x1C20100827\x1C1000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100827
+type: chunk

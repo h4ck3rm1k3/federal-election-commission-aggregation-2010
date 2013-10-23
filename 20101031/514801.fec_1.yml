@@ -1,0 +1,295 @@
+countrows: 5
+filename: 514801.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00473355\x1CSIPPRELLE FOR CONGRESS\x1CPO BOX 707\x1C\x1CPRINCETON\x1CNJ\x1C08542\x1CH0NJ12162\x1CSipprelle\x1CScott\x1C\x1C\x1C\x1CH\x1CNJ\x1C12\x1CWatkins\x1CNancy
+    H.\x1C\x1C\x1C\x1C20101031\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473355
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SIPPRELLE FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 707
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: PRINCETON
+  - name: STATE
+    number: '7'
+    value: NJ
+  - name: ZIP
+    number: '8'
+    value: 08542
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0NJ12162
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Sipprelle
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Scott
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NJ
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '12'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Watkins
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Nancy H.
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101031
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473355
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Levy
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Paul S.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9 Hearthstone Circle
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Scarsdale
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10583'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: JLL Partners, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: investor
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00473355\x1CF65.000001\x1CIND\x1C\x1CLevy\x1CPaul S.\x1C\x1C\x1C\x1C9
+    Hearthstone Circle\x1C\x1CScarsdale\x1CNY\x1C10583\x1C\x1C20101030\x1C1000.00\x1C\"JLL
+    Partners, Inc.\"\x1Cinvestor\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473355
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Porcelli
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Francis
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 37 Hodge Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Princeton
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 08540
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Blackrock
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: managing director
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00473355\x1CF65.000002\x1CIND\x1C\x1CPorcelli\x1CFrancis\x1C\x1C\x1C\x1C37
+    Hodge Road\x1C\x1CPrinceton\x1CNJ\x1C08540\x1C\x1C20101030\x1C1000.00\x1CBlackrock\x1Cmanaging
+    director\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473355
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Spumberg
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jerry R.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11 Alpine Trail
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tinton Falls
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '07712'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: self-employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: building consultant
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00473355\x1CF65.000003\x1CIND\x1C\x1CSpumberg\x1CJerry R.\x1C\x1C\x1C\x1C11
+    Alpine Trail\x1C\x1CTinton Falls\x1CNJ\x1C07712\x1C\x1C20101030\x1C1000.00\x1Cself-employed\x1Cbuilding
+    consultant\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101031
+type: chunk

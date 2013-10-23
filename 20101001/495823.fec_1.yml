@@ -1,0 +1,340 @@
+countrows: 4
+filename: 495823.fec
+header: {}
+rows:
+- 2
+- input: "F24\x1CC00473918\x1C48\x1CWOMEN VOTE!\x1C1120 Connecticut Ave NW\x1CSte
+    1100\x1CWashington\x1CDC\x1C20036\x1CFines\x1CCaroline\x1C\x1C\x1C\x1C20101001\n"
+  record: fec.version.v6_4.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473918
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: WOMEN VOTE!
+  - name: STREET 1
+    number: '5'
+    value: 1120 Connecticut Ave NW
+  - name: STREET 2
+    number: '6'
+    value: Ste 1100
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Fines
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Caroline
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20101001
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473918
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Mission Control
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 114 A Mansfield Hollow Road
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Mansfield Center
+  - name: PAYEE STATE
+    number: '16'
+    value: CT
+  - name: PAYEE ZIP
+    number: '17'
+    value: '06250'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101001'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '22297.68'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '65034.90'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Mailhouse
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0WI07069
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Lassa
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Julie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Fines
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Caroline
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101001
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00473918\x1CSE.000001\x1C\x1C\x1CORG\x1CMission Control\x1C\x1C\x1C\x1C\x1C\x1C114
+    A Mansfield Hollow Road\x1C\x1CMansfield Center\x1CCT\x1C06250\x1CG2010\x1C\x1C20101001\x1C22297.68\x1C65034.90\x1C24E\x1CMailhouse\x1C\x1C\x1CS\x1CH0WI07069\x1CLassa\x1CJulie\x1C\x1C\x1C\x1CH\x1CWI\x1C07\x1CFines\x1CCaroline\x1C\x1C\x1C\x1C20101001\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473918
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000002
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Mission Control
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 114 A Mansfield Hollow Road
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Mansfield Center
+  - name: PAYEE STATE
+    number: '16'
+    value: CT
+  - name: PAYEE ZIP
+    number: '17'
+    value: '06250'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100930'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '29500.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '156800.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Mailhouse
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0MO00183
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Blunt
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Roy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Fines
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Caroline
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20101001
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00473918\x1CSE.000002\x1C\x1C\x1CORG\x1CMission Control\x1C\x1C\x1C\x1C\x1C\x1C114
+    A Mansfield Hollow Road\x1C\x1CMansfield Center\x1CCT\x1C06250\x1CG2010\x1C\x1C20100930\x1C29500.00\x1C156800.00\x1C24E\x1CMailhouse\x1C\x1C\x1CO\x1CS0MO00183\x1CBlunt\x1CRoy\x1C\x1C\x1C\x1CS\x1CMO\x1C00\x1CFines\x1CCaroline\x1C\x1C\x1C\x1C20101001\n"
+  input_count: 42
+  record: fec.version.v6_4.SE
+  result: []
+sourceurl: !!python/unicode 20101001
+type: chunk

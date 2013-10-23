@@ -1,0 +1,1547 @@
+countrows: 24
+filename: 474901.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: COMMITTEE NAME
+    number: '3'
+    value: TIM SCOTT FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 1405 ASHLEY RIVER ROAD
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: CHARLESTON
+  - name: STATE
+    number: '7'
+    value: SC
+  - name: ZIP
+    number: '8'
+    value: '29407'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: SCOTT
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: TIMOTHY
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: E.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: SC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: WIGGINS
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: STACY
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100615'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00476226\x1CTIM SCOTT FOR CONGRESS\x1C1405 ASHLEY RIVER ROAD\x1C\x1CCHARLESTON\x1CSC\x1C29407\x1C\x1CSCOTT\x1CTIMOTHY\x1CE.\x1C\x1C\x1CH\x1CSC\x1C01\x1CWIGGINS\x1CSTACY\x1C\x1C\x1C\x1C20100615\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00476226\x1CF6.7810\x1CIND\x1C\x1CARNOTT\x1CROBERT D.\x1C\x1C\x1C\x1C620
+    NEWPORT CENTER DRVIE, STE. 900\x1C\x1CPASADENA\x1CCA\x1C92660\x1C\x1C20100614\x1C2400.00\x1CRESEARCH
+    AFFILIATES\x1CCEO\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7810
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ARNOTT
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ROBERT D.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 620 NEWPORT CENTER DRVIE, STE. 900
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: PASADENA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '92660'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RESEARCH AFFILIATES
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CEO
+
+'
+- input: "F65\x1CC00476226\x1CF6.7817\x1CIND\x1C\x1CBAKER\x1CTOMMY\x1C\x1C\x1C\x1C1513
+    SAVANNAH HWY\x1C\x1CCHARLESTON\x1CSC\x1C29407\x1C\x1C20100614\x1C1000.00\x1CBAKER
+    MOTOR CO.\x1COWENR\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7817
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BAKER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: TOMMY
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1513 SAVANNAH HWY
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHARLESTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29407'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: BAKER MOTOR CO.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'OWENR
+
+'
+- input: "F65\x1CC00476226\x1CF6.7808\x1CIND\x1C\x1CBREHMER\x1CJOHN R.\x1C\x1C\x1C\x1C201
+    SEABREEZE COURT\x1C\x1CVERO BEACH\x1CFL\x1C329639508\x1C\x1C20100614\x1C1000.00\x1CRETIRED\x1CRETIRED\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7808
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BREHMER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOHN R.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 201 SEABREEZE COURT
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: VERO BEACH
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '329639508'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RETIRED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'RETIRED
+
+'
+- input: "F65\x1CC00476226\x1CF6.7815\x1CIND\x1C\x1CBRYAN. \x1CJOHN D.\x1C\x1C\x1C\x1COP
+    BOX 1929\x1C\x1CLAKE OSWEGO\x1COR\x1C970350019\x1C\x1C20100614\x1C2400.00\x1CRETIRED\x1CRETIRED/PRIVATE
+    INVESTOR\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7815
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: 'BRYAN. '
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOHN D.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: OP BOX 1929
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: LAKE OSWEGO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '970350019'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RETIRED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'RETIRED/PRIVATE INVESTOR
+
+'
+- input: "F65\x1CC00476226\x1CF6.7816\x1CIND\x1C\x1CBRYAN. \x1CJOHN D.\x1C\x1C\x1C\x1COP
+    BOX 1929\x1C\x1CLAKE OSWEGO\x1COR\x1C970350019\x1C\x1C20100614\x1C2400.00\x1CRETIRED\x1CRETIRED/PRIVATE
+    INVESTOR\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7816
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: 'BRYAN. '
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOHN D.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: OP BOX 1929
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: LAKE OSWEGO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '970350019'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RETIRED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'RETIRED/PRIVATE INVESTOR
+
+'
+- input: "F65\x1CC00476226\x1CF6.7829\x1CIND\x1C\x1CCHAPMAN\x1CBRETTA I.\x1C\x1C\x1C\x1C1009
+    BAKERS LANDING DR\x1C\x1CN. CHARLESTON\x1CSC\x1C29418\x1C\x1C20100614\x1C1300.00\x1CSELF\x1CSELF\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7829
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: CHAPMAN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: BRETTA I.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1009 BAKERS LANDING DR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: N. CHARLESTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29418'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'SELF
+
+'
+- input: "F65\x1CC00476226\x1CF6.7830\x1CIND\x1C\x1CCHAPMAN\x1CJOHN H.\x1C\x1C\x1C\x1C1009
+    BAKERS LANDING DR.\x1C\x1CN. CHARLESTON\x1CSC\x1C29418\x1C\x1C20100614\x1C1300.00\x1CSELF\x1CSELF\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7830
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: CHAPMAN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOHN H.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1009 BAKERS LANDING DR.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: N. CHARLESTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29418'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'SELF
+
+'
+- input: "F65\x1CC00476226\x1CF6.7811\x1CIND\x1C\x1CCOOK\x1CDAN W.\x1C\x1C\x1CIII\x1C4004
+    MIRAMAR AVE\x1C\x1CDALLAS \x1CTX\x1C75205\x1C\x1C20100614\x1C2400.00\x1CRETIRED\x1CRETIRED\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7811
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: COOK
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DAN W.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: III
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4004 MIRAMAR AVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: 'DALLAS '
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75205'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RETIRED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'RETIRED
+
+'
+- input: "F65\x1CC00476226\x1CF6.7825\x1CIND\x1C\x1CFENNELL\x1CG. SCOTT\x1C\x1C\x1C\x1C790
+    WOODWARD ROAD\x1C\x1CCHARLESTON\x1CSC\x1C29407\x1C\x1C20100614\x1C1300.00\x1CFENNELL
+    HOLDINGS\x1CCHIEF OPERATING OFFICER\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7825
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: FENNELL
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: G. SCOTT
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 790 WOODWARD ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHARLESTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29407'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: FENNELL HOLDINGS
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CHIEF OPERATING OFFICER
+
+'
+- input: "F65\x1CC00476226\x1CF6.7824\x1CIND\x1C\x1CFENNELL\x1CGEORGE\x1C\x1C\x1C\x1C5264B
+    INTERNATIONAL BLVD STE 100\x1C\x1CN. CHARLESTON\x1CSC\x1C29418\x1C\x1C20100614\x1C1300.00\x1CFENNELL
+    HOLDINGS\x1CPRESIDENT\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7824
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: FENNELL
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: GEORGE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5264B INTERNATIONAL BLVD STE 100
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: N. CHARLESTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29418'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: FENNELL HOLDINGS
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'PRESIDENT
+
+'
+- input: "F65\x1CC00476226\x1CF6.7826\x1CIND\x1C\x1CFENNELL\x1CLESLIE L.\x1C\x1C\x1C\x1C790
+    WOODWARD RD.\x1C\x1CCHARLESTON\x1CSC\x1C29407\x1C\x1C20100614\x1C1300.00\x1CSELF\x1CHOMEMAKER\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7826
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: FENNELL
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: LESLIE L.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 790 WOODWARD RD.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHARLESTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29407'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'HOMEMAKER
+
+'
+- input: "F65\x1CC00476226\x1CF6.7823\x1CIND\x1C\x1CFENNELL\x1CSANDRA\x1C\x1C\x1C\x1C5264B
+    INTERNATIONAL BLVD STE 100\x1C\x1CN. CHARLESTON\x1CSC\x1C29418\x1C\x1C20100614\x1C1300.00\x1CFENNELL
+    HOLDINGS\x1COWNER\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7823
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: FENNELL
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: SANDRA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5264B INTERNATIONAL BLVD STE 100
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: N. CHARLESTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29418'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: FENNELL HOLDINGS
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'OWNER
+
+'
+- input: "F65\x1CC00476226\x1CF6.7812\x1CIND\x1C\x1CGOERS\x1CRICHARD A.\x1C\x1C\x1C\x1C234
+    NORTH QUINCY STREET\x1C\x1CHINSDALE\x1CIL\x1C605213052\x1C\x1C20100614\x1C1200.00\x1CRETIRED\x1CRETIRED\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7812
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: GOERS
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: RICHARD A.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 234 NORTH QUINCY STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: HINSDALE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '605213052'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1200.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RETIRED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'RETIRED
+
+'
+- input: "F65\x1CC00476226\x1CF6.7820\x1CIND\x1C\x1CJONES\x1CR. MATTHEW\x1C\x1C\x1C\x1C271
+    MARSH IBIS TRAIL\x1C\x1CMT. PLEASANT\x1CSC\x1C29464\x1C\x1C20100614\x1C1000.00\x1CSABAL
+    HOMES, LLC\x1CMANAGING MEMBER\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7820
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: JONES
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: R. MATTHEW
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 271 MARSH IBIS TRAIL
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: MT. PLEASANT
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29464'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SABAL HOMES, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'MANAGING MEMBER
+
+'
+- input: "F65\x1CC00476226\x1CF6.7822\x1CIND\x1C\x1CMASSEY\x1CE. DAVIDSON\x1C\x1C\x1C\x1C133
+    CHESTNUT STREET\x1C\x1CWINNETKA\x1CIL\x1C60093\x1C\x1C20100614\x1C1000.00\x1CSELF\x1CUNKNOWN\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7822
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: MASSEY
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: E. DAVIDSON
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 133 CHESTNUT STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WINNETKA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60093'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'UNKNOWN
+
+'
+- input: "F65\x1CC00476226\x1CF6.7827\x1CIND\x1C\x1CPADGETT\x1CCONSTANTINA\x1C\x1C\x1C\x1C4417
+    STONEY POYNT CT\x1C\x1CCHARLESTON\x1CSC\x1C29405\x1C\x1C20100614\x1C1300.00\x1CRETIRED\x1CHOMEMAKER\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7827
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: PADGETT
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: CONSTANTINA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4417 STONEY POYNT CT
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHARLESTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29405'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RETIRED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'HOMEMAKER
+
+'
+- input: "F65\x1CC00476226\x1CF6.7828\x1CIND\x1C\x1CPADGETT\x1CGREGORY\x1C\x1C\x1C\x1C4417
+    STONEY POYNT CT\x1C\x1CCHARLESTON\x1CSC\x1C29405\x1C\x1C20100614\x1C1300.00\x1CFENNELL
+    HOLDINGS\x1CCFO\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7828
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: PADGETT
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: GREGORY
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4417 STONEY POYNT CT
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHARLESTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29405'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: FENNELL HOLDINGS
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CFO
+
+'
+- input: "F65\x1CC00476226\x1CF6.7819\x1CIND\x1C\x1CPFEIFER\x1CSTEVEN\x1C\x1C\x1C\x1C5531
+    LYNBROOK DRIVE\x1C\x1CHOURSTON\x1CTX\x1C77056\x1C\x1C20100614\x1C2400.00\x1CP
+    O & G RESOURCES\x1CMANAGER\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7819
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: PFEIFER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: STEVEN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5531 LYNBROOK DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: HOURSTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '77056'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: P O & G RESOURCES
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'MANAGER
+
+'
+- input: "F65\x1CC00476226\x1CF6.7809\x1CIND\x1C\x1CSCHAFFER\x1CPETER L.\x1C\x1C\x1C\x1C781
+    FIFTH AVENUE\x1C\x1CNEW YORK\x1CNY\x1C100221092\x1C\x1C20100614\x1C1000.00\x1CSELF\x1CEXECUTIVE\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7809
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SCHAFFER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: PETER L.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 781 FIFTH AVENUE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: NEW YORK
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '100221092'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'EXECUTIVE
+
+'
+- input: "F65\x1CC00476226\x1CF6.7818\x1CIND\x1C\x1CWATERS\x1CGEORGE PATTON\x1C\x1C\x1C\x1C412
+    RICE HOPE DRIVE\x1C\x1CMT. PLEASANT\x1CSC\x1C29464\x1C\x1C20100614\x1C1000.00\x1CRETIRED\x1CRETIRED\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7818
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: WATERS
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: GEORGE PATTON
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 412 RICE HOPE DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: MT. PLEASANT
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29464'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RETIRED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'RETIRED
+
+'
+- input: "F65\x1CC00476226\x1CF6.7831\x1CIND\x1C\x1CWILSON\x1CP DON\x1C\x1C\x1C\x1C126
+    SHANNON LAKE CIRCLE\x1C\x1CGREENVILLE\x1CSC\x1C29615\x1C\x1C20100614\x1C2400.00\x1CSELF\x1CUNKNOWN\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7831
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: WILSON
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: P DON
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 126 SHANNON LAKE CIRCLE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: GREENVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '29615'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'UNKNOWN
+
+'
+- input: "F65\x1CC00476226\x1CF6.7821\x1CPAC\x1CEVERY REPUBLICAN IS CRUCIAL (ERICPAC)\x1C\x1C\x1C\x1C\x1C\x1C25
+    East Main Street, Suite 200\x1C\x1CRichmond\x1CVA\x1C23219\x1CC00384701\x1C20100614\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476226
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7821
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: EVERY REPUBLICAN IS CRUCIAL (ERICPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 25 East Main Street, Suite 200
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Richmond
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '23219'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00384701
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20100615
+type: chunk

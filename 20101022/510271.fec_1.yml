@@ -1,0 +1,486 @@
+countrows: 8
+filename: 510271.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474817
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Scontras for Congress 2010
+  - name: STREET 1
+    number: '4'
+    value: 21 Wildbrook Lane
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Eliot
+  - name: STATE
+    number: '7'
+    value: ME
+  - name: ZIP
+    number: '8'
+    value: 03903
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8ME01179
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: SCONTRAS
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: DEAN P
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: ME
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Benoit
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Richard
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101022'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00474817\x1CScontras for Congress 2010\x1C21 Wildbrook Lane\x1C\x1CEliot\x1CME\x1C03903\x1CH8ME01179\x1CSCONTRAS\x1CDEAN
+    P\x1C\x1C\x1C\x1CH\x1CME\x1C01\x1CBenoit\x1CRichard\x1C\x1CMr.\x1C\x1C20101022\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00474817\x1CF6.8383\x1CIND\x1C\x1CAtkinson\x1CJohn\x1C\x1CMr\x1C\x1C13
+    Chickadee Drive\x1C\x1CTopsham\x1CME\x1C04086\x1C\x1C20101022\x1C1000.00\x1CRetired\x1CFree
+    Agent\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474817
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8383
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Atkinson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 13 Chickadee Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Topsham
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ME
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 04086
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Free Agent
+
+'
+- input: "F65\x1CC00474817\x1CF6.8384\x1CIND\x1C\x1CGreene\x1CAndrew\x1CW\x1CMr.\x1C\x1C19
+    South Street\x1CSuite 16\x1CPortland\x1CME\x1C04101\x1C\x1C20101022\x1C2400.00\x1CSelf-employed\x1CProperty
+    Management\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474817
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8384
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Greene
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Andrew
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: W
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 19 South Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 16
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Portland
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ME
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '04101'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self-employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Property Management
+
+'
+- input: "F65\x1CC00474817\x1CF6.8382\x1CIND\x1C\x1CHarris\x1CRichard\x1CS\x1CMr.\x1C\x1C35
+    Penrith Rd\x1C\x1CPortland \x1CME\x1C04102\x1C\x1C20101021\x1C1000.00\x1CHarris-Evans
+    Associates\x1CPartner\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474817
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8382
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Harris
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Richard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: S
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 35 Penrith Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: 'Portland '
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ME
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '04102'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Harris-Evans Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Partner
+
+'
+- input: "F65\x1CC00474817\x1CF6.8387\x1CIND\x1C\x1CMerryman\x1CJena\x1C\x1CMs\x1C\x1C517
+    Augusta Road\x1C\x1CTopsham\x1CME\x1C04086\x1C\x1C20101022\x1C1000.00\x1CNone\x1CHomemaker\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474817
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8387
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Merryman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jena
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 517 Augusta Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Topsham
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ME
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 04086
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: None
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Homemaker
+
+'
+- input: "F65\x1CC00474817\x1CF6.8385\x1CIND\x1C\x1CMouyiaris\x1CNikos\x1C\x1C\x1C\x1C32-02
+    Queens Blvd\x1C\x1CLong Island City\x1CNY\x1C11101\x1C\x1C20101022\x1C1000.00\x1CMana
+    Products\x1CPresident\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474817
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8385
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Mouyiaris
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Nikos
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 32-02 Queens Blvd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Long Island City
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '11101'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Mana Products
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'President
+
+'
+- input: "F65\x1CC00474817\x1CF6.8386\x1CIND\x1C\x1CO'Rourke\x1CJohn\x1CT\x1CMr.\x1C\x1C11028
+    Stanmore Drive\x1C\x1CPotomac\x1CMD\x1C20854\x1C\x1C20101022\x1C1000.00\x1CSelf-employed\x1CAttorney\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474817
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8386
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: O'Rourke
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: T
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11028 Stanmore Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Potomac
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20854'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self-employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Attorney
+
+'
+sourceurl: !!python/unicode 20101022
+type: chunk

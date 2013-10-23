@@ -1,0 +1,686 @@
+countrows: 11
+filename: 510856.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472365
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Yoder for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 26742
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Overland Park
+  - name: STATE
+    number: '7'
+    value: KS
+  - name: ZIP
+    number: '8'
+    value: '66225'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0KS03137
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Yoder
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Kevin
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: W
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: KS
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Kaiser
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Donald
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: W.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101023'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00472365\x1CYoder for Congress\x1CP.O. Box 26742\x1C\x1COverland
+    Park\x1CKS\x1C66225\x1CH0KS03137\x1CYoder\x1CKevin\x1CW\x1C\x1C\x1CH\x1CKS\x1C03\x1CKaiser\x1CDonald\x1CW.\x1C\x1C\x1C20101023\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00472365\x1CF6.10059\x1CIND\x1C\x1CAdma\x1CVishal\x1C\x1C\x1C\x1C14128
+    W 54th St\x1C\x1CShawnee\x1CKS\x1C66216\x1C\x1C20101022\x1C1000.00\x1Cself\x1Cphysician\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472365
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.10059
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Adma
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Vishal
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 14128 W 54th St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Shawnee
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '66216'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'physician
+
+'
+- input: "F65\x1CC00472365\x1CF6.10057\x1CIND\x1C\x1CChhatre\x1CMadhukar\x1C\x1C\x1C\x1C5528
+    Golden Bear Dr\x1C\x1COvereland Park\x1CKS\x1C66223\x1C\x1C20101022\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472365
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.10057
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Chhatre
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Madhukar
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5528 Golden Bear Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Overeland Park
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '66223'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00472365\x1CF6.10063\x1CIND\x1C\x1CEveans\x1CDeborah\x1C\x1C\x1C\x1C10620
+    S Highland Ln\x1C\x1COlathe\x1CKS\x1C66061\x1C\x1C20101022\x1C1400.00\x1CMeritage
+    Portfolio\x1Cexecutive\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472365
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.10063
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Eveans
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Deborah
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10620 S Highland Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Olathe
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '66061'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Meritage Portfolio
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'executive
+
+'
+- input: "F65\x1CC00472365\x1CF6.10060\x1CIND\x1C\x1CGondi\x1CNarasimha\x1C\x1C\x1C\x1C15344
+    Carter Rd\x1C\x1COverland Park\x1CKS\x1C66221\x1C\x1C20101022\x1C1050.00\x1CObject
+    Tech Resouorces\x1Cexecutive\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472365
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.10060
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gondi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Narasimha
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 15344 Carter Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Overland Park
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '66221'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1050.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Object Tech Resouorces
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'executive
+
+'
+- input: "F65\x1CC00472365\x1CF6.10061\x1CIND\x1C\x1CHartman\x1CWillis\x1C\x1C\x1C\x1C10500
+    E Berfekey Sq Pkwy, #100\x1C\x1CWichita\x1CKS\x1C67205\x1C\x1C20101022\x1C2400.00\x1CHartman
+    Oil\x1Cexecutive\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472365
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.10061
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hartman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Willis
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '10500 E Berfekey Sq Pkwy, #100'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Wichita
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '67205'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Hartman Oil
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'executive
+
+'
+- input: "F65\x1CC00472365\x1CF6.10058\x1CIND\x1C\x1CLokre\x1CRamesh\x1C\x1C\x1C\x1C8627
+    W 127th Ter\x1C\x1COverland Park\x1CKS\x1C66223\x1C\x1C20101022\x1C2000.00\x1CSaicon\x1CCEO\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472365
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.10058
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lokre
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ramesh
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8627 W 127th Ter
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Overland Park
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '66223'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Saicon
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CEO
+
+'
+- input: "F65\x1CC00472365\x1CF6.10056\x1CIND\x1C\x1CRamasamy\x1CVenkatesan\x1C\x1C\x1C\x1C13123
+    W 137th Ct\x1C\x1COverland Park\x1CKS\x1C66221\x1C\x1C20101022\x1C1000.00\x1Cself\x1Cphysician\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472365
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.10056
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ramasamy
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Venkatesan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 13123 W 137th Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Overland Park
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '66221'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'physician
+
+'
+- input: "F65\x1CC00472365\x1CF6.10055\x1CIND\x1C\x1CYelmar\x1CSwati\x1C\x1C\x1C\x1C8627
+    W 127th Ter\x1C\x1COverland Park\x1CKS\x1C66213\x1C\x1C20101022\x1C2000.00\x1CSalcon
+    Consultants\x1Cexecutive\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472365
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.10055
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Yelmar
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Swati
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8627 W 127th Ter
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Overland Park
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '66213'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Salcon Consultants
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'executive
+
+'
+- input: "F65\x1CC00472365\x1CF6.10062\x1CPAC\x1CAMERICAN RESORT DEVELOPMENT ASSOCIATION
+    RESORT OWNERS COALITION PAC (ARDA-ROC PAC)\x1C\x1C\x1C\x1C\x1C\x1C1201 15th Street
+    NW\x1CSuite 400\x1CWashington\x1CDC\x1C20005\x1CC00358663\x1C20101021\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472365
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.10062
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN RESORT DEVELOPMENT ASSOCIATION RESORT OWNERS COALITION PAC (ARDA-ROC
+      PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1201 15th Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 400
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00358663
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20101024
+type: chunk

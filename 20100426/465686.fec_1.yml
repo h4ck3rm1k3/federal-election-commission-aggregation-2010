@@ -1,0 +1,152 @@
+countrows: 3
+filename: 465686.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00412015\x1CFRIENDS OF CHARLIE WILSON\x1CP.O. Box 160\x1C\x1CBellaire\x1COH\x1C43906\x1CH6OH06095\x1CWilson\x1CCharles\x1CA.\x1CMr.\x1C\x1CH\x1COH\x1C06\x1CPaolina\x1CKristina\x1CL.\x1CMrs.\x1C\x1C20100426\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00412015
+  - name: COMMITTEE NAME
+    number: '3'
+    value: FRIENDS OF CHARLIE WILSON
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 160
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Bellaire
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '43906'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6OH06095
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Wilson
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Charles
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: A.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '06'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Paolina
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Kristina
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: L.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mrs.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100426
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00412015
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Forrest
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: Clifford
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: III
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3 Colbert Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Pittsburgh
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 15215-150
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100426'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Rosebud Mining
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00412015\x1CF65.000001\x1CIND\x1C\x1CForrest\x1CJames\x1CClifford\x1CMr.\x1CIII\x1C3
+    Colbert Lane\x1C\x1CPittsburgh\x1CPA\x1C15215-150\x1C\x1C20100426\x1C2000.00\x1CRosebud
+    Mining\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100426
+type: chunk

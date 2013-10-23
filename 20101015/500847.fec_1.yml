@@ -1,0 +1,293 @@
+countrows: 5
+filename: 500847.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00471227\x1CZaun For Congress\x1CPO Box 42221\x1C\x1CUrbandale\x1CIA\x1C503230983\x1CH0IA03139\x1CZaun\x1CBrad\x1C\x1C\x1C\x1CH\x1CIA\x1C03\x1CKaduce\x1CAl\x1C\x1C\x1C\x1C20101015\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471227
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Zaun For Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 42221
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Urbandale
+  - name: STATE
+    number: '7'
+    value: IA
+  - name: ZIP
+    number: '8'
+    value: '503230983'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0IA03139
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Zaun
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Brad
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Kaduce
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Al
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101015
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471227
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2957000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Enterprise Mutual Holding Company PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 601    6th Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Des Moines
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '503091605'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00367524
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101014'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00471227\x1C2957000\x1CCOM\x1CAmerican Enterprise Mutual Holding
+    Company PAC\x1C\x1C\x1C\x1C\x1C\x1C601    6th Avenue\x1C\x1CDes Moines\x1CIA\x1C503091605\x1CC00367524\x1C20101014\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471227
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2958000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Christenson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Andrew
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5300 NW   55th Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Johnston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '501311362'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101014'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ACCO
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Business Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00471227\x1C2958000\x1CIND\x1C\x1CChristenson\x1CAndrew\x1CC\x1C\x1C\x1C5300
+    NW   55th Avenue\x1C\x1CJohnston\x1CIA\x1C501311362\x1C\x1C20101014\x1C1000\x1CACCO\x1CBusiness
+    Owner\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00471227
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2959000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Niffenegger
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Barbara
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2019   46th Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Des Moines
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '503103030'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101014'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Des Moines Public Schools
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Administrator
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00471227\x1C2959000\x1CIND\x1C\x1CNiffenegger\x1CBarbara\x1C\x1C\x1C\x1C2019
+    \  46th Street\x1C\x1CDes Moines\x1CIA\x1C503103030\x1C\x1C20101014\x1C1000\x1CDes
+    Moines Public Schools\x1CAdministrator\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20101015
+type: chunk

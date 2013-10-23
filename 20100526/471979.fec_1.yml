@@ -1,0 +1,223 @@
+countrows: 4
+filename: 471979.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00473124\x1CJohn Davidson for Congress\x1C1710 N Moorpark Road\x1CSuite
+    18\x1CThousand Oaks\x1CCA\x1C913605133\x1CH0CA23100\x1CDavidson\x1CJohn\x1C\x1C\x1C\x1CH\x1CCA\x1C23\x1CLawler\x1CKelly\x1C\x1C\x1C\x1C20100526\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473124
+  - name: COMMITTEE NAME
+    number: '3'
+    value: John Davidson for Congress
+  - name: STREET 1
+    number: '4'
+    value: 1710 N Moorpark Road
+  - name: STREET 2
+    number: '5'
+    value: Suite 18
+  - name: CITY
+    number: '6'
+    value: Thousand Oaks
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '913605133'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CA23100
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Davidson
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: John
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '23'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Lawler
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Kelly
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100526
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473124
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '484000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NAHU Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 20865
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Indianapolis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '462200865'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00283135
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100525'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '4000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00473124\x1C484000\x1CCOM\x1CNAHU Political Action Committee\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 20865\x1C\x1CIndianapolis\x1CIN\x1C462200865\x1CC00283135\x1C20100525\x1C4000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473124
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '486000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Nelson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4932 Summit View Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Westlake Village
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '913625610'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100525'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Warner Pacific Insurance
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00473124\x1C486000\x1CIND\x1C\x1CNelson\x1CJohn\x1CJ\x1C\x1C\x1C4932
+    Summit View Drive\x1C\x1CWestlake Village\x1CCA\x1C913625610\x1C\x1C20100525\x1C2000\x1CWarner
+    Pacific Insurance\x1CCEO\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100526
+type: chunk

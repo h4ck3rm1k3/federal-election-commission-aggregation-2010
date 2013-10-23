@@ -1,0 +1,553 @@
+countrows: 9
+filename: 509264.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476689
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Morgan Philpot Campaign Committee
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 27762
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Salt Lake City
+  - name: STATE
+    number: '7'
+    value: UT
+  - name: ZIP
+    number: '8'
+    value: '84127'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0UT02203
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Philpot
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Morgan
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: UT
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: McCauley
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Mike
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20101021'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00476689\x1CFriends of Morgan Philpot Campaign Committee\x1CP.O.
+    Box 27762\x1C\x1CSalt Lake City\x1CUT\x1C84127\x1CH0UT02203\x1CPhilpot\x1CMorgan\x1C\x1C\x1C\x1CH\x1CUT\x1C02\x1CMcCauley\x1CMike\x1C\x1C\x1C\x1C20101021\x1C\n"
+  input_count: 24
+  record: fec.version.v6_4.F6
+  result: []
+- input: "F65\x1CC00476689\x1CF6.5747\x1CIND\x1C\x1CBryson\x1CCraig\x1C\x1C\x1C\x1C3800
+    Sherwood Dr.\x1C\x1CProvo\x1CUT\x1C84604\x1C\x1C20101021\x1C1000.00\x1CSelf Employed
+    \x1CSales\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476689
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5747
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Bryson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Craig
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3800 Sherwood Dr.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Provo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: UT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '84604'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: 'Self Employed '
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Sales
+
+'
+- input: "F65\x1CC00476689\x1CF6.5745\x1CIND\x1C\x1CHanks\x1CJanet\x1C\x1C\x1C\x1C4946
+    Holladay Pines Court\x1C\x1CHolladay\x1CUT\x1C84117\x1C\x1C20101021\x1C1000.00\x1CHomemaker\x1CHomemaker\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476689
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5745
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hanks
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Janet
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4946 Holladay Pines Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Holladay
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: UT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '84117'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Homemaker
+
+'
+- input: "F65\x1CC00476689\x1CF6.5742\x1CIND\x1C\x1CKeegan\x1CFrancis\x1C\x1C\x1C\x1C155
+    Pleasant St.\x1C\x1CNorwell\x1CMA\x1C02061\x1C\x1C20101021\x1C2400.00\x1CBraintree
+    Labratories, Inc.\x1CAdministrative manager\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476689
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5742
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Keegan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Francis
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 155 Pleasant St.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Norwell
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02061'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Braintree Labratories, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Administrative manager
+
+'
+- input: "F65\x1CC00476689\x1CF6.5743\x1CIND\x1C\x1CKeegan\x1CHarry\x1C\x1C\x1C\x1C155
+    Pleasant Street\x1C\x1CNorwell\x1CMA\x1C02061\x1C\x1C20101021\x1C2400.00\x1CBraintree
+    Labratories, Inc.\x1CCEO\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476689
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5743
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Keegan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Harry
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 155 Pleasant Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Norwell
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02061'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Braintree Labratories, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CEO
+
+'
+- input: "F65\x1CC00476689\x1CF6.5744\x1CIND\x1C\x1CKeegan\x1CHarry\x1C\x1C\x1C\x1C2
+    Avery St. #22H\x1C\x1CBoston\x1CMA\x1C02111\x1C\x1C20101021\x1C2400.00\x1CBraintree
+    Labratories, Inc.\x1CVP Marketing\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476689
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5744
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Keegan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Harry
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '2 Avery St. #22H'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Boston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02111'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Braintree Labratories, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'VP Marketing
+
+'
+- input: "F65\x1CC00476689\x1CF6.5746\x1CIND\x1C\x1CWeber\x1CScott\x1C\x1C\x1C\x1C2601
+    Sunset Blvd., Apt. 3G\x1C\x1CMinneapolis\x1CMN\x1C55416\x1C\x1C20101021\x1C2400.00\x1CSelf
+    Employed\x1CInvestor\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476689
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5746
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Weber
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Scott
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2601 Sunset Blvd., Apt. 3G
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Minneapolis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '55416'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Investor
+
+'
+- input: "F65\x1CC00476689\x1CF6.5741\x1CCCM\x1CHATCH ELECTION COMMITTEE INC\x1C\x1C\x1C\x1C\x1C\x1C175
+    SOUTH WEST TEMPLE SUITE 650\x1C\x1CSALT LAKE CITY\x1CUT\x1C84101\x1CC00104752\x1C20101021\x1C4000.00\x1C\x1C\n"
+  record: fec.version.v6_4.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476689
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5741
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: HATCH ELECTION COMMITTEE INC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 175 SOUTH WEST TEMPLE SUITE 650
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SALT LAKE CITY
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: UT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '84101'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00104752
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '4000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20101022
+type: chunk

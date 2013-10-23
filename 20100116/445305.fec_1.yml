@@ -1,0 +1,223 @@
+countrows: 4
+filename: 445305.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00465971\x1CDold for Congress\x1CPO Box 8145\x1C\x1CNorthfield\x1CIL\x1C600938145\x1CH0IL10302\x1CDold
+    Jr.\x1CRobert James\x1C\x1CMr.\x1C\x1CH\x1CIL\x1C10\x1CBennett\x1CJeffrey George\x1C\x1C\x1C\x1C20100116\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00465971
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Dold for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 8145
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Northfield
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '600938145'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0IL10302
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Dold Jr.
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Robert James
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '10'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Bennett
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Jeffrey George
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100116
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00465971
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1194000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Harris
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Julianna
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: S.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 336 Raleigh Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Kenilworth
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '600431254'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100114'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kantar Retail
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Marketing
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00465971\x1C1194000\x1CIND\x1C\x1CHarris\x1CJulianna\x1CS.\x1C\x1C\x1C336
+    Raleigh Road\x1C\x1CKenilworth\x1CIL\x1C600431254\x1C\x1C20100114\x1C1000\x1CKantar
+    Retail\x1CMarketing\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00465971
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1219000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Osborn
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 120 De Windt Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Winnetka
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '600933709'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100115'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00465971\x1C1219000\x1CIND\x1C\x1COsborn\x1CWilliam\x1C\x1CMr.\x1C\x1C120
+    De Windt Road\x1C\x1CWinnetka\x1CIL\x1C600933709\x1C\x1C20100115\x1C2400\x1CN/A\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100116
+type: chunk

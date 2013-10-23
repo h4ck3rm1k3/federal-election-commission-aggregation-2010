@@ -1,0 +1,858 @@
+countrows: 13
+filename: 467571.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00382978\x1CCase for Congress\x1CPO Box 1171\x1C\x1CHonolulu\x1CHI\x1C968071171\x1CH2HI02128\x1CCase\x1CEdward\x1CE.\x1CMr.\x1C\x1CH\x1CHI\x1C01\x1CCase\x1CJames\x1CH.\x1CMr.\x1C\x1C20100510\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00382978
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Case for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 1171
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Honolulu
+  - name: STATE
+    number: '7'
+    value: HI
+  - name: ZIP
+    number: '8'
+    value: '968071171'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2HI02128
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Case
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Edward
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: E.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: HI
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Case
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: James
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: H.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100510
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00382978
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14384000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Blue Dog Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6869 Old Dominion Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 222
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mclean
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '221013726'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00305318
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100507'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00382978\x1C14384000\x1CCOM\x1CBlue Dog Political Action Committee\x1C\x1C\x1C\x1C\x1C\x1C6869
+    Old Dominion Drive\x1CSuite 222\x1CMclean\x1CVA\x1C221013726\x1CC00305318\x1C20100507\x1C5000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00382978
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14385000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Blue Dog Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6869 Old Dominion Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 222
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mclean
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '221013726'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00305318
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100507'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00382978\x1C14385000\x1CCOM\x1CBlue Dog Political Action Committee\x1C\x1C\x1C\x1C\x1C\x1C6869
+    Old Dominion Drive\x1CSuite 222\x1CMclean\x1CVA\x1C221013726\x1CC00305318\x1C20100507\x1C5000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00382978
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14388000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Carr
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Stanford
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: S
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1100 Alakea Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Floor 27
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Honolulu
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: HI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '968132833'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100507'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Stanford Carr Development, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00382978\x1C14388000\x1CIND\x1C\x1CCarr\x1CStanford\x1CS\x1CMr.\x1C\x1C1100
+    Alakea Street\x1CFloor 27\x1CHonolulu\x1CHI\x1C968132833\x1C\x1C20100507\x1C1000\x1CStanford
+    Carr Development, LLC\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00382978
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14395000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Fishman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mark
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 848 Roscommon Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bryn Mawr
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '190101845'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100507'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Fishman and Tobin, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00382978\x1C14395000\x1CIND\x1C\x1CFishman\x1CMark\x1CA.\x1CMr.\x1C\x1C848
+    Roscommon Road\x1C\x1CBryn Mawr\x1CPA\x1C190101845\x1C\x1C20100507\x1C1000\x1CFishman
+    and Tobin, Inc.\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00382978
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14387000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lung
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jeri
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: Y.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1760 S Beretania Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt. 9A
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Honolulu
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: HI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '968261131'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100507'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: housewife
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00382978\x1C14387000\x1CIND\x1C\x1CLung\x1CJeri\x1CY.\x1CMrs\x1C\x1C1760
+    S Beretania Street\x1CApt. 9A\x1CHonolulu\x1CHI\x1C968261131\x1C\x1C20100507\x1C1000\x1Cn/a\x1Chousewife\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00382978
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14375000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Reeves
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: H
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2932 Makalei Place
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Honolulu
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: HI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '968154743'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100507'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Bluecrest CaNal Mgmt.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Invester
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00382978\x1C14375000\x1CIND\x1C\x1CReeves\x1CWilliam\x1CH\x1CMr.\x1C\x1C2932
+    Makalei Place\x1C\x1CHonolulu\x1CHI\x1C968154743\x1C\x1C20100507\x1C2400\x1CBluecrest
+    CaNal Mgmt.\x1CInvester\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00382978
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14376000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Reeves
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: H
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2932 Makalei Place
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Honolulu
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: HI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '968154743'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100507'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Bluecrest CaNal Mgmt.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Invester
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00382978\x1C14376000\x1CIND\x1C\x1CReeves\x1CWilliam\x1CH\x1CMr.\x1C\x1C2932
+    Makalei Place\x1C\x1CHonolulu\x1CHI\x1C968154743\x1C\x1C20100507\x1C2400\x1CBluecrest
+    CaNal Mgmt.\x1CInvester\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00382978
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14346000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Sandberg
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sheryl
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: K
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 291 Polhemus Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Atherton
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '940275456'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100507'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Facebook
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: COO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00382978\x1C14346000\x1CIND\x1C\x1CSandberg\x1CSheryl\x1CK\x1CMs.\x1C\x1C291
+    Polhemus Avenue\x1C\x1CAtherton\x1CCA\x1C940275456\x1C\x1C20100507\x1C1000\x1CFacebook\x1CCOO\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00382978
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14383000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Winton
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3905 Clay Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Francisco
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '941181623'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100507'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Winton DuPont Films
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Filmmaker
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00382978\x1C14383000\x1CIND\x1C\x1CWinton\x1CDavid\x1CJ.\x1CMr.\x1C\x1C3905
+    Clay Street\x1C\x1CSan Francisco\x1CCA\x1C941181623\x1C\x1C20100507\x1C2400\x1CWinton
+    DuPont Films\x1CFilmmaker\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00382978
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14428000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Alston
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Paul
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: D.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 928 Mokulua Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Kailua
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: HI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '967343108'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100509'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Alston Hunt Floyd & Ing
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00382978\x1C14428000\x1CIND\x1C\x1CAlston\x1CPaul\x1CD.\x1CMr.\x1C\x1C928
+    Mokulua Drive\x1C\x1CKailua\x1CHI\x1C967343108\x1C\x1C20100509\x1C2000\x1CAlston
+    Hunt Floyd & Ing\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00382978
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14468000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Armstrong
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: H
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3320 Kahawalu Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Honolulu
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: HI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '968171024'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100509'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Armstrong Builders
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00382978\x1C14468000\x1CIND\x1C\x1CArmstrong\x1CRobert\x1CH\x1CMr.\x1C\x1C3320
+    Kahawalu Drive\x1C\x1CHonolulu\x1CHI\x1C968171024\x1C\x1C20100509\x1C1000\x1CArmstrong
+    Builders\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100510
+type: chunk

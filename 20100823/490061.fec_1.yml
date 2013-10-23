@@ -1,0 +1,153 @@
+countrows: 3
+filename: 490061.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00475624\x1CSUSAN BITTER SMITH FOR CONGRESS\x1C5806 E LEWIS AVENUE\x1C\x1CSCOTTSDALE\x1CAZ\x1C85257\x1CH4AZ01061\x1CBitter
+    Smith\x1CSusan\x1C\x1C\x1C\x1CH\x1CAZ\x1C05\x1CLawller\x1CKelly\x1C\x1C\x1C\x1C20100823\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475624
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SUSAN BITTER SMITH FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 5806 E LEWIS AVENUE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: SCOTTSDALE
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85257'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4AZ01061
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Bitter Smith
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Susan
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AZ
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Lawller
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Kelly
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100823
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475624
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Bitter Smith
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Susan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5806 E Lewis Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Scottsdale
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85257'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100821'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '10000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Techincal Solutions
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00475624\x1CF65.000001\x1CIND\x1C\x1CBitter Smith\x1CSusan\x1C\x1C\x1C\x1C5806
+    E Lewis Avenue\x1C\x1CScottsdale\x1CAZ\x1C85257\x1C\x1C20100821\x1C10000.00\x1CTechincal
+    Solutions\x1COwner\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100823
+type: chunk

@@ -1,0 +1,1096 @@
+countrows: 16
+filename: 494931.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F9N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: INDEPENDENT WOMEN'S VOICE
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 4400 JENNIFER STREET NW SUITE 240
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: WASHINGTON
+  - name: STATE
+    number: '14'
+    value: DC
+  - name: ZIP
+    number: '15'
+    value: '20015'
+  - name: INDIVIDUAL EMPLOYER
+    number: '16'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '17'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '18'
+    value: '20100917'
+  - name: COVERAGE THROUGH DATE
+    number: '19'
+    value: '20100921'
+  - name: DATE OF PUBLIC DISTRIBUTION
+    number: '20'
+    value: '20100921'
+  - name: COMMUNICATION TITLE
+    number: '21'
+    value: IWV Dr. Eck MO Project
+  - name: FILER CODE
+    number: '22'
+    value: QNC
+  - name: FILER CODE DESCRIPTION
+    number: '23'
+    value: ''
+  - name: SEGREGATED BANK ACCOUNT
+    number: '24'
+    value: N
+  - name: CUSTODIAN LAST NAME
+    number: '25'
+    value: Chin
+  - name: CUSTODIAN FIRST NAME
+    number: '26'
+    value: Stacy
+  - name: CUSTODIAN MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: CUSTODIAN PREFIX
+    number: '28'
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: '29'
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: '30'
+    value: '4400 Jenifer Street '
+  - name: CUSTODIAN STREET 2
+    number: '31'
+    value: Suite 240
+  - name: CUSTODIAN CITY
+    number: '32'
+    value: Washington
+  - name: CUSTODIAN STATE
+    number: '33'
+    value: DC
+  - name: CUSTODIAN ZIP
+    number: '34'
+    value: '20015'
+  - name: CUSTODIAN EMPLOYER
+    number: '35'
+    value: Independent Women's Voice
+  - name: CUSTODIAN OCCUPATION
+    number: '36'
+    value: Vice President of Operations & Admin.
+  - name: TOTAL DONATIONS THIS STATEMENT
+    number: 37-9.
+    value: '60240.00'
+  - name: TOTAL DISB./OBLIG. THIS STATEMENT
+    number: 38-10.
+    value: '60240.00'
+  - name: PERSON COMPLETING LAST NAME
+    number: '39'
+    value: Higgins
+  - name: PERSON COMPLETING FIRST NAME
+    number: '40'
+    value: Heather
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '42'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '43'
+    value: ''
+  - name: DATE SIGNED
+    number: '44'
+    value: '20100922'
+  - value: '
+
+'
+  expected_count: 44
+  input: "F9N\x1CC30001572\x1CORG\x1CINDEPENDENT WOMEN'S VOICE\x1C\x1C\x1C\x1C\x1C\x1C\x1C4400
+    JENNIFER STREET NW SUITE 240\x1C\x1CWASHINGTON\x1CDC\x1C20015\x1C\x1C\x1C20100917\x1C20100921\x1C20100921\x1CIWV
+    Dr. Eck MO Project\x1CQNC\x1C\x1CN\x1CChin\x1CStacy\x1C\x1C\x1C\x1C4400 Jenifer
+    Street \x1CSuite 240\x1CWashington\x1CDC\x1C20015\x1CIndependent Women's Voice\x1CVice
+    President of Operations & Admin.\x1C60240.00\x1C60240.00\x1CHiggins\x1CHeather\x1C\x1C\x1C\x1C20100922\x1C\n"
+  input_count: 45
+  record: fec.version.v6_4.F9
+  result: []
+- input: "F91\x1CC30001572\x1CF91.4099\x1CHiggins\x1CHeather\x1C\x1C\x1C\x1C4400 Jenifer
+    Street\x1CSuite 240\x1CWashington\x1CDC\x1C20015\x1CIndependent Women's Voice\x1CPresident
+    & CEO\n"
+  record: fec.version.v6_4.F91
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.4099
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Higgins
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: Heather
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 4400 Jenifer Street
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: Suite 240
+  - name: CONTROLLER CITY
+    number: '11'
+    value: Washington
+  - name: CONTROLLER STATE
+    number: '12'
+    value: DC
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '20015'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: Independent Women's Voice
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: 'President & CEO
+
+'
+- input: "F92\x1CC30001572\x1CF92.4111\x1C\x1C\x1CORG\x1CTHE ANNUAL FUND INC\x1C\x1C\x1C\x1C\x1C\x1CSAINT
+    GERMAIN DR 341\x1C\x1CCENTERVILLE\x1CVA\x1C20121\x1C20100917\x1C60240.00\n"
+  record: fec.version.v6_4.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4111
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: THE ANNUAL FUND INC
+  - name: DONOR LAST NAME
+    number: '8'
+    value: ''
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: SAINT GERMAIN DR 341
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: CENTERVILLE
+  - name: DONOR STATE
+    number: '16'
+    value: VA
+  - name: DONOR ZIP
+    number: '17'
+    value: '20121'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20100917'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '60240.00
+
+'
+- input: "F93\x1CC30001572\x1CF93.4108\x1C\x1C\x1CIND\x1C\x1CPascoe\x1CWilliam\x1C\x1C\x1C\x1C2101
+    Mill Road #413\x1C\x1CAlexandria\x1CVA\x1C22314\x1CG2010\x1C\x1C20100920\x1C1500.00\x1C\x1CCreative
+    Design/Script Writing & Prouduction - IWV Dr. Eck MO Project\x1CSelf\x1CCommunications
+    Consultant\x1C20100921\n"
+  record: fec.version.v6_4.F93
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.4108
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Pascoe
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: William
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '2101 Mill Road #413'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22314'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100920'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1500.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Creative Design/Script Writing & Prouduction - IWV Dr. Eck MO Project
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: Self
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: Communications Consultant
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20100921
+
+'
+- input: "F93\x1CC30001572\x1CF93.4101\x1C\x1C\x1CORG\x1CSmart Media Group\x1C\x1C\x1C\x1C\x1C\x1C814
+    King Street #400\x1C\x1CAlexandria\x1CVA\x1C22314\x1CG2012\x1C\x1C20100920\x1C53975.00\x1C\x1CRadio
+    Media Flight 9/21-9/27 - IWV Dr. Eck MO Project\x1C\x1C\x1C20100921\n"
+  record: fec.version.v6_4.F93
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.4101
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Smart Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '814 King Street #400'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22314'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100920'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '53975.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Radio Media Flight 9/21-9/27 - IWV Dr. Eck MO Project
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20100921
+
+'
+- input: "F93\x1CC30001572\x1CF93.4104\x1C\x1C\x1CORG\x1CSmart Media Group\x1C\x1C\x1C\x1C\x1C\x1C814
+    King Street #400\x1C\x1CAlexandria\x1CVA\x1C22314\x1CG2010\x1C\x1C20100920\x1C20.00\x1C\x1CWire
+    Transfer Fees - IWV Dr. Eck MO Project\x1C\x1C\x1C20100921\n"
+  record: fec.version.v6_4.F93
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.4104
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Smart Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '814 King Street #400'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22314'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100920'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '20.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Wire Transfer Fees - IWV Dr. Eck MO Project
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20100921
+
+'
+- input: "F93\x1CC30001572\x1CF93.4105\x1C\x1C\x1CORG\x1CSmart Media Group\x1C\x1C\x1C\x1C\x1C\x1C814
+    King Street #400\x1C\x1CAlexandria\x1CVA\x1C22314\x1CG2010\x1C\x1C20100920\x1C300.00\x1C\x1CShipping
+    - IWV Dr. Eck MO Project\x1C\x1C\x1C20100921\n"
+  record: fec.version.v6_4.F93
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.4105
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Smart Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '814 King Street #400'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22314'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100920'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '300.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Shipping - IWV Dr. Eck MO Project
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20100921
+
+'
+- input: "F93\x1CC30001572\x1CF93.4106\x1C\x1C\x1CORG\x1CSmart Media Group\x1C\x1C\x1C\x1C\x1C\x1C814
+    King Street #400\x1C\x1CAlexandria\x1CVA\x1C22314\x1CG2010\x1C\x1C20100920\x1C3175.00\x1C\x1CMedia
+    Commission - IWV Dr. Eck MO Project\x1C\x1C\x1C20100921\n"
+  record: fec.version.v6_4.F93
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.4106
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Smart Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '814 King Street #400'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22314'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100920'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '3175.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Media Commission - IWV Dr. Eck MO Project
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20100921
+
+'
+- input: "F93\x1CC30001572\x1CF93.4107\x1C\x1C\x1CORG\x1CSmart Media Group\x1C\x1C\x1C\x1C\x1C\x1C814
+    King Street #400\x1C\x1CAlexandria\x1CVA\x1C22314\x1CG2010\x1C\x1C20100920\x1C1270.00\x1C\x1CMedia
+    Commission - Intrepid Media - IWV Dr. Eck MO Project\x1C\x1C\x1C20100921\n"
+  record: fec.version.v6_4.F93
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.4107
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Smart Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '814 King Street #400'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22314'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100920'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1270.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Media Commission - Intrepid Media - IWV Dr. Eck MO Project
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20100921
+
+'
+- input: "F94\x1CC30001572\x1CF94.4103\x1CF93.4108\x1CF93\x1CS6MO00297\x1CCARNAHAN\x1CROBIN\x1C\x1C\x1C\x1CS\x1CMO\x1C00\x1CG2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.4103
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.4108
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: S6MO00297
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: CARNAHAN
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: ROBIN
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: S
+  - name: CANDIDATE STATE
+    number: '13'
+    value: MO
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '00'
+  - name: ELECTION CODE
+    number: '15'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30001572\x1CF94.4103\x1CF93.4101\x1CF93\x1CS6MO00297\x1CCARNAHAN\x1CROBIN\x1C\x1C\x1C\x1CS\x1CMO\x1C00\x1CG2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.4103
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.4101
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: S6MO00297
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: CARNAHAN
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: ROBIN
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: S
+  - name: CANDIDATE STATE
+    number: '13'
+    value: MO
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '00'
+  - name: ELECTION CODE
+    number: '15'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30001572\x1CF94.4103\x1CF93.4104\x1CF93\x1CS6MO00297\x1CCARNAHAN\x1CROBIN\x1C\x1C\x1C\x1CS\x1CMO\x1C00\x1CG2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.4103
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.4104
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: S6MO00297
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: CARNAHAN
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: ROBIN
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: S
+  - name: CANDIDATE STATE
+    number: '13'
+    value: MO
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '00'
+  - name: ELECTION CODE
+    number: '15'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30001572\x1CF94.4103\x1CF93.4105\x1CF93\x1CS6MO00297\x1CCARNAHAN\x1CROBIN\x1C\x1C\x1C\x1CS\x1CMO\x1C00\x1CG2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.4103
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.4105
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: S6MO00297
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: CARNAHAN
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: ROBIN
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: S
+  - name: CANDIDATE STATE
+    number: '13'
+    value: MO
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '00'
+  - name: ELECTION CODE
+    number: '15'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30001572\x1CF94.4103\x1CF93.4106\x1CF93\x1CS6MO00297\x1CCARNAHAN\x1CROBIN\x1C\x1C\x1C\x1CS\x1CMO\x1C00\x1CG2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.4103
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.4106
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: S6MO00297
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: CARNAHAN
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: ROBIN
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: S
+  - name: CANDIDATE STATE
+    number: '13'
+    value: MO
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '00'
+  - name: ELECTION CODE
+    number: '15'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30001572\x1CF94.4103\x1CF93.4107\x1CF93\x1CS6MO00297\x1CCARNAHAN\x1CROBIN\x1C\x1C\x1C\x1CS\x1CMO\x1C00\x1CG2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.4103
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.4107
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: S6MO00297
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: CARNAHAN
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: ROBIN
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: S
+  - name: CANDIDATE STATE
+    number: '13'
+    value: MO
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '00'
+  - name: ELECTION CODE
+    number: '15'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+sourceurl: !!python/unicode 20100923
+type: chunk

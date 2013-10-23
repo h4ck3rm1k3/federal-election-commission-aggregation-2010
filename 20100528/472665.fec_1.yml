@@ -1,0 +1,152 @@
+countrows: 3
+filename: 472665.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00468561\x1CCHRIS NELSON FOR CONGRESS\x1C2104 FLAG MOUNTAIN DRIVE\x1C\x1CPIERRE\x1CSD\x1C57501\x1CH0SD00039\x1CNelson\x1CChris\x1C\x1C\x1C\x1CH\x1CSD\x1C\x1CBrehe\x1CAnita\x1C\x1C\x1C\x1C20100528\n"
+  record: fec.version.v6_4.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468561
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CHRIS NELSON FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 2104 FLAG MOUNTAIN DRIVE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: PIERRE
+  - name: STATE
+    number: '7'
+    value: SD
+  - name: ZIP
+    number: '8'
+    value: '57501'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0SD00039
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Nelson
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Chris
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: SD
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: ''
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Brehe
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Anita
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20100528
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468561
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Omdahl
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Bonnie
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: B.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 88235
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Sioux Falls
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '571098235'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20100526'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Med X-Ray
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Medical Doctor
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00468561\x1CF65.000001\x1CIND\x1C\x1COmdahl\x1CBonnie\x1CB.\x1C\x1C\x1CPO
+    Box 88235\x1C\x1CSioux Falls\x1CSD\x1C571098235\x1C\x1C20100526\x1C1000.00\x1CMed
+    X-Ray\x1CMedical Doctor\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F65
+  result: []
+sourceurl: !!python/unicode 20100528
+type: chunk
